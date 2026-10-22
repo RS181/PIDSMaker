@@ -5,6 +5,9 @@
   "workspaceFolder": "/home/pids",
   "forwardPorts": ["${env:DOCKER_PORT}"],
   "remoteUser": "pids",
+  // ADDED: Forces the extension to use the already-built local image 
+  // without re-running 'docker compose build' under the hood.
+  "runServices": ["pids"],
   "customizations": {
     "vscode": {
       "extensions": [
