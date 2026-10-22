@@ -31,6 +31,29 @@
 The first framework designed to build and experiment with provenance-based intrusion detection systems (PIDSs) using deep learning architectures.
 It provides a single codebase to run most recent state-of-the-arts systems and easily customize them to develop new variants.
 
+## TLDR
+
+Here is the commands to start the docker container:
+
+
+### Starting containers
+
+```text
+# Start postgres container
+user@something:(...)/PIDSMaker$ docker compose -p postgres -f compose-postgres.yml up -d --build
+
+# Start pidsmaker container
+user@something:(...)/PIDSMaker$ docker compose -f compose-pidsmaker.yml up -d --build
+```
+
+### Acessing the pidsmaker container (to run PIDSMaker pipeline)
+
+1. Install Dev containers option in vscode and do `Control + Shift + p` and type **Dev.Containers: Reopen in container** and click enter
+
+2. Inside the container itself you can then use pidsmaker tool (for more info go to the oficial  [documentation](https://ubc-provenance.github.io/PIDSMaker/features/pretrained_encoders/) )
+
+
+
 
 ## Release notes
 
