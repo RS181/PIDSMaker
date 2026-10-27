@@ -1152,13 +1152,21 @@ TASK_ARGS = {
         "used_methods": Arg(
             str,
             vals=AND(
-                ["undirected", "dag", "rcaid_pseudo_graph", "none"]
+                ["mal_perturbation","undirected", "dag", "rcaid_pseudo_graph", "none"]
                 + list(SYNTHETIC_ATTACKS.keys())
             ),
             desc="Applies transformations to graphs after their construction. Multiple transformations can be applied sequentially. Example: `used_methods=undirected,dag`",
         ),
         "rcaid_pseudo_graph": {
             "use_pruning": Arg(bool),
+        },
+        "mal_perturbation": {
+            "operation": Arg(str, vals=OR(["remove_neighbors", "remove_edges", "shift_time"])),
+            "direction": Arg(str, vals=OR(["out", "in", "both"])),
+            "edge_types": Arg(str, desc="Comma-separated edge labels, empty = all"),
+            "fraction": Arg(float, desc="what fraction of the matches to perturb"),
+            "time_offset_s": Arg(float, desc="the time offset in seconds, applied for time related pertubations"),
+            "seed": Arg(int),
         },
         **SYNTHETIC_ATTACKS,
     },

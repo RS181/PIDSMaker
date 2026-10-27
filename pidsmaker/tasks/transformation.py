@@ -8,6 +8,7 @@ from pidsmaker.preprocessing.transformation_methods import (
     transformation_dag,
     transformation_rcaid_pseudo_graph,
     transformation_undirected,
+    mal_perturbation
 )
 from pidsmaker.utils.utils import (
     get_all_graphs_for_dates,
@@ -61,14 +62,23 @@ def apply_synthetic_attacks(train_graphs, val_graphs, cfg, method):
 def add_graph_transformation(base_dir, dst_dir, cfg, methods):
     os.makedirs(dst_dir, exist_ok=True)
 
+    # NEW: separate our method from the regular ones
+    use_perturbation = "mal_perturbation" in methods
+    other_methods = [m for m in methods if m != "mal_perturbation"]
+        
     dates = cfg.dataset.train_dates + cfg.dataset.val_dates + cfg.dataset.test_dates
     for date in log_tqdm(dates, desc="Transforming"):
         sorted_paths = get_all_graphs_for_dates(base_dir, [date])
         for path in sorted_paths:
             graph = torch.load(path)
 
-            # Apply all transformations to a single graph
-            graph = apply_graph_transformations(graph, methods, cfg)
+            # Apply malicious pertubation for the graphs used at the Evaluation phase 
+            # Basicaly we only apply perturbation to the graph that is going to be used for testing
+            if use_perturbation and date in cfg.dataset.test_dates:
+                graph = mal_perturbation.main(graph, cfg)
+            # Apply other transformations to all graphs
+            if other_methods:
+                graph = apply_graph_transformations(graph, other_methods, cfg)
 
             file_name = path.split("/")[-1]
             dst_path = os.path.join(dst_dir, f"graph_{date}")
@@ -86,6 +96,8 @@ def apply_graph_transformations(graph, methods, cfg):
             graph = transformation_undirected.main(graph)
         elif method == "dag":
             graph = transformation_dag.main(graph)
+        elif method == "mal_perturbation":
+            graph = mal_perturbation.main(graph,cfg)
         else:
             raise ValueError(f"Unrecognized transformation method: {method}")
 
