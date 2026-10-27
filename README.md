@@ -42,6 +42,11 @@ Here is the commands to start the docker container:
 # Start postgres container
 user@something:(...)/PIDSMaker$ docker compose -p postgres -f compose-postgres.yml up -d --build
 
+## Wait until postgres as status descibred as healthy before starting the PIDSMaker container
+jresende@khovid:~/ruisantos/PIDSMaker$ docker compose -p postgres -f compose-postgres.yml ps
+NAME       IMAGE         COMMAND                  SERVICE    CREATED          STATUS                             PORTS
+postgres   postgres:17   "docker-entrypoint.s…"   postgres   13 minutes ago   Up 11 seconds (health: healthy)
+
 # Start pidsmaker container
 user@something:(...)/PIDSMaker$ docker compose -f compose-pidsmaker.yml up -d --build
 ```
@@ -52,8 +57,36 @@ user@something:(...)/PIDSMaker$ docker compose -f compose-pidsmaker.yml up -d --
 
 2. Inside the container itself you can then use pidsmaker tool (for more info go to the oficial  [documentation](https://ubc-provenance.github.io/PIDSMaker/features/pretrained_encoders/) )
 
+### Injecting perturbation to test graph (steps)
+
+1) Select MODEL and DATASET
+
+2) Run the baseline pipeline 
+```bash
+(...)$python pidsmaker/main.py MODEL DATASET
+```
+
+3) Run again with the specific pertubations
 
 
+```bash
+python pidsmaker/main.py MODEL DATASET \
+  --transformation.used_methods=mal_perturbation, ORIGINAL_USED_METHOD \
+  --transformation.mal_perturbation.operation=OPERATION_VALUE \
+  --transformation.mal_perturbation.direction=DIRECTION_VALUE \
+  --transformation.mal_perturbation.edge_types=EDGE_TYPE_VALUE \
+  --transformation.mal_perturbation.fraction=FRACTION_VALUE \
+  --transformation.mal_perturbation.seed=42
+
+## Example
+python pidsmaker/main.py magic CADETS_E3 --transformation.used_methods=mal_perturbation,none  --transformation.mal_perturbation.operation=remove_neighbors --transformation.mal_perturbation.direction=out --transformation.mal_perturbation.fraction=1.0 --transformation.mal_perturbation.seed=43
+```
+
+  * Check the possible values for the above variables in the  Transformation section in **pidsmaker/config/config.py**  
+
+  * IMPORTANT: the ORIGINAL_USED_METHOD must be checked in the original **MODEL.yml** file
+
+  >NOTE: Keeping the YAML fixed means the baseline’s hash never changes, so it’s computed once and reused, while each command-line variant gets its own folder without overwriting the others.
 
 ## Release notes
 
