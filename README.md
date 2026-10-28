@@ -79,7 +79,7 @@ python pidsmaker/main.py MODEL DATASET \
   --transformation.mal_perturbation.seed=42
 
 ## Example
-python pidsmaker/main.py magic CADETS_E3 --transformation.used_methods=mal_perturbation,none  --transformation.mal_perturbation.operation=remove_neighbors --transformation.mal_perturbation.direction=out --transformation.mal_perturbation.fraction=1.0 --transformation.mal_perturbation.seed=43
+python pidsmaker/main.py magic CADETS_E3 --transformation.used_methods=mal_perturbation,none  --transformation.mal_perturbation.operation=remove_neighbors --transformation.mal_perturbation.direction=out --transformation.mal_perturbation.fraction=0.5 --transformation.mal_perturbation.seed=42
 ```
 
   * Check the possible values for the above variables in the  Transformation section in **pidsmaker/config/config.py**  
