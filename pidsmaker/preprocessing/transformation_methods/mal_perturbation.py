@@ -70,8 +70,9 @@ def _malicious_ids(cfg):
             "labels" : {int(n): label for n, label in gt_labels.items()},
             "uuid_to_nid": {uuid: int(n) for uuid, n in uuid_to_nid.items()}
         }
-        print(f"[mal_pertubation] loaded {len(_CACHE[key]['nids'])} malicious node IDs for {key}")
+        log(f"[mal_pertubation] loaded {len(_CACHE[key]['nids'])} malicious node IDs for {key}")
     return _CACHE[key]
+
 
 def _incident_edges(G: nx.Graph, mal_nodes : list[str], dir: str):
     """
@@ -89,17 +90,17 @@ def _incident_edges(G: nx.Graph, mal_nodes : list[str], dir: str):
             * "outbound_edges" : OutMultiEdgeView that contains all outbound edges of the malicious nodes 
             present in the given graph
     """
-    print(f"    Finding {dir} edges that are touching malicous nodes: {mal_nodes}")
+    log(f"    Finding {dir} edges that are touching malicous nodes: {mal_nodes}")
     in_edges = []
     out_edges =[]
 
-    if(dir=="in" or dir=="all"):
+    if(dir=="in" or dir=="both"):
         in_edges = G.in_edges(mal_nodes, keys=True, data=True)
-    if(dir=="out" or dir=="all"):
+    if(dir=="out" or dir=="both"):
         out_edges = G.out_edges(mal_nodes, keys=True, data=True)
 
-    print(f"    Total Incoming edges: {len(in_edges)}")
-    print(f"    Total Outgoing edges: {len(out_edges)}")
+    log(f"    Total Incoming edges: {len(in_edges)}")
+    log(f"    Total Outgoing edges: {len(out_edges)}")
 
     return { "inbound_edges" : in_edges , "outbound_edges" : out_edges}
 
@@ -121,13 +122,13 @@ def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph:
             A graph with p.fraction of neighbours removed. 
     
     """
-    print("*"*50 +"\n")
-    print(f"    Removing malicious nodes neigbors (i.e. sucessors ) with the folowing config:\n{p}")
+    log("*"*50 +"\n")
+    log(f"    Removing malicious nodes neigbors (i.e. sucessors ) with the folowing config:\n{p}")
     candidate_neighbours = set()
     # Get candidate neigbours ids
     for node_id in mal_nodes:
         try:
-            # print(f"Malicious Node with id [{node_id}] has attrs = {G.nodes[str(node_id)]}")
+            # log(f"Malicious Node with id [{node_id}] has attrs = {G.nodes[str(node_id)]}")
             for neighbor in G.neighbors(node_id):
                 if neighbor not in mal_nodes:
                     candidate_neighbours.add(neighbor)
@@ -135,12 +136,12 @@ def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph:
             continue 
     
     if len(candidate_neighbours) == 0:
-        print("*"*50 +"\n")
+        log("*"*50 +"\n")
         return G
     
     # Sort list, so that the same seed always starts from the same order
-    print(f"    Total number of candidate neighbours : {len(candidate_neighbours)}")
-    print(f"    Ids of candidate neighbours : {candidate_neighbours}")
+    log(f"    Total number of candidate neighbours : {len(candidate_neighbours)}")
+    log(f"    Ids of candidate neighbours : {candidate_neighbours}")
     s_candidate_neighbours = sorted(candidate_neighbours)
 
     # Calculate how many nodes we are going to remove
@@ -148,34 +149,57 @@ def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph:
 
     # Remove the k random, distinct candidates (using the seed the rng to ensure seed reproducibility)
     neighbor_to_remove = rng.sample(s_candidate_neighbours,k)
-    print(f"    Removing the following candidate neighbours = {neighbor_to_remove}")
+    log(f"    Removing the following candidate neighbours = {neighbor_to_remove}")
     G.remove_nodes_from(neighbor_to_remove)
-    print("*"*50 +"\n")
+    log("*"*50 +"\n")
 
     return G
 
 
 
 def _remove_edges(G, mal_nodes, p, rng) -> nx.Graph: 
-    """TODO"""
-    print(f"    Removing edges from malicious nodes with the folowing config:\n{p}")
+    """TODO
+    --transformation.mal_perturbation.direction=[in,out,both] 
+    --edge_types=[...] 
+    --transformation.mal_perturbation.fraction=0.5
+    --transformation.mal_perturbation.seed=42 
+    """
+    log("*"*50 +"\n")
+    log(f"    Removing edges from malicious nodes with the folowing config:\n{p}")
     mal_edges = _incident_edges(G, mal_nodes, p.direction)
     mal_in_edges = mal_edges['inbound_edges']
     mal_out_edges = mal_edges['outbound_edges']
 
+    # TODO: verificar config a ver se edge_types pedidas existem na definição original (não so no grafo atual)
+    # caso edge_type não existe nos nos maliciosos returnar o grafo logo 
+
+    candidate_in_edges = []
+    log(f"    In edges {type(mal_in_edges)} : {mal_in_edges}")
+
+    # Get candidate inbound edges
+    for edge in mal_in_edges:
+        log(edge)
+
+    # Get candidate outbound edges
+
+    
+    candidate_out_edges = []
+    log(f"    Out edges {type(mal_out_edges)} : {mal_out_edges}")
+    log("*"*50 +"\n")
+    return G 
 
 def _shift_time(G, mal_nodes, p, rng) -> nx.Graph:
     """TODO"""
-    print(f"    Shifting time from malicious nodes with the folowing config:\n{p}")
+    log(f"    Shifting time from malicious nodes with the folowing config:\n{p}")
 
 
 def main(G: nx.Graph, cfg) ->nx.Graph:
     """Returns a graphs with a selected pertubations applied"""
     #log("Main function of mal_perturbation.py")
-    print("=" * 50 + "\n")
-    print(f"     type of graph: {type(G)}")
-    print(f"     perturbing a graph with {G.number_of_nodes()} nodes")
-    print(f"     perturbing a graph with {G.number_of_edges()} nodes")
+    log("=" * 50 + "\n")
+    log(f"     type of graph: {type(G)}")
+    log(f"     perturbing a graph with {G.number_of_nodes()} nodes")
+    log(f"     perturbing a graph with {G.number_of_edges()} nodes")
 
     p = cfg.transformation.mal_perturbation
     
@@ -186,25 +210,25 @@ def main(G: nx.Graph, cfg) ->nx.Graph:
     if p.operation == "remove_neighbors" :
         nr_nodes = len(G.nodes)
         G = _remove_neighbors(G,mal_nodes,p,rng)
-        print(f"     Original graph had [{nr_nodes}] nodes after removing neighbours it has [{len(G.nodes)}] nodes")
+        log(f"     Original graph had [{nr_nodes}] nodes after removing neighbours it has [{len(G.nodes)}] nodes")
     elif p.operation == "remove_edges":
         G = _remove_edges(G, mal_nodes, p, rng)
     elif p.operation == "shift_time":
         G = _shift_time(G, mal_nodes, p, rng)
     else:
-        print("Operation doesnt exist, returning unperturbed graph")
+        log("Operation doesnt exist, returning unperturbed graph")
     
 
 
 
-    #print(f"    {G.nodes(data=True)}")
-    #print(f"    {G.edges(keys=True,data=True)}")
-    #print(f"    {p.direction}")
-    #print(f"    {p.edge_types}")
-    #print(f"    {p.fraction}")
-    #print(f"    {p.operation}")
-    #print(f"    {p.seed}")
-    #print(f"    {p.time_offset_s}")
-    print("=" * 50 + "\n")
+    #log(f"    {G.nodes(data=True)}")
+    #log(f"    {G.edges(keys=True,data=True)}")
+    #log(f"    {p.direction}")
+    #log(f"    {p.edge_types}")
+    #log(f"    {p.fraction}")
+    #log(f"    {p.operation}")
+    #log(f"    {p.seed}")
+    #log(f"    {p.time_offset_s}")
+    log("=" * 50 + "\n")
 
     return G
