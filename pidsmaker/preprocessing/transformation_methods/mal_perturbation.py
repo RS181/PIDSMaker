@@ -1,5 +1,7 @@
 import random
 import networkx as nx
+import wandb
+import collections
 from pidsmaker.utils.utils import log
 from pidsmaker.utils.labelling import get_ground_truth
 
@@ -22,6 +24,8 @@ transformation is applied independently to each test-window graph.
 
 """
 
+
+_STATS = collections.Counter()
 
 _CACHE = {
     # Experiment config
@@ -107,6 +111,11 @@ def _incident_edges(G: nx.Graph, mal_nodes : list[str], dir: str):
 
 def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph: 
     """
+        TODO: this doenst affect the final model, because the model only trains on normal data
+        and learns to reconstruct it, so tampering with the malicious nodes, used for testing
+        , doesnt affect the final model (this function must be adapted to remove neighours of 
+        normal nodes, not malicous ones)
+        
         Removes neighours of malicious nodes from a graph. For the same <DATASET, MODEL, CONFIG> 
         the neighbours that are removed are the same.
 
@@ -156,6 +165,40 @@ def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph:
     return G
 
 
+def _remove_network_nodes(G, mal_nodes, p, rng) -> nx.Graph:
+    """TODO"""
+    log("*"*50 +"\n")
+    log(f"    Removing network nodes from graph with the folowing config:\n{p}")
+    network_nodes = []
+
+    # E.g. of tuple ('221452', {'node_type': 'subject', 'label': 'None lsof'})
+    # Get network nodes  ids
+    for tuple in G.nodes.data():
+        node_id = tuple[0]
+        node_type = tuple[1]["node_type"] 
+        if node_type == "netflow" and node_id not in mal_nodes:
+            network_nodes.append(node_id)
+
+    if len(network_nodes) == 0:
+        log("*"*50 +"\n")
+        return G
+
+
+    # Sort list, so that the same seed always starts from the same order
+    log(f"    Total number of networks nodes : {len(network_nodes)}")
+    log(f"    Ids of network nodes : {network_nodes}")
+    s_network_nodes = sorted(network_nodes)
+
+    # Calculate how many nodes we are going to remove
+    k = round(len(s_network_nodes) * p.fraction)
+
+    # Remove the k random, distinct candidates (using the seed the rng to ensure seed reproducibility)
+    nodes_to_remove = rng.sample(s_network_nodes,k)
+    log(f"    Removing the following candidate neighbours = {nodes_to_remove}")
+    G.remove_nodes_from(nodes_to_remove)
+    log("*"*50 +"\n")
+    return G
+
 
 def _remove_edges(G, mal_nodes, p, rng) -> nx.Graph: 
     """TODO
@@ -192,19 +235,26 @@ def _shift_time(G, mal_nodes, p, rng) -> nx.Graph:
     """TODO"""
     log(f"    Shifting time from malicious nodes with the folowing config:\n{p}")
 
+    return G
+
 
 def main(G: nx.Graph, cfg) ->nx.Graph:
     """Returns a graphs with a selected pertubations applied"""
+    nodes_before, edges_before = G.number_of_nodes(), G.number_of_edges()
+    _STATS["windows_seen"] += 1 
     #log("Main function of mal_perturbation.py")
     log("=" * 50 + "\n")
     log(f"     type of graph: {type(G)}")
-    log(f"     perturbing a graph with {G.number_of_nodes()} nodes")
-    log(f"     perturbing a graph with {G.number_of_edges()} nodes")
+    log(f"     perturbing a graph with {nodes_before} nodes")
+    log(f"     perturbing a graph with {edges_before} edges")
 
     p = cfg.transformation.mal_perturbation
-    
     mal_nodes_details = _malicious_ids(cfg)
     mal_nodes = [str(n) for n in mal_nodes_details['nids']]
+
+    if not mal_nodes:                                    
+        return G
+
     rng = random.Random(p.seed)
 
     if p.operation == "remove_neighbors" :
@@ -215,12 +265,10 @@ def main(G: nx.Graph, cfg) ->nx.Graph:
         G = _remove_edges(G, mal_nodes, p, rng)
     elif p.operation == "shift_time":
         G = _shift_time(G, mal_nodes, p, rng)
+    elif p.operation == "remove_network_nodes":
+        G = _remove_network_nodes(G, mal_nodes, p, rng)
     else:
         log("Operation doesnt exist, returning unperturbed graph")
-    
-
-
-
     #log(f"    {G.nodes(data=True)}")
     #log(f"    {G.edges(keys=True,data=True)}")
     #log(f"    {p.direction}")
@@ -229,6 +277,20 @@ def main(G: nx.Graph, cfg) ->nx.Graph:
     #log(f"    {p.operation}")
     #log(f"    {p.seed}")
     #log(f"    {p.time_offset_s}")
+    _STATS["malicious_nodes_seen"] += len(mal_nodes)
+    _STATS["nodes_before"] += nodes_before
+    _STATS["nodes_after"] += G.number_of_nodes()
+    _STATS["edges_before"] += edges_before
+    _STATS["edges_after"] += G.number_of_edges()
     log("=" * 50 + "\n")
-
     return G
+
+def log_summary():
+    """Logs the totals for all test windows once, then resets them."""
+    stats = dict(_STATS)
+    stats["nodes_removed"] = stats.get("nodes_before", 0) - stats.get("nodes_after", 0)
+    stats["edges_removed"] = stats.get("edges_before", 0) - stats.get("edges_after", 0)
+
+    log(f"[mal_perturbation] summary: {stats}")
+    wandb.log({f"perturbation/{k}": v for k, v in stats.items()})
+    _STATS.clear()

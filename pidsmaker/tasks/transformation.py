@@ -76,6 +76,7 @@ def add_graph_transformation(base_dir, dst_dir, cfg, methods):
             # Basicaly we only apply perturbation to the graph that is going to be used for testing
             if use_perturbation and date in cfg.dataset.test_dates:
                 graph = mal_perturbation.main(graph, cfg)
+                
             # Apply other transformations to all graphs
             if other_methods:
                 graph = apply_graph_transformations(graph, other_methods, cfg)
@@ -85,6 +86,8 @@ def add_graph_transformation(base_dir, dst_dir, cfg, methods):
             os.makedirs(dst_path, exist_ok=True)
             torch.save(graph, os.path.join(dst_path, file_name))
 
+    if use_perturbation:                                        
+        mal_perturbation.log_summary()
 
 def apply_graph_transformations(graph, methods, cfg):
     for method in methods:
