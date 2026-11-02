@@ -1161,7 +1161,7 @@ TASK_ARGS = {
             "use_pruning": Arg(bool),
         },
         "mal_perturbation": {
-            "operation": Arg(str, vals=OR(["remove_neighbors", "remove_edges", "shift_time","remove_network_nodes"])),
+            "operation": Arg(str, vals=OR(["remove_neighbors", "remove_edges", "shift_time","remove_network_nodes", "remove_subject_and_network"])),
             "direction": Arg(str, vals=OR(["out", "in", "both"])),
             "edge_types": Arg(str, desc="Comma-separated edge labels, empty = all"),
             "fraction": Arg(float, desc="what fraction of the matches to perturb"),
