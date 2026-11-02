@@ -166,7 +166,7 @@ def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph:
 
 
 def _remove_network_nodes(G, mal_nodes, p, rng) -> nx.Graph:
-    """TODO"""
+    """Removes a p.fraction of non malicious network nodes from a graph"""
     log("*"*50 +"\n")
     log(f"    Removing network nodes from graph with the folowing config:\n{p}")
     network_nodes = []
@@ -198,6 +198,51 @@ def _remove_network_nodes(G, mal_nodes, p, rng) -> nx.Graph:
     G.remove_nodes_from(nodes_to_remove)
     log("*"*50 +"\n")
     return G
+
+
+def _remove_subject_and_network(G, mal_nodes, p, rng) -> nx.Graph:
+    """Removes a p.fraction of subject nodes that have an edge with a network node"""
+    log("*"*50 +"\n")
+    log(f"    Removing network nodes and first sucessor from graph with the folowing config:\n{p}")
+    network_nodes = []
+
+    # E.g. of tuple ('221452', {'node_type': 'subject', 'label': 'None lsof'})
+    # Get network nodes  ids
+    for tuple in G.nodes.data():
+        node_id = tuple[0]
+        node_type = tuple[1]["node_type"] 
+        if node_type == "netflow" and node_id not in mal_nodes:
+            network_nodes.append(node_id)
+
+    if(len(network_nodes) == 0):
+        log("*"*50 +"\n")
+        return G 
+
+    # Remove first successors of network nodes (i.e. remove subject nodes, except the malicious ones)
+    for id in network_nodes:
+        first_sucessors = [x for x in sorted(list(G.successors(id))) if x not in mal_nodes]
+
+
+        if (len(first_sucessors) == 0):
+            continue
+
+        # Calculate how many nodes we are going to remove
+        k = round(len(first_sucessors) * p.fraction)
+       
+        
+        # Remove the k random, distinct candidates (using the seed the rng to ensure seed reproducibility)
+        nodes_to_remove = rng.sample(first_sucessors,k)
+        log(f"    Removing the following successors (a.k.a subject nodes) = {nodes_to_remove}")
+        G.remove_nodes_from(nodes_to_remove)
+
+    # Removing the network nodes
+    log(f"    Removing the following network nodes = {network_nodes}")
+    G.remove_nodes_from(network_nodes)
+
+
+    log("*"*50 +"\n")
+
+    return G 
 
 
 def _remove_edges(G, mal_nodes, p, rng) -> nx.Graph: 
@@ -267,6 +312,8 @@ def main(G: nx.Graph, cfg) ->nx.Graph:
         G = _shift_time(G, mal_nodes, p, rng)
     elif p.operation == "remove_network_nodes":
         G = _remove_network_nodes(G, mal_nodes, p, rng)
+    elif p.operation == "remove_subject_and_network":
+        G = _remove_subject_and_network(G, mal_nodes, p, rng)
     else:
         log("Operation doesnt exist, returning unperturbed graph")
     #log(f"    {G.nodes(data=True)}")
