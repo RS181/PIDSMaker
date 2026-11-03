@@ -245,6 +245,52 @@ def _remove_subject_and_network(G, mal_nodes, p, rng) -> nx.Graph:
     return G 
 
 
+def _remove_random_nodes(G, mal_nodes, p, rng) -> nx.Graph:
+    """
+    Removes a p.fraction of nodes that are of p.node_types (could remove more than one type, and
+    tipicaly there are three types of node: subject, file, netflow.
+
+    """
+    log("*"*50 +"\n")
+    log(f"    Removing random nodes with the folowing config:\n{p}")
+
+    aux = {}    
+    
+    if p.node_types is not None:
+        node_types = p.node_types.split(",")
+        for type in node_types:
+            aux[type] = []
+    else: 
+        aux = {"subject" : [], "file" : [], "netflow" : []}
+
+
+    # Get ids of node types we want to remove
+    for tuple in G.nodes.data():
+        node_id = tuple[0]
+        node_type = tuple[1]["node_type"] 
+        if node_type not in aux or node_id in mal_nodes:
+            continue  
+        aux[node_type].append(node_id)
+
+
+    # Remove p.fraction nodes from the selected nodes_type       
+    for type, node_list in aux.items():
+        # Calculate how many nodes we are going to remove
+        k = round(len(node_list) * p.fraction)    
+
+        # Remove the k random, distinct candidates (using the seed the rng to ensure seed reproducibility)
+        nodes_to_remove = rng.sample(node_list,k)
+        log(f"    Removing the following {type} nodes = {nodes_to_remove}")
+        G.remove_nodes_from(nodes_to_remove)
+
+
+    #log(f"    {aux} ")
+    log("*"*50 +"\n")
+
+    return G 
+
+
+
 def _remove_edges(G, mal_nodes, p, rng) -> nx.Graph: 
     """TODO
     --transformation.mal_perturbation.direction=[in,out,both] 
@@ -314,12 +360,15 @@ def main(G: nx.Graph, cfg) ->nx.Graph:
         G = _remove_network_nodes(G, mal_nodes, p, rng)
     elif p.operation == "remove_subject_and_network":
         G = _remove_subject_and_network(G, mal_nodes, p, rng)
+    elif p.operation == "remove_random_nodes":
+        G = _remove_random_nodes(G, mal_nodes, p, rng) 
     else:
         log("Operation doesnt exist, returning unperturbed graph")
     #log(f"    {G.nodes(data=True)}")
     #log(f"    {G.edges(keys=True,data=True)}")
     #log(f"    {p.direction}")
     #log(f"    {p.edge_types}")
+    #log(f"    {p.node_types}")
     #log(f"    {p.fraction}")
     #log(f"    {p.operation}")
     #log(f"    {p.seed}")
