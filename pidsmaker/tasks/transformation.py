@@ -67,6 +67,10 @@ def add_graph_transformation(base_dir, dst_dir, cfg, methods):
     other_methods = [m for m in methods if m != "mal_perturbation"]
         
     dates = cfg.dataset.train_dates + cfg.dataset.val_dates + cfg.dataset.test_dates
+
+    # Check if there are any specific pertubation dates
+    # possible_values = train_dates, val_dates, test_dates
+    perturb_dates = mal_perturbation.dates_to_perturb(cfg) if use_perturbation else []
     for date in log_tqdm(dates, desc="Transforming"):
         sorted_paths = get_all_graphs_for_dates(base_dir, [date])
         for path in sorted_paths:
@@ -74,8 +78,10 @@ def add_graph_transformation(base_dir, dst_dir, cfg, methods):
 
             # Apply malicious pertubation for the graphs used at the Evaluation phase 
             # Basicaly we only apply perturbation to the graph that is going to be used for testing
-            if use_perturbation and date in cfg.dataset.test_dates:
+            if use_perturbation and date in perturb_dates:
                 graph = mal_perturbation.main(graph, cfg)
+            else:
+                print(f"Not applying perturbation to the following graph: {path}")
                 
             # Apply other transformations to all graphs
             if other_methods:
