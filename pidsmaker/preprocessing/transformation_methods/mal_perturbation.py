@@ -1,10 +1,3 @@
-import random
-import networkx as nx
-import wandb
-import collections
-from pidsmaker.utils.utils import log
-from pidsmaker.utils.labelling import get_ground_truth
-
 """
 PIDSMaker's construction stage does not produce one graph per dataset: 
 it splits the event stream into fixed-length time windows 
@@ -24,6 +17,17 @@ transformation is applied independently to each test-window graph.
 
 """
 
+import random
+import networkx as nx
+import wandb
+import collections
+from pidsmaker.utils.utils import log
+from pidsmaker.utils.labelling import get_ground_truth
+
+
+# =============================================================================
+# 1. Module state
+# =============================================================================
 
 _STATS = collections.Counter()
 
@@ -35,6 +39,11 @@ _CACHE = {
         'uuid_to_nid': {'674D8313-390A-11E8-BF66-D9AA8AFF4A69': 211776, '60040266-39AE-11E8-BF66-D9AA8AFF4A69': 26277, '6034BA72-39AE-11E8-BF66-D9AA8AFF4A69': 26281, 'FFF277E0-39AD-11E8-BF66-D9AA8AFF4A69': 26254, 'D384652A-39AF-11E8-BF66-D9AA8AFF4A69': 26318, '323ED9A0-39B1-11E8-BF66-D9AA8AFF4A69': 26357, 'D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69': 228725, 'F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED': 1219519, '4DA445A7-56DB-D353-9B56-AD9CD3D373D6': 2446982, '5CD609A7-3E7F-11E8-A5CB-3FA3753A265A': 355470, '11C64B2C-3DC3-11E8-A5CA-3FA3753A265A': 337550, '5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A': 140956, '5EE54774-3E7B-11E8-A5CB-3FA3753A265A': 140957, '48289024-3E7E-11E8-A5CB-3FA3753A265A': 355357, 'C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A': 354975, '5F12229C-3E7B-11E8-A5CB-3FA3753A265A': 140960, '74D78344-4A18-265B-984A-8D22BB26DDCF': 2444455, '7CF2DDA4-3E7B-11E8-A5CB-3FA3753A265A': 354935, '1AC05B7A-3DC3-11E8-A5CB-3FA3753A265A': 337065, '1902FFA3-6F80-2052-806F-3D6A2220819E': 381102, '7B30E76D-3E7D-11E8-A5CB-3FA3753A265A': 355247, 'AE11D308-3E7F-11E8-A5CB-3FA3753A265A': 355502, 'B2C5B97D-3E7F-11E8-A5CB-3FA3753A265A': 355507, '482AD2B6-3E7E-11E8-A5CB-3FA3753A265A': 141183, '327621AE-3E80-11E8-A5CB-3FA3753A265A': 355641, '60EBF436-633F-B75F-BF63-A8040FB73989': 2442683, '34612C08-3E7B-11E8-A5CB-3FA3753A265A': 354877, '47E61FFC-3E80-11E8-A5CB-3FA3753A265A': 355657, 'DCBB8D5C-3E7F-11E8-A5CB-3FA3753A265A': 355535, '5026C48F-56BA-3E5B-BA56-DD382B3EC82B': 2445651, 'CBBF8038-5237-8651-B752-A1C99186128A': 2446677, '1131CD42-3DC3-11E8-A5CA-3FA3753A265A': 336472, '51110606-D232-9652-B2D2-3A7242968F8A': 379482, '21A20E29-3E7E-11E8-A5CB-3FA3753A265A': 141147, '15FD3B4A-3DC3-11E8-A5CB-3FA3753A265A': 336477, 'E5F1BC5B-052D-3F5F-AD05-928A8F3FF746': 2446308, '47EA0B5C-3E80-11E8-A5CB-3FA3753A265A': 141285, '17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A': 355176, '15267234-3E7F-11E8-A5CB-3FA3753A265A': 355439, '42E4A848-3E7C-11E8-A5CB-3FA3753A265A': 355056, 'F993C224-C6AD-AB5C-ADC6-09316CABFFD8': 2445298, '1633500B-D34B-8058-8BD3-ABB7D880915E': 379506, '0001A528-3E80-11E8-A5CB-3FA3753A265A': 355572, '219DE547-3E7E-11E8-A5CB-3FA3753A265A': 355316, '84D440C2-4E50-4A5C-904E-C4772C4ACD5A': 2447478, '1D3ACF79-3E7F-11E8-A5CB-3FA3753A265A': 355447, '416AB837-8E42-6D58-828E-6976586D8E68': 380024, '7CED5514-3E7B-11E8-A5CB-3FA3753A265A': 354933, '7D2E10B3-3E7B-11E8-A5CB-3FA3753A265A': 354938, '81E2003D-3E7B-11E8-A5CB-3FA3753A265A': 354940, '5453C813-1A0E-4359-8E1A-41B40943CDC5': 2442623, '937BA111-3F1B-11E8-A5CB-3FA3753A265A': 147459, '937BE863-3F1B-11E8-A5CB-3FA3753A265A': 147460, '93A2D6AC-3F1B-11E8-A5CB-3FA3753A265A': 147461, '11C65665-3DC3-11E8-A5CA-3FA3753A265A': 356868, 'E5A15412-68E0-FD54-A068-DD6114FD9040': 2609543, '042ADADF-3F1C-11E8-A5CB-3FA3753A265A': 370896, '4FB0BFEA-3F1C-11E8-A5CB-3FA3753A265A': 370961, '0433BCDC-3F1C-11E8-A5CB-3FA3753A265A': 370897, '044B097A-3F1C-11E8-A5CB-3FA3753A265A': 370898, '04632D66-3F1C-11E8-A5CB-3FA3753A265A': 370899, '0488BCD7-3F1C-11E8-A5CB-3FA3753A265A': 370903, '04A9D03C-3F1C-11E8-A5CB-3FA3753A265A': 370904, '4FB30E44-3F1C-11E8-A5CB-3FA3753A265A': 147515, '3209A26F-A6EF-0350-AFA6-B1BD1003D390': 418674, 'EC6F1E3C-792F-485D-AF79-1A832D489243': 2609587, '00C8E4E5-8BBC-D45B-BC8B-D32BABD4AFCE': 2609590, '2CA83801-3E80-11E8-A5CB-3FA3753A265A': 355640, 'E0C1A46B-3F1B-11E8-A5CB-3FA3753A265A': 370873, 'E0CAAC23-3F1B-11E8-A5CB-3FA3753A265A': 370874, 'E0E17EDD-3F1B-11E8-A5CB-3FA3753A265A': 370875, 'E0F82A6C-3F1B-11E8-A5CB-3FA3753A265A': 370876}
     }
 }
+
+
+# =============================================================================
+# 2. Graph format reference
+# =============================================================================
 
 # Example of the three nodes type we have in the Graphs
 # ('node_id', {'node_type': 'subject | file | netflow', 'label': 'path cmd | path | None'})
@@ -48,6 +57,11 @@ _CACHE = {
 # ('379482', '226802', 0, {'event_uuid': '21EE8D10-A623-5D31-8450-A2E9B8BA9968', 'time': 1523021856116312352, 'label': 'EVENT_OPEN', 'y': 0})
 # ('379482', '226802', 1, {'event_uuid': '96AF63A8-69B7-5F9A-A547-600D30AA26AE', 'time': 1523021856126310773, 'label': 'EVENT_READ', 'y': 0})
 # ('379482', '226803', 0, {'event_uuid': '5200417F-856A-50C1-BE52-34F2D6919614', 'time': 1523021913136309403, 'label': 'EVENT_READ', 'y': 0})
+
+
+# =============================================================================
+# 3. Ground truth and dates
+# =============================================================================
 
 def _malicious_ids(cfg):
     """"
@@ -77,6 +91,32 @@ def _malicious_ids(cfg):
         log(f"[mal_pertubation] loaded {len(_CACHE[key]['nids'])} malicious node IDs for {key}")
     return _CACHE[key]
 
+
+
+def dates_to_perturb(cfg) -> list[str]:
+    """
+    Returns the dates whose graphs must be perturbed, according to p.split.
+ 
+    "train"     -> cfg.dataset.train_dates
+    "val"       -> cfg.dataset.val_dates
+    "train_val" -> train_dates + val_dates
+    "test"      -> cfg.dataset.test_dates
+ 
+    Called once by transformation.py, before its loop, instead of using test_dates directly.
+    Raises ValueError for an unknown split.
+    """
+
+    raise NotImplementedError
+
+
+def _malicious_nodes_in_graph(G: nx.MultiDiGraph, cfg) -> set[str]:
+    """Returns the IDs (as strings, like the graph) of the ground-truth nodes present in G."""
+    raise NotImplementedError
+
+
+# =============================================================================
+# 4. Candidate edges (WHAT can be lost)
+# =============================================================================
 
 def _incident_edges(G: nx.Graph, mal_nodes : list[str], dir: str):
     """
@@ -108,6 +148,123 @@ def _incident_edges(G: nx.Graph, mal_nodes : list[str], dir: str):
 
     return { "inbound_edges" : in_edges , "outbound_edges" : out_edges}
 
+
+def _is_malicious_edge(u: str, v: str, mal_nodes: set[str], rule: str) -> bool:
+    """Says whether edge u -> v counts as malicious under p.edge_rule:
+
+    "src_node"    -> u is malicious
+    "dst_node"    -> v is malicious
+    "both_nodes"  -> u and v are malicious   (the attack chain itself)
+    "either_node" -> u or v is malicious
+    """
+    raise NotImplementedError
+
+
+def _matches_edge_types(data: dict, edge_types: str) -> bool:
+    """True if the edge's "label" is in p.edge_types (comma-separated), or if edge_types
+    is empty (meaning: all types)."""
+    raise NotImplementedError
+
+
+def _candidate_edges(G: nx.MultiDiGraph, mal_nodes: set[str], p) -> list[tuple]:
+    """Returns the edges that may be lost, as (u, v, k) tuples, according to p.target:
+
+    "malicious" -> edges that _is_malicious_edge accepts (testing side)
+    "benign"    -> edges touching no malicious node at all (training side)
+    "all"       -> every edge (realistic loss: benign and malicious alike)
+
+    Also applies the p.edge_types filter.
+    This set is the denominator of X%: fraction is a share of these candidates.
+    """
+    raise NotImplementedError
+
+
+# =============================================================================
+# 5. Selection (WHICH candidates are lost)
+# =============================================================================
+
+def _select(G: nx.MultiDiGraph, candidates: list[tuple], p, rng: random.Random) -> list[tuple]:
+    """Dispatches on p.selection and returns the edges to remove:
+
+    "random"                                           -> _select_random
+    "burst"                                            -> _select_burst
+    "degree" / "betweenness" / "event_type" / "rarity" -> _select_top_scored with the
+                                                          matching scoring function
+    Raises ValueError for an unknown selection.
+    """
+    raise NotImplementedError
+
+
+def _num_to_remove(n_candidates: int, fraction: float) -> int:
+    """k = round(n_candidates * fraction), kept between 0 and n_candidates."""
+    raise NotImplementedError
+
+
+def _select_random(candidates: list[tuple], fraction: float, rng: random.Random) -> list[tuple]:
+    """Realistic loss: k random candidates. Sort the candidates first so the same seed
+    always gives the same result, then rng.sample."""
+    raise NotImplementedError
+
+
+def _select_burst(
+    G: nx.MultiDiGraph, candidates: list[tuple], fraction: float, rng: random.Random
+) -> list[tuple]:
+    """Capture outage: picks one random time interval covering `fraction` of the window's
+    duration (min to max edge time in G) and returns the candidates whose "time" falls
+    inside it. The number removed is therefore approximately, not exactly, k."""
+    raise NotImplementedError
+
+
+def _select_top_scored(
+    G: nx.MultiDiGraph, candidates: list[tuple], fraction: float, score_fn, p
+) -> list[tuple]:
+    """Worst-case loss: scores every candidate with score_fn(G, edge, p), sorts by score
+    (highest first, ties broken by the edge itself so the order is fixed) and returns
+    the top k."""
+    raise NotImplementedError
+
+
+# =============================================================================
+# 6. Importance scores (used by _select_top_scored); higher = more important
+# =============================================================================
+
+def _score_degree(G: nx.MultiDiGraph, edge: tuple, p) -> float:
+    """Structural: importance of the edge's endpoints, e.g. degree(u) + degree(v).
+    Tip: compute the degrees once per graph, not once per edge."""
+    raise NotImplementedError
+
+
+def _score_betweenness(G: nx.MultiDiGraph, edge: tuple, p) -> float:
+    """Structural: edge betweenness, computed on a simplified copy (nx.Graph(G)) of the
+    ego graph around the malicious nodes (radius p.ego_radius), since full betweenness
+    is slow on large windows. Compute once per graph and look the edge up."""
+    raise NotImplementedError
+
+
+def _score_event_type(G: nx.MultiDiGraph, edge: tuple, p) -> float:
+    """Attack semantics: high score if the edge's "label" is in p.important_event_types
+    (e.g. EVENT_EXECUTE, EVENT_CONNECT, EVENT_WRITE), low otherwise. You may give each
+    listed type its own weight (e.g. by its position in the list)."""
+    raise NotImplementedError
+
+
+def _score_rarity(G: nx.MultiDiGraph, edge: tuple, p) -> float:
+    """Anomaly-relevant: rare things score high, e.g. 1 / count of this
+    (src node_type, event type, dst node_type) combination in the window."""
+    raise NotImplementedError
+
+
+SCORERS = {
+    "degree": _score_degree,
+    "betweenness": _score_betweenness,
+    "event_type": _score_event_type,
+    "rarity": _score_rarity,
+}
+
+
+# =============================================================================
+# 7. Operations: node removal
+# =============================================================================
 
 def _remove_neighbors(G, mal_nodes, p, rng) -> nx.Graph: 
     """
@@ -283,13 +440,14 @@ def _remove_random_nodes(G, mal_nodes, p, rng) -> nx.Graph:
         log(f"    Removing the following {type} nodes = {nodes_to_remove}")
         G.remove_nodes_from(nodes_to_remove)
 
-
-    #log(f"    {aux} ")
     log("*"*50 +"\n")
 
     return G 
 
 
+# =============================================================================
+# 8. Operations: edges and time
+# =============================================================================
 
 def _remove_edges(G, mal_nodes, p, rng) -> nx.Graph: 
     """TODO
@@ -297,6 +455,10 @@ def _remove_edges(G, mal_nodes, p, rng) -> nx.Graph:
     --edge_types=[...] 
     --transformation.mal_perturbation.fraction=0.5
     --transformation.mal_perturbation.seed=42 
+
+    Planned (log-loss experiments, both sides; one lost log line = one lost edge):
+    candidates = _candidate_edges(...), chosen = _select(...), G.remove_edges_from(chosen).
+    Records the number of candidates and of removed edges in _STATS. Returns G.
     """
     log("*"*50 +"\n")
     log(f"    Removing edges from malicious nodes with the folowing config:\n{p}")
@@ -328,6 +490,22 @@ def _shift_time(G, mal_nodes, p, rng) -> nx.Graph:
 
     return G
 
+
+# Name -> function for every operation. Not used by main() yet (main uses its if/elif
+# chain); it can replace that chain later: G = OPERATIONS[p.operation](G, mal_nodes, p, rng)
+OPERATIONS = {
+    "remove_neighbors": _remove_neighbors,
+    "remove_edges": _remove_edges,
+    "shift_time": _shift_time,
+    "remove_network_nodes": _remove_network_nodes,
+    "remove_subject_and_network": _remove_subject_and_network,
+    "remove_random_nodes": _remove_random_nodes,
+}
+
+
+# =============================================================================
+# 9. Entry point
+# =============================================================================
 
 def main(G: nx.Graph, cfg) ->nx.Graph:
     """Returns a graphs with a selected pertubations applied"""
@@ -380,6 +558,20 @@ def main(G: nx.Graph, cfg) ->nx.Graph:
     _STATS["edges_after"] += G.number_of_edges()
     log("=" * 50 + "\n")
     return G
+
+
+# =============================================================================
+# 10. Statistics
+# =============================================================================
+
+def _record_stats(G: nx.MultiDiGraph, mal_before: set[str], nodes_before: int, edges_before: int, cfg) -> None:
+    """Adds this window's numbers to _STATS:
+    windows_perturbed, nodes/edges before and after, and for the testing side
+    the coverage figures: malicious nodes present before and after (a malicious node
+    that lost all its edges is no longer present and cannot be detected).
+    Can later replace the _STATS lines at the end of main()."""
+    raise NotImplementedError
+
 
 def log_summary():
     """Logs the totals for all test windows once, then resets them."""
