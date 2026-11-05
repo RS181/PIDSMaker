@@ -42,7 +42,7 @@ def standard_evaluation(cfg, evaluation_fn):
 
     save_files_to_wandb = cfg._experiment != "uncertainty"
 
-    for model_epoch_dir in sorted_files:
+    for model_epoch_dir in sorted_files: 
         log(f"[@{model_epoch_dir}] - Test Evaluation", pre_return_line=True)
 
         test_tw_path = os.path.join(test_losses_dir, model_epoch_dir)
@@ -88,6 +88,15 @@ def standard_evaluation(cfg, evaluation_fn):
             if os.path.exists(distrib):
                 stats["distrib_img"] = wandb.Image(distrib)
 
+        # new stuff
+        if all(k in stats for k in ("tp", "fp", "tn", "fn")):
+            tp, fp, tn, fn = (int(stats[k]) for k in ("tp", "fp", "tn", "fn"))
+            stats["nodes_total"] = tp + fp + tn + fn
+            stats["nodes_malicious"] = tp + fn
+            stats["nodes_benign"] = fp + tn
+            stats["malicious_detected"] = tp
+            stats["malicious_undetected"] = fn
+
         wandb.log(stats)
 
         best_metrics = best_metric_pick_best_epoch(stats, best_metrics, cfg)
@@ -96,6 +105,13 @@ def standard_evaluation(cfg, evaluation_fn):
         # We only store the scores for the best run
         # wandb.save(best_metrics["stats"]["scores_file"], out_dir)
         wandb.save(best_metrics["stats"]["neat_scores_img_file"], out_dir)
+
+    # Print the best epoch's stats once (the counts were added inside the loop)
+    best = best_metrics["stats"]
+    log(f"Best epoch ({best.get('epoch')}) stats:", pre_return_line=True)
+    for k, v in best.items():
+        if not isinstance(v, wandb.Image):
+            log(f"{k}: {v}")
 
     log(f"Best scores file: {best_metrics['stats']['scores_file']}")
     log(f"Best model path: {best_metrics['stats'].get('model_path')}")
