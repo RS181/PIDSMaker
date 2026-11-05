@@ -1,3 +1,6 @@
+import pandas as pd
+import pydoc
+from tabulate import tabulate
 import argparse
 import os
 import sys
@@ -159,6 +162,24 @@ def get_and_store_args(args, run : str):
         RESULT_DICT["run_args"].append(first_line)
 
 
+def pretty_print_metrics():
+    df = pd.DataFrame.from_dict(RESULT_DICT, orient='index').T
+    # Ensure everything is fully expanded (no truncation)
+    # Convert the DataFrame into a gorgeous terminal grid table
+    # tablefmt options: 'fancy_grid', 'grid', 'pipe', 'psql'
+    table_string = tabulate(
+        df, 
+        headers='keys', 
+        tablefmt='fancy_grid', 
+        showindex=True,
+        # maxcolwidths=[30] # Optional: limits very wide text like run_args to 30 chars wide per cell, or remove it to see everything fully expanded
+    )
+
+    # Open it in the terminal pager so you can scroll up, down, left, and right (press 'q' to exit)
+    print(table_string)
+
+
+
 def summarize_runs(args):
     """
     Summarizes all .logs from a given:
@@ -180,8 +201,6 @@ def summarize_runs(args):
         if ".log" in run:
             get_and_store_args(args,run)
             get_and_store_results(args, run)
-
-    print(RESULT_DICT)
     # TODO: arranjar forma de fazer print bonito
     # dos resultados
 
@@ -204,5 +223,7 @@ if __name__ == "__main__":
         sys.exit(0)
 
     summarize_runs(args)
+    pretty_print_metrics()
+    
 
     
