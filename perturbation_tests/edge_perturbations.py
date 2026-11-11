@@ -8,12 +8,12 @@ import shlex
 
 
 ## Number of workers
-MAX_PARALLEL = 1  
+MAX_PARALLEL = 5  
 
 
 ## Model and Dataset constants
 DATASET = "CADETS_E3"
-MODEL = "magic"
+MODEL = "flash"
 LOGS_DIR = f"./perturbation_tests/logs/{MODEL}-{DATASET}"
 STATUS_FILE = os.path.join(LOGS_DIR, "status.txt")
 
@@ -21,7 +21,7 @@ STATUS_FILE = os.path.join(LOGS_DIR, "status.txt")
 ## Constants used to define the scenarios
 
 # Wich split the perturbations are going to be applied
-SPLITS = ["train","test"]
+SPLITS = ["test"]
 
 # Wich edges can be removed
 TARGETS = ["benign","malicious","all"]
@@ -45,9 +45,7 @@ FRACTIONS = [0.1, 0.3, 0.5, 0.7, 0.9]
 SELECTIONS = ["random"]
 
 # Seeds used for randomness 
-SEEDS = [3, 4 , 5]
-
-
+SEEDS = [12, 13 , 14]
 
 
 # Possible cofigurations that are going to be tested (checks that 
@@ -175,12 +173,15 @@ def construct_command(scenario: dict, include_viz_arg: bool) -> str:
     viz_arg = "--save_for_viz" if include_viz_arg else ""
     
     for k, v in scenario.items(): 
+        if v is None:
+            continue
         arg = CONFIG[k]["arg"]
         arguments += f"{arg}={v} " 
         wandb_args += f"{k}_{v}-"
 
-
-    return f"{base} {arguments} {viz_arg} --wandb --exp={wandb_args} --tags={MODEL}-{DATASET}" 
+    # Removed --wand and arguments because it had connection errors 
+    #return f"{base} {arguments} {viz_arg} --wandb --exp={wandb_args} --tags={MODEL}-{DATASET}" 
+    return f"{base} {arguments} {viz_arg}"
 
 
 ## Logging related functions
