@@ -10,7 +10,7 @@ SPLIT_VALS     = ["train","val","train_val","test"]
 TARGET_VALS    = ["benign", "malicious", "all"]
 SELECTION_VALS = ["random", "burst", "degree","betweenness", "event_type", "rarity"]
 EDGE_RULE_VALS = ["src_node", "dst_node","both_nodes", "either_node"]
-FRACTIONS_VALS = [0.1, 0.3, 0.5, 0.7, 0.9]
+FRACTIONS_VALS = ["0.1", "0.3", "0.5", "0.7", "0.9"]
 
 LOG_FOLDER = "./perturbation_tests/logs"
 
@@ -24,42 +24,34 @@ RESULT_DICT = {
     "ap" : [],
     "accuracy" : [],
     "balanced_acc" : [],
-    "auc" : [],
-    "lr" : [],
-    "dor" : [],
-    "mcc" : [],
-    "tp" : [],
-    "fp" : [],
-    "tn" : [],
-    "fn" : [],
-    "precision" : [],
-    "recall" : [],
-    "ap" : [],
-    "precision" : [],
-    "recall" : [],
-    "ap" : [],
-    "precision" : [],
-    "recall" : [],
-    "ap" : [],
-    "fp_in_malicious_tw_ratio" : [],
-    "percent_detected_attacks" : [],
-    "fps_if_all_attacks_detected" : [],
-    "tps_if_all_attacks_detected" : [],
-    "precision_if_all_attacks_detected" : [],
-    "recall_if_all_attacks_detected" : [],
-    "adp_score" : [],
-    "threshold" : [],
-    "discrim_score_att_0" : [],
-    "discrim_score_att_1" : [],
-    "discrim_score_att_2" : [],
-    "discrimination" : [],
-    "discrim_tp_att_0" : [],
-    "discrim_tp_att_1" : [],
-    "discrim_tp_att_2" : [],
-    "discrim_tp_att_sum" : [],
-    "tp_att_0" : [],
-    "tp_att_1" : [],
-    "tp_att_2" : [],
+    # "auc" : [],
+    # "dor" : [],
+    # "mcc" : [],
+    # "tp" : [],
+    # "fp" : [],
+    # "tn" : [],
+    # "fn" : [],
+    # "ap" : [],
+    # "ap" : [],
+    # "fp_in_malicious_tw_ratio" : [],
+    # "percent_detected_attacks" : [],
+    # "fps_if_all_attacks_detected" : [],
+    # "tps_if_all_attacks_detected" : [],
+    # "precision_if_all_attacks_detected" : [],
+    # "recall_if_all_attacks_detected" : [],
+    # "adp_score" : [],
+    # "threshold" : [],
+    # "discrim_score_att_0" : [],
+    # "discrim_score_att_1" : [],
+    # "discrim_score_att_2" : [],
+    # "discrimination" : [],
+    # "discrim_tp_att_0" : [],
+    # "discrim_tp_att_1" : [],
+    # "discrim_tp_att_2" : [],
+    # "discrim_tp_att_sum" : [],
+    # "tp_att_0" : [],
+    # "tp_att_1" : [],
+    # "tp_att_2" : [],
     "epoch" : [],
     "nodes_total" : [],
     "nodes_malicious" : [],
@@ -201,8 +193,7 @@ def summarize_runs(args):
         if ".log" in run:
             get_and_store_args(args,run)
             get_and_store_results(args, run)
-    # TODO: arranjar forma de fazer print bonito
-    # dos resultados
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
