@@ -8,14 +8,38 @@ import shlex
 
 
 ## Number of workers
-MAX_PARALLEL = 5  
+MAX_PARALLEL = 1 
+
+
+# Your three models together
+
+# With MAGIC, ThreaTrace and Kairos, you cover three different designs:
+
+# reconstruction (MAGIC);
+# node-type prediction (ThreaTrace);
+# temporal event prediction (Kairos).
+
+
+# Model	      Learns from	      Task it’s trained on	                 Featurization
+# MAGIC	      Graph structure	  Reconstructing masked nodes	          only_type
+# ThreaTrace  Graph structure	  Predicting each node’s type 	          only_type
+# Kairos	  Graph structure +   Predicting each edge’s event type       hierarchical_hashing
+#             order of events in
+#             time (TGN memory 
+#             + graph attention)		
+# Orthrus	  Same as Kairos	  Predicting each edge’s event type	      word2vec
+# NodLink	  Sum of neighbours’  Reconstructing node features            fasttext
+#             features		
+# R-CAID	  Graph attention	Predicting each node’s type	              doc2vec
 
 
 ## Model and Dataset constants
-DATASET = "CADETS_E3"
-MODEL = "flash"
+DATASET = "CADETS_E5"
+MODEL = "threatrace"
 LOGS_DIR = f"./perturbation_tests/logs/{MODEL}-{DATASET}"
 STATUS_FILE = os.path.join(LOGS_DIR, "status.txt")
+
+
 
 
 ## Constants used to define the scenarios
@@ -45,7 +69,7 @@ FRACTIONS = [0.1, 0.3, 0.5, 0.7, 0.9]
 SELECTIONS = ["random"]
 
 # Seeds used for randomness 
-SEEDS = [12, 13 , 14]
+SEEDS = [15, 16 , 17]
 
 
 # Possible cofigurations that are going to be tested (checks that 
