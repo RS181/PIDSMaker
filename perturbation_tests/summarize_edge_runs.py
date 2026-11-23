@@ -155,6 +155,7 @@ def get_and_store_args(args, run : str):
 
 
 def pretty_print_metrics():
+    RESULT_DICT.pop("run_args")
     df = pd.DataFrame.from_dict(RESULT_DICT, orient='index').T
     # Ensure everything is fully expanded (no truncation)
     # Convert the DataFrame into a gorgeous terminal grid table
@@ -162,7 +163,8 @@ def pretty_print_metrics():
     table_string = tabulate(
         df, 
         headers='keys', 
-        tablefmt='fancy_grid', 
+        #tablefmt='fancy_grid', # For visualization
+        tablefmt='tsv', # To copy and paste to excel directly 
         showindex=True,
         # maxcolwidths=[30] # Optional: limits very wide text like run_args to 30 chars wide per cell, or remove it to see everything fully expanded
     )
