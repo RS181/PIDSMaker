@@ -1,0 +1,585 @@
+2026-11-13 14:40:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-13 14:40:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-13 14:40:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-13 14:40:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-13 14:40:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | 
+2026-11-13 14:40:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-13 23:37:11 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-13 23:37:11 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | 
+2026-11-13 23:37:12 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-13 23:37:12 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-13 23:39:29 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-13 23:39:29 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | 
+2026-11-14 00:10:52 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-14 00:10:52 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | 
+2026-11-14 00:10:52 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-14 00:10:52 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | 
+2026-11-14 00:13:24 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-14 00:13:24 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-17.log | 
+2026-11-14 06:57:13 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-14 06:57:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-15.log | 
+2026-11-14 07:01:09 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-14 07:01:09 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-16.log | 
+2026-11-14 07:01:34 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-14 07:01:34 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-17.log | 
+2026-11-14 07:19:04 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-14 07:19:04 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-14 07:20:43 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-14 07:20:43 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-14 07:22:50 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-14 07:22:50 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-14 12:20:20 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-14 12:20:20 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-14 12:21:46 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-14 12:21:46 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-14 12:23:36 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-14 12:23:36 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-14 17:20:20 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-14 17:20:20 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-14 17:20:33 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-14 17:20:33 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-14 17:21:28 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-14 17:21:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-14 22:17:29 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-14 22:17:29 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-14 22:18:37 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-14 22:18:37 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-14 22:19:57 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-14 22:19:57 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-15 01:48:20 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-15 01:48:20 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-15 03:51:53 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-15 03:51:53 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-15 03:52:05 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-15 03:52:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-15 04:23:55 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-15 04:23:55 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-15 10:12:24 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-15 10:12:24 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-15 10:13:50 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-15 10:13:50 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-15 14:17:25 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-15 14:17:25 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-15 16:10:53 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-15 16:10:53 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-15 16:10:54 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-15 16:10:54 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-15 16:39:09 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-15 16:39:09 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-15 22:21:31 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-15 22:21:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-15 22:22:53 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-15 22:22:53 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-15 22:43:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-15 22:43:19 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-16 02:23:53 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-16 02:23:53 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-16 04:25:07 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-16 04:25:07 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-16 04:25:36 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-16 04:25:36 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 04:51:58 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-16 04:51:58 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 10:35:49 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-16 10:35:49 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 10:55:51 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-16 10:55:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-16 11:13:30 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-16 11:13:30 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-16 16:39:13 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-16 16:39:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-16 16:39:26 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-16 16:39:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-16 16:57:47 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-16 16:57:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-16 19:55:34 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-16 19:55:34 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-16 19:55:35 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-16 19:55:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-16 19:55:35 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-16 19:55:35 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-16 19:55:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-16 19:55:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-16 19:55:35 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-16 19:55:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-16 19:55:35 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-16 19:55:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-16 19:55:59 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-16 19:55:59 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-16 19:56:00 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-16 19:56:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 19:56:00 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-16 19:56:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 19:56:00 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-16 19:56:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 19:56:01 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-16 19:56:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-16 19:56:01 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-16 19:56:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-16 19:56:25 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-16 19:56:25 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-16 19:56:25 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-16 19:56:25 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-16 19:56:25 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-16 19:56:25 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-16 19:56:26 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-16 19:56:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-16 19:56:26 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-16 19:56:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-16 19:56:26 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-16 19:56:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-16 19:56:50 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-16 19:56:50 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-16 19:56:50 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-16 19:56:50 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-16 19:56:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-16 19:56:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-16 19:56:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-16 19:56:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-16 19:56:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-16 19:56:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 19:56:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-16 19:56:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 19:57:16 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-16 19:57:16 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 19:57:16 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-16 19:57:16 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-16 19:57:16 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-16 19:57:16 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-16 19:57:16 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-16 19:57:16 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-16 19:57:17 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-16 19:57:17 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-16 19:57:17 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-16 19:57:17 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-16 19:57:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-16 19:57:41 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-16 19:57:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-16 19:57:41 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-16 19:57:42 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-16 19:57:42 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-16 19:57:42 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-16 19:57:42 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-16 19:57:42 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-16 19:57:42 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-16 19:57:43 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-16 19:57:43 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-16 19:58:06 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-16 19:58:06 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-16 19:58:07 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-16 19:58:07 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 19:58:07 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-16 19:58:07 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 19:58:07 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-16 19:58:07 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 19:58:08 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-16 19:58:08 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-16 19:58:31 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-16 19:58:32 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-16 19:58:32 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-16 19:58:32 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-17 10:52:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-17 10:52:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 10:52:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 10:52:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-17 10:53:54 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 10:53:54 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 10:53:54 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code -15
+2026-11-17 10:53:54 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-17 10:54:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-17 10:54:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 10:54:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-17 10:54:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 10:54:44 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-17 10:54:44 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 11:11:11 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 11:11:11 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code -15
+2026-11-17 11:11:14 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code -15
+2026-11-17 11:11:14 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 11:11:14 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-17 11:11:14 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 11:11:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-17 11:11:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 11:11:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-17 11:11:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 12:51:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 12:51:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-17 12:51:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 12:51:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code -15
+2026-11-17 12:52:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-17 12:52:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 12:52:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-17 12:52:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 21:59:23 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-17 21:59:23 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-17 22:01:36 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-17 22:01:36 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-17 22:02:19 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-17 22:02:19 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-17 22:04:15 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-17 22:04:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-18 00:20:49 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-18 00:20:49 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-18 00:20:57 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-18 00:20:57 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-18 05:23:35 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-18 05:23:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-18 05:23:52 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-18 05:23:52 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-18 05:23:52 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-18 05:23:52 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-18 05:23:53 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-18 05:23:53 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-18 06:27:00 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-18 06:27:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-18 09:21:36 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-18 09:21:36 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-18 09:21:36 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-18 09:21:36 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-18 09:21:37 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-18 09:21:37 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-18 09:21:38 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-18 09:21:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-18 09:21:48 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-18 09:21:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-18 09:21:48 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-18 09:21:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-18 09:21:48 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-18 09:21:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-18 09:21:49 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-18 09:21:49 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-18 10:38:33 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code -15
+2026-11-18 10:38:33 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code -15
+2026-11-18 10:38:33 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code -15
+2026-11-18 10:38:33 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code -15
+2026-11-19 09:46:40 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-19 09:47:03 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-19 09:47:03 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-19 09:47:16 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-19 09:47:16 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-19 09:47:25 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code -15
+2026-11-19 09:53:39 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-19 13:29:13 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code -15
+2026-11-19 13:29:16 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-19 16:54:17 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-19 16:54:17 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-19 20:51:13 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-19 20:51:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-19 22:11:57 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code -15
+2026-11-19 22:12:03 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-19 22:12:03 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-19 22:12:03 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-19 22:12:03 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 06:14:44 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-20 06:14:44 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 06:19:38 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-20 06:19:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 06:25:28 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-20 06:25:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 06:26:08 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-20 06:26:08 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 14:14:09 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-20 14:14:09 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 14:19:11 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-20 14:19:11 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 14:24:47 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-20 14:24:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 14:25:01 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-20 14:25:01 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:33:02 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-20 22:33:02 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:42:57 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:42:57 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 22:43:02 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:43:02 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 22:43:12 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 22:43:12 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:43:17 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 22:43:17 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:43:26 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:43:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 22:43:32 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:43:32 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:43:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 22:43:41 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:43:48 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:43:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 22:43:56 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:43:56 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:43:58 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:43:58 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:44:03 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:03 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:44:11 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:11 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:44:13 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:44:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:19 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:44:21 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:44:27 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:27 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 22:44:28 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 22:44:34 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:34 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:44:36 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:36 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:44:43 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:43 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 22:44:43 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:43 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:44:49 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:49 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:44:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 22:44:58 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:58 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:44:58 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:58 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:45:05 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:45:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:45:06 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 22:45:06 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:45:13 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:45:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:45:13 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:45:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:45:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:45:19 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:45:21 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:45:29 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:45:29 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:45:33 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 10:42:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 10:42:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 10:42:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 10:42:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 10:43:06 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | exit code -15
+2026-11-21 10:43:06 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | exit code -15
+2026-11-21 10:43:06 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code -15
+2026-11-21 10:43:06 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | exit code -15
+2026-11-21 10:43:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 10:43:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 10:43:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 10:43:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 10:44:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | exit code -15
+2026-11-21 10:44:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code -15
+2026-11-21 10:44:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | exit code -15
+2026-11-21 10:44:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | exit code -15
+2026-11-21 10:51:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 10:51:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 10:51:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 10:51:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 19:18:40 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-21 19:18:40 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-21 19:19:18 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-21 19:19:18 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-21 19:20:15 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-21 19:20:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 19:21:45 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-21 19:21:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 23:31:42 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-21 23:31:42 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-21 23:31:57 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-21 23:31:57 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 23:32:10 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-21 23:32:10 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 23:32:18 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:18 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 23:32:25 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:25 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:32:31 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-21 23:32:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:32:33 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-21 23:32:33 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:32:39 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:32:39 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:32:45 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:32:47 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:32:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:32:48 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:48 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:32:53 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:32:53 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-21 23:32:59 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:59 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-21 23:33:00 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 23:33:02 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:02 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 23:33:07 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:07 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-21 23:33:13 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 23:33:15 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 23:33:17 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:17 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 23:33:21 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:33:26 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:33:29 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:29 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:33:30 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:30 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:33:37 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:37 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:33:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:41 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:33:43 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:43 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:33:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:50 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:55 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:55 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 00:03:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 00:03:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 00:03:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 00:03:26 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 00:03:27 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code -15
+2026-11-22 00:03:27 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code -15
+2026-11-22 00:03:27 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code -15
+2026-11-22 00:03:27 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code -15
+2026-11-22 00:03:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 00:03:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 00:03:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 00:03:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 08:25:35 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-22 08:25:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-22 08:26:11 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-22 08:26:11 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 08:28:08 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-22 08:28:08 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 08:28:31 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-22 08:28:31 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-22 15:25:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-22 15:25:44 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 15:25:46 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-22 15:25:46 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:25:59 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-22 15:25:59 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:26:00 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:26:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 15:26:09 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:09 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 15:26:10 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:10 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 15:26:13 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 15:26:15 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 15:26:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 15:26:24 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 15:26:24 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 15:26:25 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:25 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 15:26:28 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 15:26:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 15:26:30 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-22 15:26:30 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-22 15:26:37 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:37 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 15:26:38 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-22 15:26:38 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 15:26:41 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-22 15:26:41 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-22 15:26:43 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:43 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 15:26:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-22 15:26:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:26:52 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-22 15:26:52 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:26:55 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-22 15:26:55 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 15:26:57 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-22 15:26:57 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 15:27:05 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:27:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 15:27:07 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:27:07 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 15:27:09 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 15:27:10 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 15:27:18 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 15:27:21 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 17:12:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 17:12:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 17:12:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-23 02:40:06 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-23 02:40:06 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-23 02:42:35 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-23 02:42:35 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-23 02:42:47 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-23 02:42:47 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-23 11:11:28 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-23 11:11:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-23 11:14:23 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-23 11:14:23 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-23 11:18:37 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-23 11:18:37 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-23 18:59:28 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-23 18:59:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-23 19:01:27 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-23 19:01:27 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-23 19:04:51 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-23 19:04:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-24 02:34:06 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-24 02:34:06 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 02:38:45 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-24 02:38:45 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 02:41:11 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-24 02:41:11 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-24 03:39:00 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-24 03:39:00 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-24 03:39:14 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-24 03:39:14 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-24 03:39:28 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-24 03:39:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-24 03:39:28 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-24 03:39:28 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-24 03:39:42 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-24 03:39:42 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-24 03:39:42 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-24 03:39:42 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-24 03:39:55 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-24 03:39:55 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-24 03:39:57 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-24 03:39:57 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-24 03:40:08 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-24 03:40:08 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-24 03:40:10 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-24 03:40:10 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-24 03:40:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-24 03:40:19 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-24 03:40:22 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-24 03:40:24 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-24 03:40:34 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-24 08:50:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-24 08:50:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-24 08:50:15 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-24 16:26:14 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-24 16:26:14 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 16:26:21 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-24 16:26:21 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 16:26:54 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-24 16:26:54 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-25 01:24:04 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-25 01:24:04 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-25 01:53:34 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-25 01:53:34 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-25 01:56:05 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-25 01:56:05 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-25 08:11:30 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-25 08:11:30 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-25 08:18:51 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-25 08:18:51 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-25 08:45:09 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-25 08:45:09 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-25 10:57:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-25 10:57:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-25 10:57:13 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-25 10:57:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code -15
+2026-11-25 10:57:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-25 10:57:19 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code -15

@@ -1,0 +1,2 @@
+2026-11-17 17:15:06 | START | ./perturbation_tests/logs/threatrace-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-18 10:38:44 | FAIL  | ./perturbation_tests/logs/threatrace-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code -15

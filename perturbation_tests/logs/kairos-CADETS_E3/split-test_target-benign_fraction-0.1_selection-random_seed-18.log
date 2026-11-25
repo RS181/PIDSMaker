@@ -1,0 +1,2 @@
+2026-11-22 17:10:03 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.1, 'selection': 'random', 'seed': 18}
+2026-11-22 17:10:03 - python pidsmaker/main.py kairos CADETS_E3 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.1 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=18  

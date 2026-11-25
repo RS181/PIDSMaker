@@ -1,0 +1,1143 @@
+2026-11-25 14:20:15 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.3, 'selection': 'random', 'seed': 19}
+2026-11-25 14:20:15 - python pidsmaker/main.py magic optc_h501 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.3 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=19  
+2026-11-25 14:20:27 - Running pipeline in 'Standard' mode.
+2026-11-25 14:20:27 - Task construction: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9
+2026-11-25 14:20:27 - Task transformation: /home/artifacts/transformation/optc_h501/transformation/ff9252c0951af4b180485b5f0bf933a17ee400fb6f6770f017d43beb0240c85c
+2026-11-25 14:20:27 - ======= START SUBTASK transformation.py =======
+2026-11-25 14:20:27 - [mal_perturbation] split=test: perturbing 3 dates ['2019-09-23', '2019-09-24', '2019-09-25']
+2026-11-25 14:20:27 - Transforming...
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 00:00:00.005000000~2019-09-19 00:15:18.286000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 00:15:18.286000000~2019-09-19 00:30:37.332000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 00:30:37.332000000~2019-09-19 00:45:44.057000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 00:45:44.057000000~2019-09-19 01:00:55.468000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 01:00:55.468000000~2019-09-19 01:16:29.762000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 01:16:29.762000000~2019-09-19 01:31:38.017000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 01:31:38.017000000~2019-09-19 01:46:44.035000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 01:46:44.035000000~2019-09-19 02:01:58.511000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 02:01:58.511000000~2019-09-19 02:17:00.611000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 02:17:00.611000000~2019-09-19 02:32:02.419000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 02:32:02.419000000~2019-09-19 02:47:05.198000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 02:47:05.198000000~2019-09-19 03:02:25.931000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 03:02:25.931000000~2019-09-19 03:17:28.635000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 03:17:28.635000000~2019-09-19 03:32:29.059000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 03:32:29.059000000~2019-09-19 03:47:31.019000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 03:47:31.019000000~2019-09-19 04:02:40.614000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 04:02:40.614000000~2019-09-19 04:18:14.639000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 04:18:14.639000000~2019-09-19 04:33:17.273000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 04:33:17.273000000~2019-09-19 04:48:25.496000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 04:48:25.496000000~2019-09-19 05:03:56.602000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 05:03:56.602000000~2019-09-19 05:19:00.513000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 05:19:00.513000000~2019-09-19 05:34:02.059000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 05:34:02.059000000~2019-09-19 05:49:02.563000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 05:49:02.563000000~2019-09-19 06:04:03.208000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 06:04:03.208000000~2019-09-19 06:19:11.055000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 06:19:11.055000000~2019-09-19 06:34:47.657000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 06:34:47.657000000~2019-09-19 06:50:00.908000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 06:50:00.908000000~2019-09-19 07:05:02.467000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 07:05:02.467000000~2019-09-19 07:20:03.553000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 07:20:03.553000000~2019-09-19 07:35:23.037000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 07:35:23.037000000~2019-09-19 07:50:50.966000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 07:50:50.966000000~2019-09-19 08:05:51.659000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 08:05:51.659000000~2019-09-19 08:21:00.554000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 08:21:00.554000000~2019-09-19 08:36:04.311000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 08:36:04.311000000~2019-09-19 08:51:26.192000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 08:51:26.192000000~2019-09-19 09:06:36.109000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 09:06:36.109000000~2019-09-19 09:21:46.257000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 09:21:46.257000000~2019-09-19 09:37:01.068000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 09:37:01.068000000~2019-09-19 09:52:02.001000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 09:52:02.001000000~2019-09-19 10:07:07.006000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 10:07:07.006000000~2019-09-19 10:22:34.662000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 10:22:34.662000000~2019-09-19 10:37:49.026000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 10:37:49.026000000~2019-09-19 10:53:20.001000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 10:53:20.001000000~2019-09-19 11:08:30.489000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 11:08:30.489000000~2019-09-19 11:23:34.093000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 11:23:34.093000000~2019-09-19 11:38:39.818000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 11:38:39.818000000~2019-09-19 11:53:41.697000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 11:53:41.697000000~2019-09-19 12:08:53.942000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 12:08:53.942000000~2019-09-19 12:23:55.213000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 12:23:55.213000000~2019-09-19 12:39:14.586000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 12:39:14.586000000~2019-09-19 12:54:32.151000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 12:54:32.151000000~2019-09-19 13:10:02.749000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 13:10:02.749000000~2019-09-19 13:25:28.041000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 13:25:28.041000000~2019-09-19 13:40:28.639000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 13:40:28.639000000~2019-09-19 13:55:29.939000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 13:55:29.939000000~2019-09-19 14:10:49.788000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 14:10:49.788000000~2019-09-19 14:25:53.443000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 14:25:53.443000000~2019-09-19 14:41:02.061000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 14:41:02.061000000~2019-09-19 14:56:03.215000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 14:56:03.215000000~2019-09-19 15:11:06.074000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 15:11:06.074000000~2019-09-19 15:26:10.688000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 15:26:10.688000000~2019-09-19 15:41:15.594000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 15:41:15.594000000~2019-09-19 15:56:24.026000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 15:56:24.026000000~2019-09-19 16:11:32.979000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 16:11:32.979000000~2019-09-19 17:12:00.653000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 17:12:00.653000000~2019-09-19 17:27:12.681000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 17:27:12.681000000~2019-09-19 17:43:03.128000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 17:43:03.128000000~2019-09-19 17:58:07.237000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 17:58:07.237000000~2019-09-19 18:13:24.209000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 18:13:24.209000000~2019-09-19 18:28:56.089000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 18:28:56.089000000~2019-09-19 18:43:58.167000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 18:43:58.167000000~2019-09-19 19:00:43.796000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 19:00:43.796000000~2019-09-19 19:16:27.711000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 19:16:27.711000000~2019-09-19 19:31:28.259000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 19:31:28.259000000~2019-09-19 19:46:29.414000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 19:46:29.414000000~2019-09-19 20:01:36.666000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 20:01:36.666000000~2019-09-19 20:16:50.998000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 20:16:50.998000000~2019-09-19 20:32:02.827000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 20:32:02.827000000~2019-09-19 20:47:04.748000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 20:47:04.748000000~2019-09-19 21:02:10.133000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 21:02:10.133000000~2019-09-19 21:17:53.083000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 21:17:53.083000000~2019-09-19 21:33:27.925000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 21:33:27.925000000~2019-09-19 21:49:34.293000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 21:49:34.293000000~2019-09-19 22:04:46.876000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 22:04:46.876000000~2019-09-19 22:20:17.008000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 22:20:17.008000000~2019-09-19 22:35:29.989000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 22:35:29.989000000~2019-09-19 22:50:54.619000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 22:50:54.619000000~2019-09-19 23:05:55.175000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 23:05:55.175000000~2019-09-19 23:21:46.944000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 23:21:46.944000000~2019-09-19 23:37:02.269000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 23:37:02.269000000~2019-09-19 23:53:37.924000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 23:53:37.924000000~2019-09-19 23:59:59.983000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 00:00:00.027000000~2019-09-20 00:15:43.075000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 00:15:43.075000000~2019-09-20 00:31:05.728000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 00:31:05.728000000~2019-09-20 00:46:07.237000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 00:46:07.237000000~2019-09-20 01:01:30.304000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 01:01:30.304000000~2019-09-20 01:16:39.539000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 01:16:39.539000000~2019-09-20 01:32:02.621000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 01:32:02.621000000~2019-09-20 01:47:08.619000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 01:47:08.619000000~2019-09-20 02:03:02.039000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 02:03:02.039000000~2019-09-20 02:18:02.338000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 02:18:02.338000000~2019-09-20 02:33:51.933000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 02:33:51.933000000~2019-09-20 02:49:32.384000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 02:49:32.384000000~2019-09-20 03:04:59.779000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 03:04:59.779000000~2019-09-20 03:20:02.507000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 03:20:02.507000000~2019-09-20 03:35:56.364000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 03:35:56.364000000~2019-09-20 03:51:13.134000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 03:51:13.134000000~2019-09-20 04:06:14.894000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 04:06:14.894000000~2019-09-20 04:21:34.377000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 04:21:34.377000000~2019-09-20 04:36:44.021000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 04:36:44.021000000~2019-09-20 04:53:03.452000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 04:53:03.452000000~2019-09-20 05:08:53.819000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 05:08:53.819000000~2019-09-20 05:24:03.128000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 05:24:03.128000000~2019-09-20 05:40:01.188000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 05:40:01.188000000~2019-09-20 05:55:04.133000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 05:55:04.133000000~2019-09-20 06:11:07.481000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 06:11:07.481000000~2019-09-20 06:26:59.536000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 06:26:59.536000000~2019-09-20 06:42:19.345000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 06:42:19.345000000~2019-09-20 06:57:51.202000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 06:57:51.202000000~2019-09-20 07:13:02.866000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 07:13:02.866000000~2019-09-20 07:28:17.923000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 07:28:17.923000000~2019-09-20 07:43:21.697000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 07:43:21.697000000~2019-09-20 07:58:32.001000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 07:58:32.001000000~2019-09-20 08:13:42.793000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 08:13:42.793000000~2019-09-20 08:28:53.882000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 08:28:53.882000000~2019-09-20 08:44:39.914000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 08:44:39.914000000~2019-09-20 08:59:56.587000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 08:59:56.587000000~2019-09-20 09:15:40.842000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 09:15:40.842000000~2019-09-20 09:31:35.342000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 09:31:35.342000000~2019-09-20 09:46:56.868000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 09:46:56.868000000~2019-09-20 10:01:59.136000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 10:01:59.136000000~2019-09-20 10:17:03.309000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 10:17:03.309000000~2019-09-20 10:32:09.381000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 10:32:09.381000000~2019-09-20 10:47:17.045000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 10:47:17.045000000~2019-09-20 11:02:23.298000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 11:02:23.298000000~2019-09-20 11:18:00.033000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 11:18:00.033000000~2019-09-20 11:33:03.766000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 11:33:03.766000000~2019-09-20 11:48:07.805000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 11:48:07.805000000~2019-09-20 12:03:39.195000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 12:03:39.195000000~2019-09-20 12:19:13.628000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 12:19:13.628000000~2019-09-20 12:35:01.924000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 12:35:01.924000000~2019-09-20 12:50:36.718000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 12:50:36.718000000~2019-09-20 13:05:51.926000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 13:05:51.926000000~2019-09-20 13:21:01.641000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 13:21:01.641000000~2019-09-20 13:36:02.018000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 13:36:02.018000000~2019-09-20 13:51:03.488000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 13:51:03.488000000~2019-09-20 14:06:03.629000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 14:06:03.629000000~2019-09-20 14:21:34.389000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 14:21:34.389000000~2019-09-20 14:37:08.716000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 14:37:08.716000000~2019-09-20 14:52:18.096000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 14:52:18.096000000~2019-09-20 15:08:00.727000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 15:08:00.727000000~2019-09-20 15:23:12.141000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 15:23:12.141000000~2019-09-20 15:38:31.623000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 15:38:31.623000000~2019-09-20 15:54:02.728000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 15:54:02.728000000~2019-09-20 16:09:02.809000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 16:09:02.809000000~2019-09-20 16:24:12.908000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 16:24:12.908000000~2019-09-20 16:39:16.789000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 16:39:16.789000000~2019-09-20 16:54:17.156000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 16:54:17.156000000~2019-09-20 17:09:38.493000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 17:09:38.493000000~2019-09-20 17:25:00.468000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 17:25:00.468000000~2019-09-20 17:40:03.267000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 17:40:03.267000000~2019-09-20 17:55:05.389000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 17:55:05.389000000~2019-09-20 18:40:09.000000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 18:40:09.000000000~2019-09-20 18:57:19.384000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 18:57:19.384000000~2019-09-20 19:23:33.415000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 19:23:33.415000000~2019-09-20 19:38:59.999000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 19:38:59.999000000~2019-09-20 19:54:11.246000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 19:54:11.246000000~2019-09-20 20:09:12.655000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 20:09:12.655000000~2019-09-20 20:25:06.021000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 20:25:06.021000000~2019-09-20 20:40:10.178000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 20:40:10.178000000~2019-09-20 20:55:17.047000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 20:55:17.047000000~2019-09-20 21:10:49.954000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 21:10:49.954000000~2019-09-20 21:26:54.099000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 21:26:54.099000000~2019-09-20 21:42:13.522000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 21:42:13.522000000~2019-09-20 21:57:23.204000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 21:57:23.204000000~2019-09-20 22:12:24.443000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 22:12:24.443000000~2019-09-20 22:27:51.792000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 22:27:51.792000000~2019-09-20 22:42:52.958000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 22:42:52.958000000~2019-09-20 22:58:14.586000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 22:58:14.586000000~2019-09-20 23:13:40.461000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 23:13:40.461000000~2019-09-20 23:29:08.074000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 23:29:08.074000000~2019-09-20 23:44:17.425000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 23:44:17.425000000~2019-09-20 23:59:20.098000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-20/2019-09-20 23:59:20.098000000~2019-09-20 23:59:59.998000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 00:00:00.002000000~2019-09-21 00:15:41.351000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 00:15:41.351000000~2019-09-21 00:31:01.198000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 00:31:01.198000000~2019-09-21 00:46:01.882000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 00:46:01.882000000~2019-09-21 01:01:11.028000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 01:01:11.028000000~2019-09-21 01:16:20.447000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 01:16:20.447000000~2019-09-21 01:31:26.059000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 01:31:26.059000000~2019-09-21 01:46:30.026000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 01:46:30.026000000~2019-09-21 02:01:34.131000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 02:01:34.131000000~2019-09-21 02:16:59.252000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 02:16:59.252000000~2019-09-21 02:32:02.786000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 02:32:02.786000000~2019-09-21 02:47:05.459000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 02:47:05.459000000~2019-09-21 03:02:06.741000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 03:02:06.741000000~2019-09-21 03:17:26.987000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 03:17:26.987000000~2019-09-21 03:32:34.001000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 03:32:34.001000000~2019-09-21 03:47:57.144000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 03:47:57.144000000~2019-09-21 04:03:04.024000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 04:03:04.024000000~2019-09-21 04:18:27.327000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 04:18:27.327000000~2019-09-21 04:33:46.873000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 04:33:46.873000000~2019-09-21 04:49:07.753000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 04:49:07.753000000~2019-09-21 05:04:14.757000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 05:04:14.757000000~2019-09-21 05:19:37.202000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 05:19:37.202000000~2019-09-21 05:35:11.786000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 05:35:11.786000000~2019-09-21 05:50:22.263000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 05:50:22.263000000~2019-09-21 06:05:24.336000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 06:05:24.336000000~2019-09-21 06:20:35.348000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 06:20:35.348000000~2019-09-21 06:36:03.464000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 06:36:03.464000000~2019-09-21 06:51:38.579000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 06:51:38.579000000~2019-09-21 07:06:39.154000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 07:06:39.154000000~2019-09-21 07:21:50.031000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 07:21:50.031000000~2019-09-21 07:36:52.027000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 07:36:52.027000000~2019-09-21 07:52:00.123000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 07:52:00.123000000~2019-09-21 08:07:00.178000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 08:07:00.178000000~2019-09-21 08:22:35.961000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 08:22:35.961000000~2019-09-21 08:37:42.647000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 08:37:42.647000000~2019-09-21 08:52:46.586000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 08:52:46.586000000~2019-09-21 09:07:50.385000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 09:07:50.385000000~2019-09-21 09:23:03.374000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 09:23:03.374000000~2019-09-21 09:38:05.293000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 09:38:05.293000000~2019-09-21 09:53:14.184000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 09:53:14.184000000~2019-09-21 10:08:28.295000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 10:08:28.295000000~2019-09-21 10:23:41.831000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 10:23:41.831000000~2019-09-21 10:38:44.737000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 10:38:44.737000000~2019-09-21 10:54:12.488000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 10:54:12.488000000~2019-09-21 11:09:30.134000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 11:09:30.134000000~2019-09-21 11:24:35.675000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 11:24:35.675000000~2019-09-21 11:39:55.588000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 11:39:55.588000000~2019-09-21 11:55:04.396000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 11:55:04.396000000~2019-09-21 12:10:13.066000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 12:10:13.066000000~2019-09-21 12:25:21.746000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 12:25:21.746000000~2019-09-21 12:40:28.017000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 12:40:28.017000000~2019-09-21 12:55:30.478000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 12:55:30.478000000~2019-09-21 13:10:35.299000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 13:10:35.299000000~2019-09-21 13:26:12.663000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 13:26:12.663000000~2019-09-21 13:41:16.694000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 13:41:16.694000000~2019-09-21 13:56:17.255000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 13:56:17.255000000~2019-09-21 14:11:33.853000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 14:11:33.853000000~2019-09-21 14:27:18.073000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 14:27:18.073000000~2019-09-21 14:42:29.684000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 14:42:29.684000000~2019-09-21 14:57:53.213000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 14:57:53.213000000~2019-09-21 15:13:13.732000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 15:13:13.732000000~2019-09-21 15:28:34.567000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 15:28:34.567000000~2019-09-21 15:43:52.101000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 15:43:52.101000000~2019-09-21 15:59:39.926000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 15:59:39.926000000~2019-09-21 16:14:45.532000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 16:14:45.532000000~2019-09-21 16:30:29.007000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 16:30:29.007000000~2019-09-21 16:45:42.724000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 16:45:42.724000000~2019-09-21 17:01:06.974000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 17:01:06.974000000~2019-09-21 17:16:10.067000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 17:16:10.067000000~2019-09-21 17:31:56.624000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 17:31:56.624000000~2019-09-21 17:46:57.527000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 17:46:57.527000000~2019-09-21 18:02:14.019000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 18:02:14.019000000~2019-09-21 18:17:28.716000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 18:17:28.716000000~2019-09-21 18:32:35.821000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 18:32:35.821000000~2019-09-21 18:47:47.081000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 18:47:47.081000000~2019-09-21 19:03:00.702000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 19:03:00.702000000~2019-09-21 19:18:33.009000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 19:18:33.009000000~2019-09-21 19:34:03.191000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 19:34:03.191000000~2019-09-21 19:49:47.336000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 19:49:47.336000000~2019-09-21 20:04:59.354000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 20:04:59.354000000~2019-09-21 20:20:00.578000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 20:20:00.578000000~2019-09-21 20:35:02.436000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 20:35:02.436000000~2019-09-21 20:50:33.648000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 20:50:33.648000000~2019-09-21 21:05:52.052000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 21:05:52.052000000~2019-09-21 21:21:27.074000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 21:21:27.074000000~2019-09-21 21:36:52.616000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 21:36:52.616000000~2019-09-21 21:51:55.667000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 21:51:55.667000000~2019-09-21 22:07:01.883000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 22:07:01.883000000~2019-09-21 22:22:38.346000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 22:22:38.346000000~2019-09-21 22:37:42.997000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 22:37:42.997000000~2019-09-21 22:52:59.692000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 22:52:59.692000000~2019-09-21 23:08:00.047000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 23:08:00.047000000~2019-09-21 23:24:08.361000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 23:24:08.361000000~2019-09-21 23:39:31.426000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 23:39:31.426000000~2019-09-21 23:54:32.933000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-21/2019-09-21 23:54:32.933000000~2019-09-21 23:59:59.936000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 00:00:00.024000000~2019-09-22 00:15:07.059000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 00:15:07.059000000~2019-09-22 00:30:11.476000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 00:30:11.476000000~2019-09-22 00:45:16.644000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 00:45:16.644000000~2019-09-22 01:01:10.016000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 01:01:10.016000000~2019-09-22 01:16:24.725000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 01:16:24.725000000~2019-09-22 01:31:35.239000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 01:31:35.239000000~2019-09-22 01:46:37.561000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 01:46:37.561000000~2019-09-22 02:02:03.032000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 02:02:03.032000000~2019-09-22 02:17:04.975000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 02:17:04.975000000~2019-09-22 02:32:05.832000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 02:32:05.832000000~2019-09-22 02:47:13.056000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 02:47:13.056000000~2019-09-22 03:02:20.604000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 03:02:20.604000000~2019-09-22 03:17:46.247000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 03:17:46.247000000~2019-09-22 03:32:48.638000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 03:32:48.638000000~2019-09-22 03:48:02.066000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 03:48:02.066000000~2019-09-22 04:03:13.956000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 04:03:13.956000000~2019-09-22 04:18:33.043000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 04:18:33.043000000~2019-09-22 04:34:03.805000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 04:34:03.805000000~2019-09-22 04:49:36.334000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 04:49:36.334000000~2019-09-22 05:04:41.052000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 05:04:41.052000000~2019-09-22 05:19:52.563000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 05:19:52.563000000~2019-09-22 05:35:10.082000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 05:35:10.082000000~2019-09-22 05:50:43.482000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 05:50:43.482000000~2019-09-22 06:05:55.982000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 06:05:55.982000000~2019-09-22 06:21:02.572000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 06:21:02.572000000~2019-09-22 06:36:09.049000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 06:36:09.049000000~2019-09-22 06:51:36.012000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 06:51:36.012000000~2019-09-22 07:06:38.705000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 07:06:38.705000000~2019-09-22 07:21:52.291000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 07:21:52.291000000~2019-09-22 07:37:03.171000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 07:37:03.171000000~2019-09-22 07:52:16.066000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 07:52:16.066000000~2019-09-22 08:07:36.501000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 08:07:36.501000000~2019-09-22 08:23:18.889000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 08:23:18.889000000~2019-09-22 08:38:37.331000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 08:38:37.331000000~2019-09-22 08:54:02.554000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 08:54:02.554000000~2019-09-22 09:09:08.425000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 09:09:08.425000000~2019-09-22 09:24:46.732000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 09:24:46.732000000~2019-09-22 09:39:51.621000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 09:39:51.621000000~2019-09-22 09:54:54.472000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 09:54:54.472000000~2019-09-22 10:09:56.805000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 10:09:56.805000000~2019-09-22 10:25:32.182000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 10:25:32.182000000~2019-09-22 10:40:47.555000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 10:40:47.555000000~2019-09-22 10:56:01.508000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 10:56:01.508000000~2019-09-22 11:11:03.114000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 11:11:03.114000000~2019-09-22 11:26:32.655000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 11:26:32.655000000~2019-09-22 11:41:38.703000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 11:41:38.703000000~2019-09-22 11:56:43.407000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 11:56:43.407000000~2019-09-22 12:12:02.045000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 12:12:02.045000000~2019-09-22 12:27:28.481000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 12:27:28.481000000~2019-09-22 12:42:32.391000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 12:42:32.391000000~2019-09-22 12:58:00.919000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 12:58:00.919000000~2019-09-22 13:13:42.588000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 13:13:42.588000000~2019-09-22 13:28:42.659000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 13:28:42.659000000~2019-09-22 13:44:02.492000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 13:44:02.492000000~2019-09-22 13:59:07.368000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 13:59:07.368000000~2019-09-22 14:14:11.324000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 14:14:11.324000000~2019-09-22 14:29:16.876000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 14:29:16.876000000~2019-09-22 14:44:25.227000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 14:44:25.227000000~2019-09-22 14:59:59.101000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 14:59:59.101000000~2019-09-22 15:15:33.052000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 15:15:33.052000000~2019-09-22 15:30:33.596000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 15:30:33.596000000~2019-09-22 15:45:45.851000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 15:45:45.851000000~2019-09-22 16:00:57.563000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 16:00:57.563000000~2019-09-22 16:15:58.336000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 16:15:58.336000000~2019-09-22 16:31:24.256000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 16:31:24.256000000~2019-09-22 16:46:30.798000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 16:46:30.798000000~2019-09-22 17:01:42.647000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 17:01:42.647000000~2019-09-22 17:16:42.653000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 17:16:42.653000000~2019-09-22 17:31:59.765000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 17:31:59.765000000~2019-09-22 17:47:03.401000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 17:47:03.401000000~2019-09-22 18:02:32.415000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 18:02:32.415000000~2019-09-22 18:17:39.635000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 18:17:39.635000000~2019-09-22 18:32:52.963000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 18:32:52.963000000~2019-09-22 18:47:56.011000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 18:47:56.011000000~2019-09-22 19:03:03.069000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 19:03:03.069000000~2019-09-22 19:18:03.416000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 19:18:03.416000000~2019-09-22 19:33:10.629000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 19:33:10.629000000~2019-09-22 19:48:55.179000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 19:48:55.179000000~2019-09-22 20:03:59.427000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 20:03:59.427000000~2019-09-22 20:19:15.001000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 20:19:15.001000000~2019-09-22 20:34:44.086000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 20:34:44.086000000~2019-09-22 20:50:26.786000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 20:50:26.786000000~2019-09-22 21:05:34.155000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 21:05:34.155000000~2019-09-22 21:20:56.931000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 21:20:56.931000000~2019-09-22 21:36:05.737000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 21:36:05.737000000~2019-09-22 21:51:22.842000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 21:51:22.842000000~2019-09-22 22:06:26.689000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 22:06:26.689000000~2019-09-22 22:21:33.315000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 22:21:33.315000000~2019-09-22 22:36:43.565000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 22:36:43.565000000~2019-09-22 22:51:56.542000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 22:51:56.542000000~2019-09-22 23:07:03.376000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 23:07:03.376000000~2019-09-22 23:22:07.083000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 23:22:07.083000000~2019-09-22 23:37:42.649000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 23:37:42.649000000~2019-09-22 23:52:55.284000000
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-22/2019-09-22 23:52:55.284000000~2019-09-22 23:59:59.844000000
+2026-11-25 14:24:22 - ==================================================
+
+2026-11-25 14:24:22 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:22 -      perturbing a graph with 9380 nodes
+2026-11-25 14:24:22 -      perturbing a graph with 28436 edges
+2026-11-25 14:24:35 - [mal_pertubation] loaded 749 malicious node IDs for ('optc_h501', 'orthrus')
+2026-11-25 14:24:36 -     remove_edges: 8530 of 28435 candidate edges removed (e.g. [('3004791', '1', 0), ('329349', '50797', 0), ('3006638', '1', 0)])
+2026-11-25 14:24:36 - ==================================================
+
+2026-11-25 14:24:36 - ==================================================
+
+2026-11-25 14:24:36 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:36 -      perturbing a graph with 7398 nodes
+2026-11-25 14:24:36 -      perturbing a graph with 17262 edges
+2026-11-25 14:24:36 -     remove_edges: 5178 of 17261 candidate edges removed (e.g. [('329751', '50047', 0), ('3012266', '1', 2), ('418039', '3', 2)])
+2026-11-25 14:24:36 - ==================================================
+
+2026-11-25 14:24:37 - ==================================================
+
+2026-11-25 14:24:37 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:37 -      perturbing a graph with 9015 nodes
+2026-11-25 14:24:37 -      perturbing a graph with 20347 edges
+2026-11-25 14:24:37 -     remove_edges: 6104 of 20345 candidate edges removed (e.g. [('50195', '51125', 0), ('3016247', '1', 2), ('418070', '3', 0)])
+2026-11-25 14:24:37 - ==================================================
+
+2026-11-25 14:24:38 - ==================================================
+
+2026-11-25 14:24:38 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:38 -      perturbing a graph with 7893 nodes
+2026-11-25 14:24:38 -      perturbing a graph with 27297 edges
+2026-11-25 14:24:38 -     remove_edges: 8188 of 27295 candidate edges removed (e.g. [('3019639', '1', 0), ('51', '51185', 0), ('3021473', '1', 1)])
+2026-11-25 14:24:38 - ==================================================
+
+2026-11-25 14:24:38 - ==================================================
+
+2026-11-25 14:24:38 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:38 -      perturbing a graph with 12755 nodes
+2026-11-25 14:24:38 -      perturbing a graph with 40737 edges
+2026-11-25 14:24:39 -     remove_edges: 12220 of 40733 candidate edges removed (e.g. [('14', '306591', 0), ('3024969', '1', 1), ('51686', '51687', 0)])
+2026-11-25 14:24:39 - ==================================================
+
+2026-11-25 14:24:40 - ==================================================
+
+2026-11-25 14:24:40 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:40 -      perturbing a graph with 8392 nodes
+2026-11-25 14:24:40 -      perturbing a graph with 21559 edges
+2026-11-25 14:24:40 -     remove_edges: 6466 of 21555 candidate edges removed (e.g. [('12', '331260', 0), ('3030403', '1', 2), ('52420', '52427', 0)])
+2026-11-25 14:24:40 - ==================================================
+
+2026-11-25 14:24:40 - ==================================================
+
+2026-11-25 14:24:40 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:40 -      perturbing a graph with 12251 nodes
+2026-11-25 14:24:40 -      perturbing a graph with 26909 edges
+2026-11-25 14:24:40 -     remove_edges: 8072 of 26907 candidate edges removed (e.g. [('3035855', '1', 1), ('7', '3035115', 1), ('3037721', '1', 0)])
+2026-11-25 14:24:40 - ==================================================
+
+2026-11-25 14:24:42 - ==================================================
+
+2026-11-25 14:24:42 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:42 -      perturbing a graph with 8573 nodes
+2026-11-25 14:24:42 -      perturbing a graph with 30401 edges
+2026-11-25 14:24:42 -     remove_edges: 9119 of 30397 candidate edges removed (e.g. [('3011478', '3', 3), ('12', '70914', 50), ('3040188', '1', 0)])
+2026-11-25 14:24:42 - ==================================================
+
+2026-11-25 14:24:43 - ==================================================
+
+2026-11-25 14:24:43 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:43 -      perturbing a graph with 10419 nodes
+2026-11-25 14:24:43 -      perturbing a graph with 32276 edges
+2026-11-25 14:24:43 -     remove_edges: 9682 of 32275 candidate edges removed (e.g. [('3044035', '1', 1), ('14', '337581', 0), ('3045875', '1', 1)])
+2026-11-25 14:24:43 - ==================================================
+
+2026-11-25 14:24:43 - ==================================================
+
+2026-11-25 14:24:43 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:43 -      perturbing a graph with 10170 nodes
+2026-11-25 14:24:43 -      perturbing a graph with 20774 edges
+2026-11-25 14:24:43 -     remove_edges: 6232 of 20772 candidate edges removed (e.g. [('51', '53057', 0), ('3052945', '1', 0), ('337960', '12468', 0)])
+2026-11-25 14:24:43 - ==================================================
+
+2026-11-25 14:24:44 - ==================================================
+
+2026-11-25 14:24:44 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:44 -      perturbing a graph with 9451 nodes
+2026-11-25 14:24:44 -      perturbing a graph with 23967 edges
+2026-11-25 14:24:44 -     remove_edges: 7190 of 23966 candidate edges removed (e.g. [('3060176', '1', 0), ('53126', '53126', 0), ('3057390', '1', 0)])
+2026-11-25 14:24:44 - ==================================================
+
+2026-11-25 14:24:44 - ==================================================
+
+2026-11-25 14:24:44 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:44 -      perturbing a graph with 10125 nodes
+2026-11-25 14:24:44 -      perturbing a graph with 26891 edges
+2026-11-25 14:24:45 -     remove_edges: 8067 of 26889 candidate edges removed (e.g. [('3063769', '1', 0), ('12468', '3063254', 1), ('3065976', '1', 0)])
+2026-11-25 14:24:45 - ==================================================
+
+2026-11-25 14:24:45 - ==================================================
+
+2026-11-25 14:24:45 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:45 -      perturbing a graph with 10921 nodes
+2026-11-25 14:24:45 -      perturbing a graph with 36373 edges
+2026-11-25 14:24:45 -     remove_edges: 10911 of 36371 candidate edges removed (e.g. [('51240', '53550', 0), ('3071793', '1', 0), ('417269', '3', 1)])
+2026-11-25 14:24:45 - ==================================================
+
+2026-11-25 14:24:48 - ==================================================
+
+2026-11-25 14:24:48 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:48 -      perturbing a graph with 10302 nodes
+2026-11-25 14:24:48 -      perturbing a graph with 20378 edges
+2026-11-25 14:24:48 -     remove_edges: 6112 of 20374 candidate edges removed (e.g. [('26', '51233', 0), ('3075710', '1', 0), ('340979', '53235', 0)])
+2026-11-25 14:24:48 - ==================================================
+
+2026-11-25 14:24:48 - ==================================================
+
+2026-11-25 14:24:48 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:48 -      perturbing a graph with 9297 nodes
+2026-11-25 14:24:48 -      perturbing a graph with 23742 edges
+2026-11-25 14:24:49 -     remove_edges: 7122 of 23741 candidate edges removed (e.g. [('3083261', '1', 1), ('53771', '53771', 0), ('3080121', '1', 0)])
+2026-11-25 14:24:49 - ==================================================
+
+2026-11-25 14:24:49 - ==================================================
+
+2026-11-25 14:24:49 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:49 -      perturbing a graph with 10751 nodes
+2026-11-25 14:24:49 -      perturbing a graph with 24828 edges
+2026-11-25 14:24:49 -     remove_edges: 7448 of 24826 candidate edges removed (e.g. [('3087903', '53742', 0), ('51', '53816', 0), ('3084585', '1', 0)])
+2026-11-25 14:24:49 - ==================================================
+
+2026-11-25 14:24:50 - ==================================================
+
+2026-11-25 14:24:50 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:50 -      perturbing a graph with 16629 nodes
+2026-11-25 14:24:50 -      perturbing a graph with 43178 edges
+2026-11-25 14:24:50 -     remove_edges: 12952 of 43172 candidate edges removed (e.g. [('7', '54038', 0), ('3093080', '1', 0), ('54065', '3097732', 0)])
+2026-11-25 14:24:50 - ==================================================
+
+2026-11-25 14:24:51 - ==================================================
+
+2026-11-25 14:24:51 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:51 -      perturbing a graph with 10000 nodes
+2026-11-25 14:24:51 -      perturbing a graph with 21243 edges
+2026-11-25 14:24:51 -     remove_edges: 6372 of 21240 candidate edges removed (e.g. [('14', '345839', 0), ('3103484', '1', 0), ('338796', '53503', 0)])
+2026-11-25 14:24:51 - ==================================================
+
+2026-11-25 14:24:53 - ==================================================
+
+2026-11-25 14:24:53 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:53 -      perturbing a graph with 12664 nodes
+2026-11-25 14:24:53 -      perturbing a graph with 31873 edges
+2026-11-25 14:24:53 -     remove_edges: 9562 of 31872 candidate edges removed (e.g. [('3109602', '1', 0), ('51229', '54234', 0), ('3111331', '1', 1)])
+2026-11-25 14:24:53 - ==================================================
+
+2026-11-25 14:24:54 - ==================================================
+
+2026-11-25 14:24:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:54 -      perturbing a graph with 11109 nodes
+2026-11-25 14:24:54 -      perturbing a graph with 29830 edges
+2026-11-25 14:24:54 -     remove_edges: 8948 of 29825 candidate edges removed (e.g. [('3203722', '1', 0), ('12', '70914', 39), ('3206122', '1', 2)])
+2026-11-25 14:24:54 - ==================================================
+
+2026-11-25 14:24:54 - ==================================================
+
+2026-11-25 14:24:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:54 -      perturbing a graph with 10773 nodes
+2026-11-25 14:24:54 -      perturbing a graph with 29940 edges
+2026-11-25 14:24:55 -     remove_edges: 8982 of 29939 candidate edges removed (e.g. [('3210326', '1', 0), ('14', '348833', 0), ('3212851', '54145', 0)])
+2026-11-25 14:24:55 - ==================================================
+
+2026-11-25 14:24:56 - ==================================================
+
+2026-11-25 14:24:56 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:56 -      perturbing a graph with 14830 nodes
+2026-11-25 14:24:56 -      perturbing a graph with 30384 edges
+2026-11-25 14:24:56 -     remove_edges: 9114 of 30379 candidate edges removed (e.g. [('3219416', '56157', 0), ('12', '70914', 16), ('3221818', '1', 1)])
+2026-11-25 14:24:56 - ==================================================
+
+2026-11-25 14:24:58 - ==================================================
+
+2026-11-25 14:24:58 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:58 -      perturbing a graph with 12001 nodes
+2026-11-25 14:24:58 -      perturbing a graph with 28332 edges
+2026-11-25 14:24:58 -     remove_edges: 8498 of 28326 candidate edges removed (e.g. [('3227903', '1', 1), ('14', '71291', 0), ('3230536', '1', 2)])
+2026-11-25 14:24:58 - ==================================================
+
+2026-11-25 14:24:58 - ==================================================
+
+2026-11-25 14:24:58 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:58 -      perturbing a graph with 9487 nodes
+2026-11-25 14:24:58 -      perturbing a graph with 27644 edges
+2026-11-25 14:24:59 -     remove_edges: 8293 of 27642 candidate edges removed (e.g. [('3234730', '1', 1), ('51', '56617', 0), ('3236948', '1', 0)])
+2026-11-25 14:24:59 - ==================================================
+
+2026-11-25 14:24:59 - ==================================================
+
+2026-11-25 14:24:59 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:24:59 -      perturbing a graph with 8356 nodes
+2026-11-25 14:24:59 -      perturbing a graph with 23944 edges
+2026-11-25 14:24:59 -     remove_edges: 7183 of 23943 candidate edges removed (e.g. [('3242358', '1', 1), ('353469', '55986', 0), ('3239010', '1', 0)])
+2026-11-25 14:24:59 - ==================================================
+
+2026-11-25 14:25:00 - ==================================================
+
+2026-11-25 14:25:00 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:00 -      perturbing a graph with 9830 nodes
+2026-11-25 14:25:00 -      perturbing a graph with 20690 edges
+2026-11-25 14:25:00 -     remove_edges: 6206 of 20688 candidate edges removed (e.g. [('26', '56854', 0), ('3246866', '1', 0), ('118655', '56826', 0)])
+2026-11-25 14:25:00 - ==================================================
+
+2026-11-25 14:25:00 - ==================================================
+
+2026-11-25 14:25:00 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:00 -      perturbing a graph with 12472 nodes
+2026-11-25 14:25:00 -      perturbing a graph with 27491 edges
+2026-11-25 14:25:00 -     remove_edges: 8246 of 27488 candidate edges removed (e.g. [('3253219', '1', 0), ('50', '57123', 0), ('3256246', '1', 1)])
+2026-11-25 14:25:00 - ==================================================
+
+2026-11-25 14:25:02 - ==================================================
+
+2026-11-25 14:25:02 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:02 -      perturbing a graph with 12587 nodes
+2026-11-25 14:25:02 -      perturbing a graph with 32429 edges
+2026-11-25 14:25:02 -     remove_edges: 9728 of 32427 candidate edges removed (e.g. [('3258383', '1', 0), ('57161', '3258205', 0), ('3261468', '1', 0)])
+2026-11-25 14:25:02 - ==================================================
+
+2026-11-25 14:25:03 - ==================================================
+
+2026-11-25 14:25:03 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:03 -      perturbing a graph with 10750 nodes
+2026-11-25 14:25:03 -      perturbing a graph with 29579 edges
+2026-11-25 14:25:03 -     remove_edges: 8872 of 29574 candidate edges removed (e.g. [('421244', '3', 0), ('3', '355762', 0), ('3269522', '1', 0)])
+2026-11-25 14:25:03 - ==================================================
+
+2026-11-25 14:25:03 - ==================================================
+
+2026-11-25 14:25:03 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:03 -      perturbing a graph with 8693 nodes
+2026-11-25 14:25:03 -      perturbing a graph with 16192 edges
+2026-11-25 14:25:04 -     remove_edges: 4857 of 16191 candidate edges removed (e.g. [('3274059', '1', 0), ('3', '357934', 0), ('3275169', '1', 1)])
+2026-11-25 14:25:04 - ==================================================
+
+2026-11-25 14:25:04 - ==================================================
+
+2026-11-25 14:25:04 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:04 -      perturbing a graph with 8107 nodes
+2026-11-25 14:25:04 -      perturbing a graph with 21546 edges
+2026-11-25 14:25:04 -     remove_edges: 6463 of 21544 candidate edges removed (e.g. [('57414', '57414', 1), ('3279119', '1', 1), ('418081', '3', 0)])
+2026-11-25 14:25:04 - ==================================================
+
+2026-11-25 14:25:04 - ==================================================
+
+2026-11-25 14:25:04 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:04 -      perturbing a graph with 8854 nodes
+2026-11-25 14:25:04 -      perturbing a graph with 28713 edges
+2026-11-25 14:25:05 -     remove_edges: 8614 of 28712 candidate edges removed (e.g. [('3283454', '1', 1), ('355078', '57466', 0), ('3285722', '1', 0)])
+2026-11-25 14:25:05 - ==================================================
+
+2026-11-25 14:25:05 - ==================================================
+
+2026-11-25 14:25:05 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:05 -      perturbing a graph with 7858 nodes
+2026-11-25 14:25:05 -      perturbing a graph with 20837 edges
+2026-11-25 14:25:05 -     remove_edges: 6250 of 20835 candidate edges removed (e.g. [('118647', '12', 0), ('3289873', '1', 0), ('418432', '3', 0)])
+2026-11-25 14:25:05 - ==================================================
+
+2026-11-25 14:25:07 - ==================================================
+
+2026-11-25 14:25:07 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:07 -      perturbing a graph with 9135 nodes
+2026-11-25 14:25:07 -      perturbing a graph with 19443 edges
+2026-11-25 14:25:07 -     remove_edges: 5832 of 19441 candidate edges removed (e.g. [('552', '14812', 0), ('3296537', '1', 1), ('355119', '57717', 0)])
+2026-11-25 14:25:07 - ==================================================
+
+2026-11-25 14:25:07 - ==================================================
+
+2026-11-25 14:25:07 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:07 -      perturbing a graph with 8367 nodes
+2026-11-25 14:25:07 -      perturbing a graph with 22836 edges
+2026-11-25 14:25:07 -     remove_edges: 6850 of 22834 candidate edges removed (e.g. [('3302680', '1', 0), ('57858', '12474', 0), ('3299327', '1', 1)])
+2026-11-25 14:25:07 - ==================================================
+
+2026-11-25 14:25:08 - ==================================================
+
+2026-11-25 14:25:08 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:08 -      perturbing a graph with 9251 nodes
+2026-11-25 14:25:08 -      perturbing a graph with 25914 edges
+2026-11-25 14:25:08 -     remove_edges: 7774 of 25912 candidate edges removed (e.g. [('3305851', '1', 1), ('14', '359594', 0), ('3308166', '1', 0)])
+2026-11-25 14:25:08 - ==================================================
+
+2026-11-25 14:25:09 - ==================================================
+
+2026-11-25 14:25:09 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:09 -      perturbing a graph with 8132 nodes
+2026-11-25 14:25:09 -      perturbing a graph with 20715 edges
+2026-11-25 14:25:09 -     remove_edges: 6214 of 20714 candidate edges removed (e.g. [('118758', '12423', 0), ('1413930', '1', 2), ('418876', '1', 0)])
+2026-11-25 14:25:09 - ==================================================
+
+2026-11-25 14:25:09 - ==================================================
+
+2026-11-25 14:25:09 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:09 -      perturbing a graph with 10732 nodes
+2026-11-25 14:25:09 -      perturbing a graph with 20828 edges
+2026-11-25 14:25:10 -     remove_edges: 6248 of 20827 candidate edges removed (e.g. [('12546', '119069', 4), ('1421750', '1', 0), ('418267', '3', 1)])
+2026-11-25 14:25:10 - ==================================================
+
+2026-11-25 14:25:10 - ==================================================
+
+2026-11-25 14:25:10 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:10 -      perturbing a graph with 14443 nodes
+2026-11-25 14:25:10 -      perturbing a graph with 32802 edges
+2026-11-25 14:25:10 -     remove_edges: 9839 of 32796 candidate edges removed (e.g. [('12577', '12580', 0), ('120819', '12635', 0), ('418914', '1', 0)])
+2026-11-25 14:25:10 - ==================================================
+
+2026-11-25 14:25:12 - ==================================================
+
+2026-11-25 14:25:12 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:12 -      perturbing a graph with 12959 nodes
+2026-11-25 14:25:12 -      perturbing a graph with 46985 edges
+2026-11-25 14:25:12 -     remove_edges: 14092 of 46973 candidate edges removed (e.g. [('1438803', '1', 0), ('12724', '121755', 0), ('420451', '3', 3)])
+2026-11-25 14:25:12 - ==================================================
+
+2026-11-25 14:25:13 - ==================================================
+
+2026-11-25 14:25:13 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:13 -      perturbing a graph with 11771 nodes
+2026-11-25 14:25:13 -      perturbing a graph with 28645 edges
+2026-11-25 14:25:13 -     remove_edges: 8593 of 28644 candidate edges removed (e.g. [('1445186', '1', 0), ('121659', '14', 0), ('1447084', '1', 0)])
+2026-11-25 14:25:13 - ==================================================
+
+2026-11-25 14:25:14 - ==================================================
+
+2026-11-25 14:25:14 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:14 -      perturbing a graph with 11063 nodes
+2026-11-25 14:25:14 -      perturbing a graph with 21628 edges
+2026-11-25 14:25:14 -     remove_edges: 6487 of 21624 candidate edges removed (e.g. [('3', '124827', 0), ('1452326', '1', 1), ('13073', '13073', 1)])
+2026-11-25 14:25:14 - ==================================================
+
+2026-11-25 14:25:15 - ==================================================
+
+2026-11-25 14:25:15 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:15 -      perturbing a graph with 11216 nodes
+2026-11-25 14:25:15 -      perturbing a graph with 32369 edges
+2026-11-25 14:25:15 -     remove_edges: 9708 of 32361 candidate edges removed (e.g. [('419615', '3', 1), ('3', '126534', 0), ('1455857', '1', 0)])
+2026-11-25 14:25:15 - ==================================================
+
+2026-11-25 14:25:17 - ==================================================
+
+2026-11-25 14:25:17 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:17 -      perturbing a graph with 10746 nodes
+2026-11-25 14:25:17 -      perturbing a graph with 30084 edges
+2026-11-25 14:25:17 -     remove_edges: 9025 of 30083 candidate edges removed (e.g. [('1461816', '1', 1), ('50', '126746', 0), ('1464727', '1', 0)])
+2026-11-25 14:25:17 - ==================================================
+
+2026-11-25 14:25:17 - ==================================================
+
+2026-11-25 14:25:17 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:17 -      perturbing a graph with 7970 nodes
+2026-11-25 14:25:17 -      perturbing a graph with 19281 edges
+2026-11-25 14:25:17 -     remove_edges: 5784 of 19280 candidate edges removed (e.g. [('70926', '13143', 0), ('1470774', '1', 1), ('418413', '3', 0)])
+2026-11-25 14:25:17 - ==================================================
+
+2026-11-25 14:25:18 - ==================================================
+
+2026-11-25 14:25:18 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:18 -      perturbing a graph with 8658 nodes
+2026-11-25 14:25:18 -      perturbing a graph with 17347 edges
+2026-11-25 14:25:18 -     remove_edges: 5204 of 17346 candidate edges removed (e.g. [('51', '13426', 0), ('1477558', '1', 0), ('417475', '3', 2)])
+2026-11-25 14:25:18 - ==================================================
+
+2026-11-25 14:25:19 - ==================================================
+
+2026-11-25 14:25:19 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:19 -      perturbing a graph with 8264 nodes
+2026-11-25 14:25:19 -      perturbing a graph with 26261 edges
+2026-11-25 14:25:19 -     remove_edges: 7878 of 26259 candidate edges removed (e.g. [('1479903', '1', 1), ('56', '127593', 0), ('1482205', '1', 1)])
+2026-11-25 14:25:19 - ==================================================
+
+2026-11-25 14:25:19 - ==================================================
+
+2026-11-25 14:25:19 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:19 -      perturbing a graph with 10883 nodes
+2026-11-25 14:25:19 -      perturbing a graph with 27811 edges
+2026-11-25 14:25:20 -     remove_edges: 8342 of 27808 candidate edges removed (e.g. [('1484408', '1', 0), ('26', '12986', 0), ('1487146', '1', 0)])
+2026-11-25 14:25:20 - ==================================================
+
+2026-11-25 14:25:20 - ==================================================
+
+2026-11-25 14:25:20 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:20 -      perturbing a graph with 9279 nodes
+2026-11-25 14:25:20 -      perturbing a graph with 20943 edges
+2026-11-25 14:25:20 -     remove_edges: 6282 of 20941 candidate edges removed (e.g. [('12980', '129562', 0), ('1491775', '1', 0), ('418065', '3', 1)])
+2026-11-25 14:25:20 - ==================================================
+
+2026-11-25 14:25:21 - ==================================================
+
+2026-11-25 14:25:21 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:21 -      perturbing a graph with 7687 nodes
+2026-11-25 14:25:21 -      perturbing a graph with 15852 edges
+2026-11-25 14:25:21 -     remove_edges: 4755 of 15851 candidate edges removed (e.g. [('1495981', '1', 0), ('3', '129666', 1), ('1497140', '1', 0)])
+2026-11-25 14:25:21 - ==================================================
+
+2026-11-25 14:25:22 - ==================================================
+
+2026-11-25 14:25:22 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:22 -      perturbing a graph with 9835 nodes
+2026-11-25 14:25:22 -      perturbing a graph with 29486 edges
+2026-11-25 14:25:22 -     remove_edges: 8845 of 29483 candidate edges removed (e.g. [('1499842', '1', 0), ('3138', '12955', 0), ('1502148', '1', 0)])
+2026-11-25 14:25:22 - ==================================================
+
+2026-11-25 14:25:22 - ==================================================
+
+2026-11-25 14:25:22 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:22 -      perturbing a graph with 10298 nodes
+2026-11-25 14:25:22 -      perturbing a graph with 26932 edges
+2026-11-25 14:25:22 -     remove_edges: 8078 of 26927 candidate edges removed (e.g. [('1508376', '1', 0), ('14', '130828', 0), ('1510677', '1', 2)])
+2026-11-25 14:25:23 - ==================================================
+
+2026-11-25 14:25:23 - ==================================================
+
+2026-11-25 14:25:23 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:23 -      perturbing a graph with 8214 nodes
+2026-11-25 14:25:23 -      perturbing a graph with 18863 edges
+2026-11-25 14:25:23 -     remove_edges: 5659 of 18862 candidate edges removed (e.g. [('417104', '3', 1), ('1515656', '1', 0), ('418957', '1', 16)])
+2026-11-25 14:25:23 - ==================================================
+
+2026-11-25 14:25:24 - ==================================================
+
+2026-11-25 14:25:24 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:24 -      perturbing a graph with 12864 nodes
+2026-11-25 14:25:24 -      perturbing a graph with 26733 edges
+2026-11-25 14:25:24 -     remove_edges: 8017 of 26722 candidate edges removed (e.g. [('1519916', '1', 1), ('3', '131679', 3), ('1522767', '1', 0)])
+2026-11-25 14:25:24 - ==================================================
+
+2026-11-25 14:25:25 - ==================================================
+
+2026-11-25 14:25:25 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:25 -      perturbing a graph with 9208 nodes
+2026-11-25 14:25:25 -      perturbing a graph with 29444 edges
+2026-11-25 14:25:25 -     remove_edges: 8832 of 29441 candidate edges removed (e.g. [('1523785', '1', 0), ('14', '134775', 0), ('1526146', '1', 0)])
+2026-11-25 14:25:25 - ==================================================
+
+2026-11-25 14:25:26 - ==================================================
+
+2026-11-25 14:25:26 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:26 -      perturbing a graph with 8604 nodes
+2026-11-25 14:25:26 -      perturbing a graph with 24269 edges
+2026-11-25 14:25:26 -     remove_edges: 7279 of 24264 candidate edges removed (e.g. [('1531744', '1', 0), ('14', '135029', 0), ('434760', '4', 4)])
+2026-11-25 14:25:26 - ==================================================
+
+2026-11-25 14:25:27 - ==================================================
+
+2026-11-25 14:25:27 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:27 -      perturbing a graph with 8115 nodes
+2026-11-25 14:25:27 -      perturbing a graph with 17288 edges
+2026-11-25 14:25:27 -     remove_edges: 5186 of 17287 candidate edges removed (e.g. [('14244', '14246', 0), ('1537664', '1', 0), ('418352', '3', 0)])
+2026-11-25 14:25:27 - ==================================================
+
+2026-11-25 14:25:27 - ==================================================
+
+2026-11-25 14:25:27 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:27 -      perturbing a graph with 8414 nodes
+2026-11-25 14:25:27 -      perturbing a graph with 17174 edges
+2026-11-25 14:25:28 -     remove_edges: 5152 of 17173 candidate edges removed (e.g. [('14263', '623', 0), ('1543210', '1', 0), ('417863', '3', 0)])
+2026-11-25 14:25:28 - ==================================================
+
+2026-11-25 14:25:28 - ==================================================
+
+2026-11-25 14:25:28 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:28 -      perturbing a graph with 8761 nodes
+2026-11-25 14:25:28 -      perturbing a graph with 30030 edges
+2026-11-25 14:25:28 -     remove_edges: 9008 of 30025 candidate edges removed (e.g. [('1543334', '1', 1), ('50', '14297', 1), ('1545682', '1', 0)])
+2026-11-25 14:25:28 - ==================================================
+
+2026-11-25 14:25:29 - ==================================================
+
+2026-11-25 14:25:29 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:29 -      perturbing a graph with 9548 nodes
+2026-11-25 14:25:29 -      perturbing a graph with 27594 edges
+2026-11-25 14:25:29 -     remove_edges: 8277 of 27591 candidate edges removed (e.g. [('1550537', '1', 1), ('14', '137179', 0), ('1552855', '1', 1)])
+2026-11-25 14:25:29 - ==================================================
+
+2026-11-25 14:25:29 - ==================================================
+
+2026-11-25 14:25:29 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:29 -      perturbing a graph with 8415 nodes
+2026-11-25 14:25:29 -      perturbing a graph with 16373 edges
+2026-11-25 14:25:30 -     remove_edges: 4911 of 16371 candidate edges removed (e.g. [('1555494', '1', 1), ('3', '74100', 38), ('1556650', '1', 1)])
+2026-11-25 14:25:30 - ==================================================
+
+2026-11-25 14:25:31 - ==================================================
+
+2026-11-25 14:25:31 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:31 -      perturbing a graph with 12186 nodes
+2026-11-25 14:25:31 -      perturbing a graph with 25709 edges
+2026-11-25 14:25:32 -     remove_edges: 7712 of 25705 candidate edges removed (e.g. [('1563939', '1', 0), ('12', '70914', 56), ('1559114', '1', 0)])
+2026-11-25 14:25:32 - ==================================================
+
+2026-11-25 14:25:33 - ==================================================
+
+2026-11-25 14:25:33 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:33 -      perturbing a graph with 7558 nodes
+2026-11-25 14:25:33 -      perturbing a graph with 27237 edges
+2026-11-25 14:25:33 -     remove_edges: 8171 of 27236 candidate edges removed (e.g. [('420901', '3', 2), ('416278', '0', 269), ('1566800', '1', 0)])
+2026-11-25 14:25:33 - ==================================================
+
+2026-11-25 14:25:33 - ==================================================
+
+2026-11-25 14:25:33 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:33 -      perturbing a graph with 8004 nodes
+2026-11-25 14:25:33 -      perturbing a graph with 24790 edges
+2026-11-25 14:25:33 -     remove_edges: 7436 of 24788 candidate edges removed (e.g. [('424845', '1', 1), ('103', '10', 0), ('420976', '3', 1)])
+2026-11-25 14:25:33 - ==================================================
+
+2026-11-25 14:25:34 - ==================================================
+
+2026-11-25 14:25:34 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:34 -      perturbing a graph with 7384 nodes
+2026-11-25 14:25:34 -      perturbing a graph with 15308 edges
+2026-11-25 14:25:34 -     remove_edges: 4592 of 15307 candidate edges removed (e.g. [('428369', '1', 1), ('14', '71309', 0), ('429465', '1', 0)])
+2026-11-25 14:25:34 - ==================================================
+
+2026-11-25 14:25:34 - ==================================================
+
+2026-11-25 14:25:34 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:34 -      perturbing a graph with 11619 nodes
+2026-11-25 14:25:34 -      perturbing a graph with 26808 edges
+2026-11-25 14:25:34 -     remove_edges: 8042 of 26806 candidate edges removed (e.g. [('436529', '1', 1), ('51', '225', 0), ('438377', '1', 0)])
+2026-11-25 14:25:34 - ==================================================
+
+2026-11-25 14:25:35 - ==================================================
+
+2026-11-25 14:25:35 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:35 -      perturbing a graph with 8407 nodes
+2026-11-25 14:25:35 -      perturbing a graph with 25004 edges
+2026-11-25 14:25:35 -     remove_edges: 7500 of 25001 candidate edges removed (e.g. [('442414', '1', 0), ('306', '306', 0), ('439123', '1', 0)])
+2026-11-25 14:25:35 - ==================================================
+
+2026-11-25 14:25:36 - ==================================================
+
+2026-11-25 14:25:36 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:36 -      perturbing a graph with 8617 nodes
+2026-11-25 14:25:36 -      perturbing a graph with 25937 edges
+2026-11-25 14:25:36 -     remove_edges: 7781 of 25936 candidate edges removed (e.g. [('446872', '1', 0), ('339', '29', 0), ('449142', '1', 1)])
+2026-11-25 14:25:36 - ==================================================
+
+2026-11-25 14:25:37 - ==================================================
+
+2026-11-25 14:25:37 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:37 -      perturbing a graph with 7797 nodes
+2026-11-25 14:25:37 -      perturbing a graph with 15592 edges
+2026-11-25 14:25:37 -     remove_edges: 4677 of 15591 candidate edges removed (e.g. [('451246', '1', 1), ('9', '1', 0), ('452379', '1', 0)])
+2026-11-25 14:25:37 - ==================================================
+
+2026-11-25 14:25:38 - ==================================================
+
+2026-11-25 14:25:38 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:38 -      perturbing a graph with 8109 nodes
+2026-11-25 14:25:38 -      perturbing a graph with 19893 edges
+2026-11-25 14:25:38 -     remove_edges: 5968 of 19892 candidate edges removed (e.g. [('71751', '474', 0), ('457304', '1', 0), ('418888', '1', 8)])
+2026-11-25 14:25:38 - ==================================================
+
+2026-11-25 14:25:38 - ==================================================
+
+2026-11-25 14:25:38 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:38 -      perturbing a graph with 7515 nodes
+2026-11-25 14:25:38 -      perturbing a graph with 21678 edges
+2026-11-25 14:25:38 -     remove_edges: 6503 of 21676 candidate edges removed (e.g. [('533', '72805', 0), ('460288', '1', 1), ('418456', '3', 1)])
+2026-11-25 14:25:38 - ==================================================
+
+2026-11-25 14:25:39 - ==================================================
+
+2026-11-25 14:25:39 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:39 -      perturbing a graph with 8958 nodes
+2026-11-25 14:25:39 -      perturbing a graph with 27606 edges
+2026-11-25 14:25:39 -     remove_edges: 8281 of 27604 candidate edges removed (e.g. [('465090', '1', 0), ('553', '23', 0), ('467412', '1', 1)])
+2026-11-25 14:25:39 - ==================================================
+
+2026-11-25 14:25:39 - ==================================================
+
+2026-11-25 14:25:39 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:39 -      perturbing a graph with 6957 nodes
+2026-11-25 14:25:39 -      perturbing a graph with 13884 edges
+2026-11-25 14:25:40 -     remove_edges: 4165 of 13882 candidate edges removed (e.g. [('470758', '1', 0), ('50', '617', 1), ('471906', '1', 0)])
+2026-11-25 14:25:40 - ==================================================
+
+2026-11-25 14:25:40 - ==================================================
+
+2026-11-25 14:25:40 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:40 -      perturbing a graph with 8597 nodes
+2026-11-25 14:25:40 -      perturbing a graph with 22199 edges
+2026-11-25 14:25:40 -     remove_edges: 6659 of 22198 candidate edges removed (e.g. [('477941', '1', 0), ('70934', '12', 0), ('474592', '1', 0)])
+2026-11-25 14:25:40 - ==================================================
+
+2026-11-25 14:25:41 - ==================================================
+
+2026-11-25 14:25:41 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:41 -      perturbing a graph with 7176 nodes
+2026-11-25 14:25:41 -      perturbing a graph with 18448 edges
+2026-11-25 14:25:41 -     remove_edges: 5534 of 18447 candidate edges removed (e.g. [('416278', '0', 131), ('481180', '1', 0), ('418891', '1', 0)])
+2026-11-25 14:25:41 - ==================================================
+
+2026-11-25 14:25:42 - ==================================================
+
+2026-11-25 14:25:42 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:42 -      perturbing a graph with 9255 nodes
+2026-11-25 14:25:42 -      perturbing a graph with 28448 edges
+2026-11-25 14:25:42 -     remove_edges: 8534 of 28447 candidate edges removed (e.g. [('483869', '1', 1), ('812', '807', 0), ('486215', '1', 0)])
+2026-11-25 14:25:42 - ==================================================
+
+2026-11-25 14:25:42 - ==================================================
+
+2026-11-25 14:25:42 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:42 -      perturbing a graph with 7792 nodes
+2026-11-25 14:25:42 -      perturbing a graph with 15886 edges
+2026-11-25 14:25:42 -     remove_edges: 4766 of 15885 candidate edges removed (e.g. [('489649', '1', 1), ('14', '71372', 0), ('490794', '1', 0)])
+2026-11-25 14:25:42 - ==================================================
+
+2026-11-25 14:25:43 - ==================================================
+
+2026-11-25 14:25:43 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:43 -      perturbing a graph with 8758 nodes
+2026-11-25 14:25:43 -      perturbing a graph with 22121 edges
+2026-11-25 14:25:43 -     remove_edges: 6636 of 22120 candidate edges removed (e.g. [('416278', '0', 47), ('495024', '1', 0), ('418887', '1', 26)])
+2026-11-25 14:25:43 - ==================================================
+
+2026-11-25 14:25:44 - ==================================================
+
+2026-11-25 14:25:44 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:44 -      perturbing a graph with 8455 nodes
+2026-11-25 14:25:44 -      perturbing a graph with 20674 edges
+2026-11-25 14:25:44 -     remove_edges: 6202 of 20672 candidate edges removed (e.g. [('50', '72063', 0), ('500853', '1', 0), ('417628', '3', 1)])
+2026-11-25 14:25:44 - ==================================================
+
+2026-11-25 14:25:44 - ==================================================
+
+2026-11-25 14:25:44 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:44 -      perturbing a graph with 9025 nodes
+2026-11-25 14:25:44 -      perturbing a graph with 27562 edges
+2026-11-25 14:25:44 -     remove_edges: 8268 of 27561 candidate edges removed (e.g. [('505497', '1', 0), ('416278', '0', 62), ('507827', '1', 0)])
+2026-11-25 14:25:45 - ==================================================
+
+2026-11-25 14:25:45 - ==================================================
+
+2026-11-25 14:25:45 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:45 -      perturbing a graph with 6940 nodes
+2026-11-25 14:25:45 -      perturbing a graph with 14760 edges
+2026-11-25 14:25:45 -     remove_edges: 4428 of 14759 candidate edges removed (e.g. [('510593', '1', 0), ('14', '71479', 0), ('511748', '1', 1)])
+2026-11-25 14:25:45 - ==================================================
+
+2026-11-25 14:25:45 - ==================================================
+
+2026-11-25 14:25:45 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:45 -      perturbing a graph with 8627 nodes
+2026-11-25 14:25:45 -      perturbing a graph with 20960 edges
+2026-11-25 14:25:46 -     remove_edges: 6288 of 20959 candidate edges removed (e.g. [('416278', '0', 12), ('515909', '1', 0), ('418846', '1', 0)])
+2026-11-25 14:25:46 - ==================================================
+
+2026-11-25 14:25:47 - ==================================================
+
+2026-11-25 14:25:47 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:47 -      perturbing a graph with 7844 nodes
+2026-11-25 14:25:47 -      perturbing a graph with 24200 edges
+2026-11-25 14:25:47 -     remove_edges: 7260 of 24199 candidate edges removed (e.g. [('521835', '1', 1), ('416278', '0', 142), ('498468', '3', 2)])
+2026-11-25 14:25:47 - ==================================================
+
+2026-11-25 14:25:47 - ==================================================
+
+2026-11-25 14:25:47 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:47 -      perturbing a graph with 8865 nodes
+2026-11-25 14:25:47 -      perturbing a graph with 24317 edges
+2026-11-25 14:25:48 -     remove_edges: 7295 of 24316 candidate edges removed (e.g. [('526979', '1', 1), ('50', '72579', 1), ('523630', '1', 0)])
+2026-11-25 14:25:48 - ==================================================
+
+2026-11-25 14:25:48 - ==================================================
+
+2026-11-25 14:25:48 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:48 -      perturbing a graph with 8469 nodes
+2026-11-25 14:25:48 -      perturbing a graph with 16076 edges
+2026-11-25 14:25:48 -     remove_edges: 4822 of 16075 candidate edges removed (e.g. [('530662', '1', 1), ('12', '70914', 37), ('531672', '1', 0)])
+2026-11-25 14:25:48 - ==================================================
+
+2026-11-25 14:25:49 - ==================================================
+
+2026-11-25 14:25:49 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:49 -      perturbing a graph with 8717 nodes
+2026-11-25 14:25:49 -      perturbing a graph with 22333 edges
+2026-11-25 14:25:49 -     remove_edges: 6700 of 22332 candidate edges removed (e.g. [('539157', '1', 1), ('71731', '1221', 0), ('535832', '1', 0)])
+2026-11-25 14:25:49 - ==================================================
+
+2026-11-25 14:25:49 - ==================================================
+
+2026-11-25 14:25:49 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:49 -      perturbing a graph with 8438 nodes
+2026-11-25 14:25:49 -      perturbing a graph with 28384 edges
+2026-11-25 14:25:49 -     remove_edges: 8515 of 28382 candidate edges removed (e.g. [('539771', '1', 0), ('14', '71545', 0), ('542108', '1', 0)])
+2026-11-25 14:25:49 - ==================================================
+
+2026-11-25 14:25:50 - ==================================================
+
+2026-11-25 14:25:50 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:50 -      perturbing a graph with 11680 nodes
+2026-11-25 14:25:50 -      perturbing a graph with 29914 edges
+2026-11-25 14:25:50 -     remove_edges: 8974 of 29913 candidate edges removed (e.g. [('547757', '1', 0), ('416278', '0', 57), ('549605', '1', 0)])
+2026-11-25 14:25:50 - ==================================================
+
+2026-11-25 14:25:50 - ==================================================
+
+2026-11-25 14:25:50 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:50 -      perturbing a graph with 6690 nodes
+2026-11-25 14:25:50 -      perturbing a graph with 12664 edges
+2026-11-25 14:25:50 -     remove_edges: 3799 of 12663 candidate edges removed (e.g. [('555302', '1', 0), ('14', '71347', 0), ('553617', '1', 1)])
+2026-11-25 14:25:50 - ==================================================
+
+2026-11-25 14:25:52 - ==================================================
+
+2026-11-25 14:25:52 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:52 -      perturbing a graph with 8143 nodes
+2026-11-25 14:25:52 -      perturbing a graph with 22185 edges
+2026-11-25 14:25:52 -     remove_edges: 6655 of 22184 candidate edges removed (e.g. [('70960', '14', 0), ('557810', '1', 0), ('417889', '3', 1)])
+2026-11-25 14:25:52 - ==================================================
+
+2026-11-25 14:25:53 - ==================================================
+
+2026-11-25 14:25:53 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:53 -      perturbing a graph with 8173 nodes
+2026-11-25 14:25:53 -      perturbing a graph with 26859 edges
+2026-11-25 14:25:53 -     remove_edges: 8057 of 26857 candidate edges removed (e.g. [('562686', '1', 1), ('51', '1557', 0), ('565056', '1', 1)])
+2026-11-25 14:25:53 - ==================================================
+
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:54 -      perturbing a graph with 7981 nodes
+2026-11-25 14:25:54 -      perturbing a graph with 20482 edges
+2026-11-25 14:25:54 -     remove_edges: 6144 of 20481 candidate edges removed (e.g. [('416278', '0', 67), ('568382', '1', 0), ('418889', '1', 17)])
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:54 -      perturbing a graph with 7897 nodes
+2026-11-25 14:25:54 -      perturbing a graph with 14400 edges
+2026-11-25 14:25:54 -     remove_edges: 4320 of 14399 candidate edges removed (e.g. [('573811', '1', 0), ('20', '70916', 0), ('574977', '1', 0)])
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:54 -      perturbing a graph with 8331 nodes
+2026-11-25 14:25:54 -      perturbing a graph with 22088 edges
+2026-11-25 14:25:55 -     remove_edges: 6626 of 22086 candidate edges removed (e.g. [('1675', '1676', 1), ('577403', '1', 0), ('417649', '3', 1)])
+2026-11-25 14:25:55 - ==================================================
+
+2026-11-25 14:25:55 - ==================================================
+
+2026-11-25 14:25:55 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:55 -      perturbing a graph with 3640 nodes
+2026-11-25 14:25:55 -      perturbing a graph with 11061 edges
+2026-11-25 14:25:55 -     remove_edges: 3318 of 11060 candidate edges removed (e.g. [('418864', '1', 0), ('580984', '1', 1), ('418987', '1', 20)])
+2026-11-25 14:25:55 - ==================================================
+

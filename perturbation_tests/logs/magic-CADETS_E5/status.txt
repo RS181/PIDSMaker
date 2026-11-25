@@ -1,0 +1,50 @@
+2026-11-17 15:27:23 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-17 15:27:23 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-17 21:45:05 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-17 21:45:05 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-18 00:21:10 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-18 00:21:10 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-18 05:24:09 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-18 05:24:09 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-18 09:21:36 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-18 09:21:36 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | 
+2026-11-18 09:21:49 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-18 09:21:49 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | 
+2026-11-18 09:21:56 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-18 09:21:56 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-18 09:22:55 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | exit code -15
+2026-11-18 09:22:55 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-20 09:54:08 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 09:56:12 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 09:56:12 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 09:58:16 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 09:58:16 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 10:00:20 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 10:00:20 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 10:02:22 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 10:02:22 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 10:04:14 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 10:04:14 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 10:06:06 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | exit code -2
+2026-11-20 10:06:26 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 10:08:18 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 10:08:18 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 10:10:10 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 10:10:10 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 10:12:04 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-20 10:12:04 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 10:13:59 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-20 10:13:59 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 10:15:52 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-20 10:15:52 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 10:17:51 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-20 10:17:51 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 10:19:45 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-20 10:19:45 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 10:21:06 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.5_selection-random_seed-19.log | exit code -15
+2026-11-20 10:21:11 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 10:23:00 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 10:23:00 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 10:24:46 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 10:24:46 | START | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 10:25:51 | FAIL  | ./perturbation_tests/logs/magic-CADETS_E5/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | exit code -15

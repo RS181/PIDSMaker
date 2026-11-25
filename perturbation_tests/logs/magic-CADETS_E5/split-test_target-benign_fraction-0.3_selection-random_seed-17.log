@@ -1,0 +1,37 @@
+2026-11-20 10:04:14 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.3, 'selection': 'random', 'seed': 17}
+2026-11-20 10:04:14 - python pidsmaker/main.py magic CADETS_E5 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.3 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=17  
+2026-11-20 10:04:28 - Running pipeline in 'Standard' mode.
+2026-11-20 10:04:28 - Task construction: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8
+2026-11-20 10:04:28 - ======= START SUBTASK build_default_graphs.py =======
+2026-11-20 10:04:32 - Number of netflow nodes: 155322
+2026-11-20 10:04:35 - Number of process nodes: 224146
+2026-11-20 10:05:05 - Number of file nodes: 2303164
+2026-11-20 10:05:05 - Building graphs...
+Traceback (most recent call last):
+  File "/home/pids/pidsmaker/main.py", line 343, in <module>
+    main(cfg, project=args.project, exp=exp_name, sweep_id=args.sweep_id)
+  File "/home/pids/pidsmaker/main.py", line 288, in main
+    run_pipeline_with_experiments(cfg)
+  File "/home/pids/pidsmaker/main.py", line 202, in run_pipeline_with_experiments
+    metrics, times = run_pipeline(cfg)
+  File "/home/pids/pidsmaker/main.py", line 175, in run_pipeline
+    task_results = {task: run_task(task, cfg, method, iteration) for task in tasks}
+  File "/home/pids/pidsmaker/main.py", line 175, in <dictcomp>
+    task_results = {task: run_task(task, cfg, method, iteration) for task in tasks}
+  File "/home/pids/pidsmaker/main.py", line 158, in run_task
+    return_value = module.main(cfg)
+  File "/home/pids/pidsmaker/tasks/construction.py", line 23, in main
+    main_from_config(cfg)
+  File "/home/pids/pidsmaker/tasks/construction.py", line 12, in main_from_config
+    build_default_graphs.main(cfg)
+  File "/home/pids/pidsmaker/preprocessing/build_graph_methods/build_default_graphs.py", line 563, in main
+    split2nodes = compute_and_save_split2nodes(cfg)
+  File "/home/pids/pidsmaker/preprocessing/build_graph_methods/build_default_graphs.py", line 218, in compute_and_save_split2nodes
+    split_to_files = get_split_to_files(cfg, cfg.construction._graphs_dir)
+  File "/home/pids/pidsmaker/utils/utils.py", line 477, in get_split_to_files
+    "train": get_all_graphs_for_dates(base_dir, cfg.dataset.train_dates),
+  File "/home/pids/pidsmaker/utils/utils.py", line 338, in get_all_graphs_for_dates
+    return get_all_files_from_folders(base_dir, [f"graph_{date}" for date in dates])
+  File "/home/pids/pidsmaker/utils/utils.py", line 329, in get_all_files_from_folders
+    for sub in os.listdir(base_dir)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/'

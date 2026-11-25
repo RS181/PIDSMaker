@@ -1,0 +1,49 @@
+2026-11-25 10:57:13 - {'split': 'test', 'target': 'all', 'edge_rule': None, 'edge_types': None, 'fraction': 0.5, 'selection': 'random', 'seed': 17}
+2026-11-25 10:57:13 - python pidsmaker/main.py threatrace CADETS_E3 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=all --transformation.mal_perturbation.fraction=0.5 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=17  
+Traceback (most recent call last):
+  File "/home/pids/pidsmaker/main.py", line 20, in <module>
+2026-11-25 11:27:33 - [@epoch03] Test finished - Test Loss: 0.0030
+
+2026-11-25 11:27:33 - Training...
+2026-11-25 11:28:02 - [@epoch04] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-25 11:28:02 - Training...
+2026-11-25 11:28:32 - [@epoch05] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0019
+
+2026-11-25 11:28:32 - Validation...
+2026-11-25 11:46:10 - [@epoch05] Validation finished - Val Loss: 0.0002
+
+2026-11-25 11:46:10 - Testing...
+2026-11-25 12:35:26 - [@epoch05] Test finished - Test Loss: 0.0032
+
+2026-11-25 12:35:26 - Training...
+2026-11-25 12:36:02 - [@epoch06] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-25 12:36:02 - Training...
+2026-11-25 12:36:35 - [@epoch07] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-25 12:36:35 - Validation...
+2026-11-25 12:59:09 - [@epoch07] Validation finished - Val Loss: 0.0002
+
+2026-11-25 12:59:09 - Testing...
+2026-11-25 13:33:26 - [@epoch07] Test finished - Test Loss: 0.0032
+
+2026-11-25 13:33:26 - Training...
+2026-11-25 13:33:52 - [@epoch08] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-25 13:33:52 - Training...
+2026-11-25 13:34:16 - [@epoch09] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-25 13:34:16 - Validation...
+2026-11-25 13:48:41 - [@epoch09] Validation finished - Val Loss: 0.0002
+
+2026-11-25 13:48:41 - Testing...
+2026-11-25 14:22:06 - [@epoch09] Test finished - Test Loss: 0.0029
+
+2026-11-25 14:22:06 - Training...
+2026-11-25 14:22:29 - [@epoch10] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0017
+
+2026-11-25 14:22:29 - Training...
+2026-11-25 14:22:54 - [@epoch11] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-25 14:22:54 - Validation...

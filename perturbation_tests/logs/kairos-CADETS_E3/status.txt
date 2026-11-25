@@ -1,0 +1,843 @@
+2026-11-14 23:31:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-14 23:31:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-14 23:31:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-15 01:08:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-15 01:08:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-15 01:09:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-15 01:09:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-15 01:48:32 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-15 01:48:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | 
+2026-11-15 01:48:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-15 01:48:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | 
+2026-11-15 02:28:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-15 02:28:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-15 03:16:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-15 03:16:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | 
+2026-11-15 04:24:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-15 04:24:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | 
+2026-11-15 04:24:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-15 04:24:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | 
+2026-11-15 05:01:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-15 05:01:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-17.log | 
+2026-11-15 05:02:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-15 05:02:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-15.log | 
+2026-11-15 05:26:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-15 05:26:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-16.log | 
+2026-11-15 05:54:50 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-15 05:54:50 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-17.log | 
+2026-11-15 06:43:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-15 06:43:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-15 06:43:33 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-15 06:43:33 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-15 07:24:51 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-15 07:24:51 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-15 07:25:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-15 07:25:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-15 08:05:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-15 08:05:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-15 08:52:41 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-15 08:52:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-15 09:32:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-15 09:32:52 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-15 09:32:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-15 09:32:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-15 10:11:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-15 10:11:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-15 10:11:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-15 10:11:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-15 10:54:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-15 10:54:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-15 10:54:44 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-15 10:54:44 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-15 11:35:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-15 11:35:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-15 12:18:00 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-15 12:18:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-15 13:08:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-15 13:08:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-15 13:08:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-15 13:08:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-15 13:50:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-15 13:50:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-15 13:50:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-15 13:50:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-15 14:35:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-15 14:35:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-15 14:35:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-15 14:35:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-15 15:15:48 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-15 15:15:48 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-15 15:15:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-15 15:15:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-15 15:57:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-15 15:57:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-15 15:57:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-15 15:57:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-15 16:40:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-15 16:40:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-15 16:40:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-15 16:40:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-15 17:25:10 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-15 17:25:10 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-15 17:25:15 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-15 17:25:15 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-15 17:25:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-15 17:25:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-15 18:09:59 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-15 18:09:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-15 18:10:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-15 18:10:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-15 18:53:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-15 18:53:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-15 18:53:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-15 18:53:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-15 19:35:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-15 19:35:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-15 19:56:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-15 19:56:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-15 20:37:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-15 20:37:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-15 20:37:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-15 20:37:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-15 21:19:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-15 21:19:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-15 22:00:35 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-15 22:00:35 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-15 22:43:32 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-15 22:43:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-15 22:43:35 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-15 22:43:35 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-15 23:27:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-15 23:27:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-15 23:27:32 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-15 23:27:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 00:09:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-16 00:09:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 00:50:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-16 00:50:52 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 00:50:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-16 00:50:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-16 01:34:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-16 01:34:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-16 01:34:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-16 01:34:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-16 02:18:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-16 02:18:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-16 02:18:11 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-16 02:18:11 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-16 02:18:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-16 02:18:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-16 03:06:50 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-16 03:06:50 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-16 03:07:17 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-16 03:07:17 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-16 03:48:18 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-16 03:48:18 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-16 04:50:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-16 04:50:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-16 05:47:44 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-16 05:47:44 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-16 05:47:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-16 05:47:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-16 06:28:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-16 06:28:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 06:28:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-16 06:28:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 07:08:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-16 07:08:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 07:22:29 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-16 07:22:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-16 08:01:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-16 08:01:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-16 08:40:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-16 08:40:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-16 09:18:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-16 09:18:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-16 09:18:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-16 09:18:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-16 09:58:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-16 09:58:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-16 09:58:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-16 09:58:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-16 10:36:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-16 10:36:01 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-16 10:36:06 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-16 10:36:06 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-16 11:15:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-16 11:15:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-16 11:15:25 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-16 11:15:25 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-16 11:51:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-16 11:51:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-16 11:52:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-16 11:52:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-16 12:25:48 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-16 12:25:48 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-16 13:06:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-16 13:06:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-16 13:06:17 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-16 13:42:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code -15
+2026-11-16 13:42:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-16 13:43:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-16 13:43:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-16 13:43:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-16 14:13:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-16 14:13:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-16 14:13:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-16 14:13:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-16 14:13:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-16 14:13:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | 
+2026-11-16 14:41:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-16 14:41:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-16 15:15:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-16 15:15:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | exit code -15
+2026-11-16 15:15:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code -15
+2026-11-17 11:11:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-17 11:11:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-17 11:11:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-17 11:11:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-17 11:44:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-17 11:44:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-17 11:44:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-17 11:44:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | 
+2026-11-17 11:44:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-17 11:44:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-17 12:12:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-17 12:12:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | 
+2026-11-17 12:13:38 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-17 12:13:38 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | 
+2026-11-17 12:39:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-17 12:39:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | 
+2026-11-17 12:52:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | exit code -15
+2026-11-17 12:52:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | exit code -15
+2026-11-17 12:52:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-17 12:52:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code -15
+2026-11-17 15:08:18 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-17 15:08:18 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-17 15:34:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-17 15:34:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-17 15:49:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code -15
+2026-11-17 15:49:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code -15
+2026-11-17 15:50:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-17 20:20:20 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-17 20:20:20 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | 
+2026-11-18 01:49:45 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-18 01:49:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | 
+2026-11-18 07:10:31 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-18 07:10:31 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-18 10:38:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code -15
+2026-11-19 14:29:43 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | 
+2026-11-19 18:58:18 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-19 18:58:18 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-19 22:12:19 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code -15
+2026-11-19 22:12:37 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | 
+2026-11-19 22:12:37 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 02:21:13 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-20 02:21:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 02:54:23 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-20 02:54:23 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 04:01:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 04:01:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 07:48:27 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-20 07:48:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 08:30:20 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-20 08:30:20 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 12:10:33 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-20 12:10:33 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 12:58:53 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-20 12:58:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 16:29:32 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-20 16:29:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 17:22:51 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-20 17:22:51 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 21:46:59 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-20 21:46:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:36:17 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-16.log | exit code 0
+2026-11-20 22:36:17 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:43:15 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:43:15 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:43:30 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:43:30 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:43:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:43:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 22:43:44 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:43:44 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:43:57 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 22:43:57 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:43:59 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:43:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:44:12 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:44:15 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:15 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:44:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:44:31 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:31 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:44:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:44:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 22:44:46 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-20 22:44:46 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 22:44:57 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 22:44:57 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:45:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 22:45:01 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:45:12 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:45:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 22:45:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:45:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:45:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 22:45:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:45:31 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:45:31 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 22:45:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:45:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:45:45 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 22:45:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:45:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:45:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:45:59 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:45:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:46:11 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:46:11 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:46:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:46:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:46:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:46:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:46:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:46:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 22:46:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-20 22:46:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 22:46:43 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 22:46:43 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:46:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 22:46:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:46:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:46:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 22:47:10 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:47:10 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:47:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 22:47:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:47:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:47:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 22:47:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:47:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:47:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 22:47:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:47:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:47:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:47:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:47:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:47:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:47:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:48:06 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:48:06 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:48:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:48:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:48:20 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:48:20 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 22:48:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-20 22:48:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 22:48:32 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 22:48:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:48:35 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 22:48:35 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:48:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:48:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 22:48:48 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:48:48 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:49:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 22:49:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:49:03 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:49:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:49:12 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:49:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:49:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:49:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:49:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:49:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:49:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:49:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:49:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:49:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:49:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:49:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:49:51 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:49:51 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-20 22:49:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-20 22:49:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-20 22:50:05 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-20 22:50:05 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-20 22:50:08 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-20 22:50:08 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-20 22:50:19 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-20 22:50:19 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-20 22:50:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-20 22:50:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-20 22:50:32 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-20 22:50:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-20 22:50:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-20 22:50:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-20 22:50:45 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-20 22:50:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-20 22:50:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-20 22:50:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-20 22:50:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-20 22:50:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-20 22:51:02 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-20 22:51:02 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-20 22:51:12 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-20 22:51:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-20 22:51:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-20 22:51:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-20 22:51:25 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-20 22:51:25 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-20 22:51:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-20 22:51:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 10:46:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 10:46:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 10:46:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 10:46:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 10:46:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code -15
+2026-11-21 10:46:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | exit code -15
+2026-11-21 10:46:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | exit code -15
+2026-11-21 10:46:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | exit code -15
+2026-11-21 10:50:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 10:50:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 10:50:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 10:50:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 10:50:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code -15
+2026-11-21 10:50:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | exit code -15
+2026-11-21 10:50:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | exit code -15
+2026-11-21 10:50:37 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | exit code -15
+2026-11-21 10:51:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 10:51:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 15:29:04 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-21 15:29:04 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 16:09:25 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-17.log | exit code 0
+2026-11-21 16:09:25 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 20:27:12 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-21 20:27:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 20:55:53 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-17.log | exit code 0
+2026-11-21 20:55:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 23:32:05 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-21 23:32:05 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:32:06 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:06 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:32:20 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:32:20 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:32:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:32:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:32:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:32:35 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:32:35 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:32:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:32:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:32:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-21 23:32:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-21 23:33:02 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:02 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-21 23:33:02 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:02 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 23:33:15 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:15 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 23:33:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-21 23:33:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 23:33:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 23:33:43 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:43 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 23:33:45 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:33:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:33:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-21 23:33:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:33:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:33:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:34:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:34:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:34:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:34:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:34:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:34:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:34:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:34:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:34:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 23:34:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-21 23:34:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-21 23:34:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-21 23:34:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-21 23:34:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 23:34:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-21 23:34:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 23:35:08 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-21 23:35:08 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-21 23:35:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-21 23:35:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 23:35:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-21 23:35:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 23:35:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-21 23:35:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 23:35:38 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-21 23:35:38 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:35:38 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:35:38 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:35:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:35:52 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:35:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:35:52 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:36:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:36:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:36:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:36:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:36:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-21 23:36:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:36:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:36:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-21 23:36:33 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-21 23:36:33 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-21 23:36:35 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 23:36:35 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 23:36:48 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-21 23:36:48 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 23:36:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-21 23:36:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-21 23:37:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-21 23:37:01 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 23:37:03 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-21 23:37:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 23:37:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-21 23:37:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:37:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:37:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:37:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:37:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:37:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:37:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:37:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:37:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:37:43 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:37:43 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:37:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:37:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:37:57 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-21 23:37:57 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-21 23:38:08 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-21 23:38:08 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-21 23:38:11 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-21 23:38:11 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-21 23:38:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-21 23:38:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-21 23:38:23 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-21 23:38:23 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-21 23:38:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-21 23:38:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-21 23:38:37 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-21 23:38:37 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-21 23:38:46 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-21 23:38:46 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-21 23:38:50 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-21 23:38:50 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-21 23:38:59 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-21 23:38:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-21 23:39:03 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-21 23:39:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-21 23:39:11 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-21 23:39:11 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-21 23:39:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-21 23:39:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-21 23:39:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-21 23:39:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-21 23:39:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-21 23:39:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-21 23:39:38 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-21 23:39:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 00:05:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 00:06:05 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code -15
+2026-11-22 00:06:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 04:38:07 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-15.log | exit code 0
+2026-11-22 04:38:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-22 09:21:14 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-16.log | exit code 0
+2026-11-22 09:21:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 14:05:23 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-17.log | exit code 0
+2026-11-22 14:05:23 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:46:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:46:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:46:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:46:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 15:46:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 15:46:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 15:47:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 15:47:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 15:47:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 15:47:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 15:47:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 15:47:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 15:47:40 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-22 15:47:40 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 15:47:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-22 15:47:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 15:48:05 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-22 15:48:05 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 15:48:19 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-22 15:48:19 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-22 15:48:33 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-22 15:48:33 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 15:48:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-22 15:48:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 15:49:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-22 15:49:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-22 15:49:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-22 15:49:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 15:49:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-22 15:49:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:49:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:49:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:49:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:49:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 15:50:10 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 15:50:10 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 15:50:23 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 15:50:23 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 15:50:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 15:50:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 15:50:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 15:50:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 15:51:04 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-22 15:51:04 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 15:51:17 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-22 15:51:17 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 15:51:31 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-22 15:51:31 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 15:51:45 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-22 15:51:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-22 15:51:59 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-22 15:51:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 15:52:12 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-22 15:52:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 15:52:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-22 15:52:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-22 15:52:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-22 15:52:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 15:52:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-22 15:52:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:53:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:53:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:53:20 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:53:20 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 15:53:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 15:53:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 15:53:48 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 15:53:48 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 15:54:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 15:54:01 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 15:54:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 15:54:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 15:54:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-22 15:54:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 15:54:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-22 15:54:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 15:54:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-22 15:54:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 15:55:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-22 15:55:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-22 15:55:20 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-22 15:55:20 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 15:55:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-22 15:55:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 15:55:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-22 15:55:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 15:56:01 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-22 15:56:01 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:56:15 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:56:15 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:56:28 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:56:28 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 15:56:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 15:56:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 15:56:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 15:56:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 15:57:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 15:57:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 15:57:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 15:57:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-22 15:57:37 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-22 15:57:37 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-22 15:57:50 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-22 15:57:50 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-22 15:58:02 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-22 15:58:02 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-22 15:58:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-22 15:58:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-22 15:58:30 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-22 15:58:30 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-22 15:58:43 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-22 15:58:43 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-22 15:58:57 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-22 15:58:57 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-22 15:59:10 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-22 15:59:10 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-22 15:59:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-22 15:59:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 15:59:37 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-22 15:59:37 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-22 15:59:51 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-22 15:59:51 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-22 16:00:04 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-22 16:00:04 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-22 16:00:17 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-22 16:00:17 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-22 16:00:30 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-22 16:00:30 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-22 16:00:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-22 17:10:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 17:10:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code -15
+2026-11-22 17:10:44 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-22 22:46:32 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-15.log | exit code 0
+2026-11-22 22:46:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-23 04:26:44 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-16.log | exit code 0
+2026-11-23 04:26:44 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-23 09:27:44 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-17.log | exit code 0
+2026-11-23 09:27:44 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-23 14:58:17 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-15.log | exit code 0
+2026-11-23 14:58:17 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-23 19:43:27 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-16.log | exit code 0
+2026-11-23 19:43:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-24 00:21:10 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-24 00:21:10 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-24 03:58:25 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-24 03:58:25 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 03:58:38 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-24 03:58:38 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 03:58:51 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-24 03:58:51 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-24 03:59:05 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-24 03:59:05 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-24 03:59:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-24 03:59:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-24 03:59:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-24 03:59:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-24 03:59:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-24 03:59:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-24 03:59:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-24 03:59:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-24 04:00:07 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-24 04:00:07 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-24 04:00:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-24 04:00:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-24 04:00:33 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-24 04:00:33 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-24 04:00:46 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-24 04:00:46 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-24 04:01:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-24 04:01:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-24 04:01:13 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-24 04:01:13 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-24 04:01:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-24 04:01:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | 
+2026-11-24 04:01:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-24 04:01:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 04:01:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-24 04:01:52 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 04:02:06 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-24 04:02:06 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | 
+2026-11-24 04:02:19 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-24 04:02:19 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | 
+2026-11-24 04:02:32 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-24 04:02:32 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | 
+2026-11-24 04:02:45 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-24 04:02:45 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | 
+2026-11-24 04:02:58 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-24 04:02:58 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | 
+2026-11-24 04:03:11 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-24 04:03:11 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | 
+2026-11-24 04:03:24 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-24 04:03:24 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | 
+2026-11-24 04:03:36 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-24 04:03:36 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | 
+2026-11-24 04:03:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-24 04:03:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | 
+2026-11-24 04:04:03 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-24 04:04:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | 
+2026-11-24 04:04:16 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-24 04:04:16 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | 
+2026-11-24 04:04:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-24 04:04:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | 
+2026-11-24 04:04:43 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-24 04:04:43 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-24 04:04:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-24 04:04:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 04:05:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-24 04:05:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 04:05:22 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-24 04:05:22 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-24 04:05:35 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-24 04:05:35 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-24 04:05:48 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-24 04:05:48 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-24 04:06:03 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-24 04:06:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-24 04:06:15 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-24 04:06:15 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | 
+2026-11-24 04:06:29 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-24 04:06:29 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | 
+2026-11-24 04:06:42 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-24 04:06:42 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | 
+2026-11-24 04:06:55 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-24 04:06:55 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | 
+2026-11-24 04:07:08 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-24 04:07:08 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | 
+2026-11-24 04:07:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-24 04:07:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | 
+2026-11-24 04:07:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-24 04:07:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | 
+2026-11-24 04:07:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-24 04:07:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | 
+2026-11-24 04:08:00 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-15.log | exit code 1
+2026-11-24 04:08:00 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 04:08:14 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-24 04:08:14 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 04:08:27 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-24 04:08:27 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | 
+2026-11-24 04:08:41 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-15.log | exit code 1
+2026-11-24 04:08:41 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | 
+2026-11-24 04:08:54 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-16.log | exit code 1
+2026-11-24 04:08:54 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | 
+2026-11-24 04:09:06 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-24 04:09:06 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | 
+2026-11-24 04:09:21 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-24 04:09:21 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | 
+2026-11-24 04:09:34 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-24 04:09:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | 
+2026-11-24 04:09:47 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.5_selection-random_seed-17.log | exit code 1
+2026-11-24 04:09:47 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | 
+2026-11-24 04:09:59 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-15.log | exit code 1
+2026-11-24 04:09:59 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | 
+2026-11-24 04:10:12 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-16.log | exit code 1
+2026-11-24 04:10:12 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | 
+2026-11-24 04:10:26 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 1
+2026-11-24 04:10:26 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | 
+2026-11-24 04:10:39 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-15.log | exit code 1
+2026-11-24 04:10:39 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | 
+2026-11-24 04:10:52 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 1
+2026-11-24 04:10:52 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | 
+2026-11-24 04:11:02 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 1
+2026-11-24 08:47:37 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | 
+2026-11-24 13:35:50 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-15.log | exit code 0
+2026-11-24 13:35:50 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | 
+2026-11-24 16:44:09 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-16.log | exit code 1
+2026-11-24 16:44:09 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | 
+2026-11-24 19:40:49 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-17.log | exit code 1
+2026-11-24 19:40:49 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | 
+2026-11-25 01:54:34 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-15.log | exit code 0
+2026-11-25 01:54:34 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | 
+2026-11-25 06:32:03 | DONE  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-16.log | exit code 0
+2026-11-25 06:32:03 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | 
+2026-11-25 09:01:53 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-17.log | exit code 1
+2026-11-25 09:01:53 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | 
+2026-11-25 10:49:19 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-15.log | exit code 1
+2026-11-25 10:49:19 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | 
+2026-11-25 12:53:56 | FAIL  | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-16.log | exit code 1
+2026-11-25 12:53:56 | START | ./perturbation_tests/logs/kairos-CADETS_E3/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-17.log | 

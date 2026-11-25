@@ -1,0 +1,10 @@
+2026-11-21 10:45:03 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.3, 'selection': 'random', 'seed': 18}
+2026-11-21 10:45:03 - python pidsmaker/main.py magic CADETS_E3 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.3 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=18  
+Traceback (most recent call last):
+  File "/home/pids/pidsmaker/main.py", line 33, in <module>
+    from pidsmaker.experiments.uncertainty import (
+  File "/home/pids/pidsmaker/experiments/uncertainty.py", line 9, in <module>
+    from torch_geometric.nn import MessagePassing
+  File "/opt/conda/envs/pids/lib/python3.9/site-packages/torch_geometric/__init__.py", line 4, in <module>
+    import torch_geometric.typing
+  File "/opt/conda/envs/pids/lib/python3.9/site-packages/torch_geometric/typing.py", line 92, in <module>

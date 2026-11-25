@@ -1,0 +1,9 @@
+2026-11-20 10:19:45 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.5, 'selection': 'random', 'seed': 19}
+2026-11-20 10:19:45 - python pidsmaker/main.py magic CADETS_E5 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.5 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=19  
+2026-11-20 10:19:59 - Running pipeline in 'Standard' mode.
+2026-11-20 10:19:59 - Task construction: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8
+2026-11-20 10:19:59 - ======= START SUBTASK build_default_graphs.py =======
+2026-11-20 10:20:02 - Number of netflow nodes: 155322
+2026-11-20 10:20:05 - Number of process nodes: 224146
+2026-11-20 10:20:32 - Number of file nodes: 2303164
+2026-11-20 10:20:32 - Building graphs...

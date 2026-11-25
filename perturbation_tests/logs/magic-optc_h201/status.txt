@@ -1,0 +1,612 @@
+2026-11-20 11:27:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 11:27:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 11:27:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 11:27:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 15:18:40 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.3_selection-random_seed-18.log | exit code 0
+2026-11-20 15:18:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 15:20:40 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-19.log | exit code 0
+2026-11-20 15:20:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 15:24:30 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-20.log | exit code 0
+2026-11-20 15:24:30 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 15:31:52 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-18.log | exit code 0
+2026-11-20 15:31:52 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 18:40:17 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.5_selection-random_seed-18.log | exit code 0
+2026-11-20 18:40:17 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.5_selection-random_seed-20.log | 
+2026-11-20 18:41:25 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.3_selection-random_seed-19.log | exit code 0
+2026-11-20 18:41:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.7_selection-random_seed-18.log | 
+2026-11-20 18:42:03 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.3_selection-random_seed-20.log | exit code 0
+2026-11-20 18:42:03 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.7_selection-random_seed-19.log | 
+2026-11-20 18:43:40 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.5_selection-random_seed-19.log | exit code 0
+2026-11-20 18:43:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.7_selection-random_seed-20.log | 
+2026-11-20 22:27:38 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.7_selection-random_seed-18.log | exit code 0
+2026-11-20 22:27:38 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-18.log | 
+2026-11-20 22:27:58 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.5_selection-random_seed-20.log | exit code 0
+2026-11-20 22:27:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-19.log | 
+2026-11-20 22:29:18 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.7_selection-random_seed-20.log | exit code 0
+2026-11-20 22:29:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-20.log | 
+2026-11-20 22:37:40 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.7_selection-random_seed-19.log | exit code 0
+2026-11-20 22:37:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 22:42:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 22:42:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 22:42:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-20 22:42:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 22:42:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-20 22:42:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 22:42:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-20 22:42:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 22:43:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 22:43:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 22:43:10 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-20 22:43:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 22:43:10 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-20 22:43:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 22:43:11 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-20 22:43:11 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-20 22:43:24 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-20 22:43:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-20 22:43:26 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-20 22:43:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-20 22:43:26 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-20 22:43:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-20 22:43:26 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-20 22:43:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-20 22:43:40 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-20 22:43:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-20 22:43:41 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-20 22:43:41 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-20 22:43:42 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-20 22:43:42 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 22:43:43 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-20 22:43:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 22:43:57 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-20 22:43:57 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 22:43:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-20 22:43:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 22:43:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 22:43:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 22:43:59 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 22:43:59 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 22:44:13 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-20 22:44:13 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 22:44:14 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-20 22:44:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 22:44:14 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-20 22:44:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-20 22:44:15 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-20 22:44:15 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-20 22:44:28 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-20 22:44:28 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-20 22:44:30 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-20 22:44:30 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-20 22:44:31 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-20 22:44:31 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-20 22:44:31 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-20 22:44:31 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-20 22:44:44 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-20 22:44:44 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-20 22:44:45 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-20 22:44:45 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 22:44:46 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-20 22:44:46 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 22:44:46 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-20 22:44:46 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 22:44:59 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-20 22:44:59 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 22:45:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 22:45:02 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 22:45:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-20 22:45:02 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 22:45:03 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 22:45:03 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 22:45:15 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-20 22:45:15 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 22:45:17 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-20 22:45:17 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | 
+2026-11-20 22:45:18 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-20 22:45:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | 
+2026-11-20 22:45:18 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-20 22:45:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | 
+2026-11-20 22:45:31 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-20 22:45:31 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | 
+2026-11-20 22:45:33 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-20 22:45:33 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | 
+2026-11-20 22:45:34 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-20 22:45:34 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | 
+2026-11-20 22:45:34 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-20 22:45:34 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | 
+2026-11-20 22:45:47 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-20 22:45:47 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 22:45:47 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-20 22:45:47 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 22:45:49 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-20 22:45:49 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 22:45:49 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-20 22:45:49 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 22:46:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 22:46:02 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 22:46:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 22:46:02 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 22:46:04 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-20 22:46:04 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 22:46:05 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-20 22:46:05 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 22:46:18 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-20 22:46:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-20 22:46:18 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-20 22:46:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-20 22:46:19 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-20 22:46:19 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-20 22:46:20 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-20 22:46:20 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-20 22:46:33 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-20 22:46:33 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-20 22:46:33 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-20 22:46:33 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-20 22:46:35 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-20 22:46:35 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-20 22:46:36 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-20 22:46:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | 
+2026-11-20 22:46:48 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-20 22:46:48 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | 
+2026-11-20 22:46:48 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-20 22:46:48 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | 
+2026-11-20 22:46:50 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-20 22:46:50 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | 
+2026-11-20 22:46:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-20 22:46:51 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | 
+2026-11-20 22:47:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-20 22:47:02 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | 
+2026-11-20 22:47:03 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-20 22:47:03 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | 
+2026-11-20 22:47:05 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-20 22:47:05 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | 
+2026-11-20 22:47:06 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-20 22:47:06 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | 
+2026-11-20 22:47:17 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-20 22:47:17 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | 
+2026-11-20 22:47:18 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-20 22:47:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | 
+2026-11-20 22:47:21 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-20 22:47:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | 
+2026-11-20 22:47:21 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-20 22:47:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | 
+2026-11-20 22:47:32 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-20 22:47:32 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | 
+2026-11-20 22:47:32 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-20 22:47:32 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | 
+2026-11-20 22:47:35 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-20 22:47:35 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-20 22:47:47 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-20 22:47:48 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-21 10:53:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-19.log | 
+2026-11-21 10:53:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-18.log | 
+2026-11-21 10:53:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-20.log | 
+2026-11-21 10:53:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 13:59:43 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-20.log | exit code 0
+2026-11-21 13:59:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 14:00:10 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-18.log | exit code 0
+2026-11-21 14:00:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 14:02:07 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.9_selection-random_seed-19.log | exit code 0
+2026-11-21 14:02:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 14:25:02 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-18.log | exit code 0
+2026-11-21 14:25:02 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-21 17:15:16 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-19.log | exit code 0
+2026-11-21 17:15:16 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-21 17:17:03 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.1_selection-random_seed-20.log | exit code 0
+2026-11-21 17:17:03 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-21 17:17:12 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-18.log | exit code 0
+2026-11-21 17:17:12 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-21 17:39:26 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-19.log | exit code 0
+2026-11-21 17:39:26 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-21 20:25:58 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.3_selection-random_seed-20.log | exit code 0
+2026-11-21 20:25:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-21 20:29:39 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-19.log | exit code 0
+2026-11-21 20:29:39 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-21 20:30:37 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-18.log | exit code 0
+2026-11-21 20:30:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-21 20:53:17 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.5_selection-random_seed-20.log | exit code 0
+2026-11-21 20:53:17 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-21 23:31:49 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-21 23:31:49 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-21 23:32:05 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-21 23:32:05 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-21 23:32:21 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-21 23:32:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 23:32:36 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-21 23:32:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 23:32:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-21 23:32:51 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 23:32:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-21 23:32:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 23:33:06 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-21 23:33:06 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-21 23:33:13 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-21 23:33:13 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-21 23:33:22 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-21 23:33:22 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-21 23:33:27 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-21 23:33:27 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-21 23:33:37 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-21 23:33:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-21 23:33:43 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-21 23:33:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-21 23:33:43 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-21 23:33:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-21 23:33:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-21 23:33:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-21 23:33:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-21 23:33:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-21 23:33:57 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-21 23:33:57 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-21 23:33:57 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-21 23:33:57 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-21 23:34:07 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-21 23:34:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 23:34:10 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-21 23:34:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 23:34:10 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-21 23:34:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 23:34:10 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-21 23:34:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 23:34:22 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-21 23:34:22 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | 
+2026-11-21 23:34:25 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-21 23:34:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | 
+2026-11-21 23:34:25 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-21 23:34:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | 
+2026-11-21 23:34:25 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-21 23:34:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | 
+2026-11-21 23:34:37 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-21 23:34:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | 
+2026-11-21 23:34:38 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-21 23:34:38 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | 
+2026-11-21 23:34:38 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-21 23:34:38 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | 
+2026-11-21 23:34:40 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-21 23:34:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | 
+2026-11-21 23:34:50 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-21 23:34:50 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | 
+2026-11-21 23:34:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-21 23:34:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | 
+2026-11-21 23:34:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-21 23:34:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | 
+2026-11-21 23:34:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-21 23:34:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 23:35:05 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-21 23:35:05 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 23:35:07 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-21 23:35:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 23:35:07 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-21 23:35:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 23:35:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-21 23:35:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-21 23:35:21 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-21 23:35:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-21 23:35:22 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-21 23:35:22 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-21 23:35:23 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-21 23:35:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-21 23:35:24 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-21 23:35:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-21 23:35:36 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-21 23:35:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-21 23:35:36 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-21 23:35:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-21 23:35:38 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-21 23:35:38 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-21 23:35:39 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-21 23:35:39 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-21 23:35:49 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-21 23:35:49 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-21 23:35:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-21 23:35:51 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-21 23:35:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-21 23:35:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | 
+2026-11-21 23:35:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-21 23:35:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | 
+2026-11-21 23:36:05 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-21 23:36:05 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | 
+2026-11-21 23:36:07 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-21 23:36:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | 
+2026-11-21 23:36:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-21 23:36:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | 
+2026-11-21 23:36:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-21 23:36:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | 
+2026-11-21 23:36:18 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-21 23:36:18 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | 
+2026-11-21 23:36:21 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-21 23:36:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | 
+2026-11-21 23:36:23 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-21 23:36:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | 
+2026-11-21 23:36:24 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-21 23:36:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | 
+2026-11-21 23:36:32 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-21 23:36:32 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | 
+2026-11-21 23:36:35 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-21 23:36:35 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | 
+2026-11-21 23:36:37 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-21 23:36:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | 
+2026-11-21 23:36:37 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-21 23:36:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | 
+2026-11-21 23:36:47 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-21 23:36:47 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | 
+2026-11-21 23:36:49 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-21 23:36:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-21 23:36:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-21 23:37:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-22 00:08:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-22 00:08:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-22 00:08:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-22 03:08:48 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-18.log | exit code 0
+2026-11-22 03:08:48 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-22 03:09:11 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-19.log | exit code 0
+2026-11-22 03:09:11 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-22 03:15:16 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.7_selection-random_seed-20.log | exit code 0
+2026-11-22 03:15:16 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-22 06:06:54 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-19.log | exit code 0
+2026-11-22 06:06:54 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 06:11:07 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-18.log | exit code 0
+2026-11-22 06:11:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-22 06:17:21 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-src_node_fraction-0.9_selection-random_seed-20.log | exit code 0
+2026-11-22 06:17:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-22 09:05:39 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-19.log | exit code 0
+2026-11-22 09:05:39 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-22 09:10:22 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-20.log | exit code 0
+2026-11-22 09:10:22 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-22 09:10:59 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.1_selection-random_seed-18.log | exit code 0
+2026-11-22 09:10:59 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-22 12:05:13 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-18.log | exit code 0
+2026-11-22 12:05:13 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-22 12:09:31 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-19.log | exit code 0
+2026-11-22 12:09:31 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-22 12:09:51 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.3_selection-random_seed-20.log | exit code 0
+2026-11-22 12:09:51 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-22 14:57:00 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-20.log | exit code 0
+2026-11-22 14:57:00 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-22 14:58:19 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-18.log | exit code 0
+2026-11-22 14:58:19 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-22 15:04:00 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.5_selection-random_seed-19.log | exit code 0
+2026-11-22 15:04:00 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-22 15:25:42 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-22 15:25:42 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-22 15:25:43 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-22 15:25:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-22 15:25:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-22 15:25:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-22 15:25:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-22 15:25:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 15:26:13 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-22 15:26:13 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | 
+2026-11-22 15:26:14 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-22 15:26:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | 
+2026-11-22 15:26:28 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-22 15:26:28 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | 
+2026-11-22 15:26:30 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-22 15:26:30 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | 
+2026-11-22 15:26:43 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-22 15:26:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | 
+2026-11-22 15:26:44 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-22 15:26:44 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | 
+2026-11-22 15:26:57 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-22 15:26:57 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | 
+2026-11-22 15:26:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-22 15:26:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | 
+2026-11-22 15:27:03 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-22 15:27:03 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | 
+2026-11-22 15:27:11 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-22 15:27:11 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | 
+2026-11-22 15:27:14 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-22 15:27:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | 
+2026-11-22 15:27:16 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-22 15:27:16 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | 
+2026-11-22 15:27:25 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-22 15:27:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | 
+2026-11-22 15:27:28 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-22 15:27:28 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | 
+2026-11-22 15:27:30 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-22 15:27:30 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 15:27:39 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-22 15:27:39 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-22 15:27:43 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-22 15:27:43 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-22 15:27:44 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-22 15:27:44 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-22 15:27:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-22 15:27:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-22 15:27:56 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-22 15:27:56 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-22 15:27:58 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-22 15:27:58 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-22 15:28:08 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-22 15:28:08 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-22 15:28:10 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-22 15:28:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-22 15:28:13 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-22 15:28:13 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-22 15:28:23 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-22 15:28:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-22 15:28:24 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-22 15:28:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-22 15:28:27 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-22 15:28:27 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-22 15:28:37 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-22 15:28:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-22 15:28:39 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-22 15:28:39 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-22 15:28:41 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-22 15:28:41 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 15:28:52 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-22 15:28:52 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | 
+2026-11-22 15:28:53 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-22 15:28:53 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | 
+2026-11-22 15:28:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-22 15:28:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | 
+2026-11-22 15:29:06 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-22 15:29:06 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | 
+2026-11-22 15:29:07 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-22 15:29:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | 
+2026-11-22 15:29:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-22 15:29:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | 
+2026-11-22 15:29:20 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-22 15:29:20 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | 
+2026-11-22 15:29:21 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-22 15:29:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | 
+2026-11-22 15:29:23 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-22 15:29:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | 
+2026-11-22 15:29:34 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-22 15:29:34 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | 
+2026-11-22 15:29:36 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-22 15:29:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | 
+2026-11-22 15:29:37 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-22 15:29:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | 
+2026-11-22 15:29:49 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-22 15:29:49 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | 
+2026-11-22 15:29:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-22 15:29:51 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | 
+2026-11-22 15:29:51 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-22 15:30:02 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-22 15:30:05 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-22 17:09:04 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-22 17:09:04 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-22 17:09:04 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-22 20:16:01 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-18.log | exit code 0
+2026-11-22 20:16:01 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-22 20:23:49 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-19.log | exit code 0
+2026-11-22 20:23:49 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-22 20:24:57 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.7_selection-random_seed-20.log | exit code 0
+2026-11-22 20:24:57 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-22 23:49:23 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-18.log | exit code 0
+2026-11-22 23:49:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | 
+2026-11-22 23:54:35 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-19.log | exit code 0
+2026-11-22 23:54:35 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | 
+2026-11-22 23:57:07 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-dst_node_fraction-0.9_selection-random_seed-20.log | exit code 0
+2026-11-22 23:57:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | 
+2026-11-23 03:27:56 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-18.log | exit code 0
+2026-11-23 03:27:56 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | 
+2026-11-23 03:33:46 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-19.log | exit code 0
+2026-11-23 03:33:46 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | 
+2026-11-23 03:35:08 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.1_selection-random_seed-20.log | exit code 0
+2026-11-23 03:35:08 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | 
+2026-11-23 06:52:37 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-18.log | exit code 0
+2026-11-23 06:52:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | 
+2026-11-23 06:59:21 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-19.log | exit code 0
+2026-11-23 06:59:21 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | 
+2026-11-23 07:12:44 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.3_selection-random_seed-20.log | exit code 0
+2026-11-23 07:12:44 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | 
+2026-11-23 10:17:16 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-19.log | exit code 0
+2026-11-23 10:17:16 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | 
+2026-11-23 10:20:37 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-18.log | exit code 0
+2026-11-23 10:20:37 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | 
+2026-11-23 10:26:25 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.5_selection-random_seed-20.log | exit code 0
+2026-11-23 10:26:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | 
+2026-11-23 13:56:09 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-18.log | exit code 0
+2026-11-23 13:56:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | 
+2026-11-23 14:11:55 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-19.log | exit code 0
+2026-11-23 14:11:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | 
+2026-11-23 14:16:51 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.7_selection-random_seed-20.log | exit code 0
+2026-11-23 14:16:51 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | 
+2026-11-23 17:08:56 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-18.log | exit code 0
+2026-11-23 17:08:56 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | 
+2026-11-23 17:23:48 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-19.log | exit code 0
+2026-11-23 17:23:48 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | 
+2026-11-23 17:37:31 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-both_nodes_fraction-0.9_selection-random_seed-20.log | exit code 0
+2026-11-23 17:37:31 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | 
+2026-11-23 20:11:32 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-18.log | exit code 0
+2026-11-23 20:11:32 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-23 20:29:00 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-19.log | exit code 0
+2026-11-23 20:29:00 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-23 20:45:14 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.1_selection-random_seed-20.log | exit code 0
+2026-11-23 20:45:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | 
+2026-11-23 21:44:00 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-23 21:44:00 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | 
+2026-11-23 21:44:08 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-23 21:44:08 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | 
+2026-11-23 23:44:33 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-20.log | exit code 0
+2026-11-23 23:44:33 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | 
+2026-11-24 00:31:29 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-18.log | exit code 0
+2026-11-24 00:31:29 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | 
+2026-11-24 00:40:13 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-19.log | exit code 0
+2026-11-24 00:40:13 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | 
+2026-11-24 02:30:59 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.5_selection-random_seed-20.log | exit code 0
+2026-11-24 02:31:00 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-24 03:26:07 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-18.log | exit code 0
+2026-11-24 03:26:07 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-24 03:34:16 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-19.log | exit code 0
+2026-11-24 03:34:16 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-24 03:38:40 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-24 03:38:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-24 03:38:41 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-24 03:38:41 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | 
+2026-11-24 03:38:44 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-24 03:38:44 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | 
+2026-11-24 03:38:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | exit code 1
+2026-11-24 03:38:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | 
+2026-11-24 03:38:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-24 03:38:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | 
+2026-11-24 03:38:59 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | exit code 1
+2026-11-24 03:38:59 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | 
+2026-11-24 03:39:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | exit code 1
+2026-11-24 03:39:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | 
+2026-11-24 03:39:11 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | exit code 1
+2026-11-24 03:39:11 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | 
+2026-11-24 03:39:14 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | exit code 1
+2026-11-24 03:39:14 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | 
+2026-11-24 03:39:25 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | exit code 1
+2026-11-24 03:39:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | 
+2026-11-24 03:39:25 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | exit code 1
+2026-11-24 03:39:25 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | 
+2026-11-24 03:39:29 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | exit code 1
+2026-11-24 03:39:29 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | 
+2026-11-24 03:39:40 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | exit code 1
+2026-11-24 03:39:40 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | 
+2026-11-24 03:39:41 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | exit code 1
+2026-11-24 03:39:41 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | 
+2026-11-24 03:39:45 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | exit code 1
+2026-11-24 03:39:45 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | 
+2026-11-24 03:39:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | exit code 1
+2026-11-24 03:39:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | 
+2026-11-24 03:39:55 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | exit code 1
+2026-11-24 03:39:59 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | exit code 1
+2026-11-24 03:40:09 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | exit code 1
+2026-11-24 08:48:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | 
+2026-11-24 08:48:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | 
+2026-11-24 08:48:24 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | 
+2026-11-24 11:48:59 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-18.log | exit code 0
+2026-11-24 11:48:59 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | 
+2026-11-24 11:49:34 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.3_selection-random_seed-19.log | exit code 0
+2026-11-24 11:49:34 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | 
+2026-11-24 11:49:36 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.7_selection-random_seed-20.log | exit code 0
+2026-11-24 11:49:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | 
+2026-11-24 14:28:11 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-19.log | exit code 0
+2026-11-24 14:28:11 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | 
+2026-11-24 14:28:32 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-18.log | exit code 0
+2026-11-24 14:28:32 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | 
+2026-11-24 14:32:50 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-malicious_edge_rule-either_node_fraction-0.9_selection-random_seed-20.log | exit code 0
+2026-11-24 14:32:50 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | 
+2026-11-24 17:41:59 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-18.log | exit code 0
+2026-11-24 17:41:59 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | 
+2026-11-24 17:44:55 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-19.log | exit code 0
+2026-11-24 17:44:55 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | 
+2026-11-24 17:49:23 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.1_selection-random_seed-20.log | exit code 0
+2026-11-24 17:49:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | 
+2026-11-24 21:10:10 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-18.log | exit code 0
+2026-11-24 21:10:10 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | 
+2026-11-24 21:21:36 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-19.log | exit code 0
+2026-11-24 21:21:36 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | 
+2026-11-24 21:24:20 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.3_selection-random_seed-20.log | exit code 0
+2026-11-24 21:24:20 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | 
+2026-11-25 00:42:09 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-18.log | exit code 0
+2026-11-25 00:42:09 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | 
+2026-11-25 00:49:23 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-19.log | exit code 0
+2026-11-25 00:49:23 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | 
+2026-11-25 00:51:50 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.5_selection-random_seed-20.log | exit code 0
+2026-11-25 00:51:50 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | 
+2026-11-25 03:55:34 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-18.log | exit code 0
+2026-11-25 03:55:34 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | 
+2026-11-25 04:06:39 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-19.log | exit code 0
+2026-11-25 04:06:39 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | 
+2026-11-25 04:08:33 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.7_selection-random_seed-20.log | exit code 0
+2026-11-25 04:08:33 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | 
+2026-11-25 05:54:31 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | exit code 0
+2026-11-25 06:06:19 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | exit code 0
+2026-11-25 06:08:46 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | exit code 0

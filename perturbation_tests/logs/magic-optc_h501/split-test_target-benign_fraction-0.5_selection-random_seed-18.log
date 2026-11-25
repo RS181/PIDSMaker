@@ -1,0 +1,42 @@
+2026-11-20 22:43:25 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.5, 'selection': 'random', 'seed': 18}
+2026-11-20 22:43:25 - python pidsmaker/main.py magic optc_h501 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.5 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=18  
+2026-11-20 22:43:37 - Running pipeline in 'Standard' mode.
+2026-11-20 22:43:37 - Task construction: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9
+2026-11-20 22:43:37 - Task transformation: /home/artifacts/transformation/optc_h501/transformation/7f6af8e4b4c13cad32e6487c115687ff847f67791162e74a43e31fce67627d30
+2026-11-20 22:43:37 - ======= START SUBTASK transformation.py =======
+2026-11-20 22:43:37 - [mal_perturbation] split=test: perturbing 3 dates ['2019-09-23', '2019-09-24', '2019-09-25']
+2026-11-20 22:43:37 - Transforming...
+Not applying perturbation to the following graph: /home/artifacts/construction/optc_h501/construction/3717d9574c7ac1e3c60a68644ec289b1e799154aa12d6967e2e477af29307dc9/nx/graph_2019-09-19/2019-09-19 00:00:00.005000000~2019-09-19 00:15:18.286000000
+Traceback (most recent call last):
+  File "/opt/conda/envs/pids/lib/python3.9/site-packages/torch/serialization.py", line 619, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/opt/conda/envs/pids/lib/python3.9/site-packages/torch/serialization.py", line 833, in _save
+    zip_file.write_record('data.pkl', data_value, len(data_value))
+RuntimeError: [enforce fail at inline_container.cc:588] . PytorchStreamWriter failed writing file data.pkl: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pids/pidsmaker/main.py", line 343, in <module>
+    main(cfg, project=args.project, exp=exp_name, sweep_id=args.sweep_id)
+  File "/home/pids/pidsmaker/main.py", line 288, in main
+    run_pipeline_with_experiments(cfg)
+  File "/home/pids/pidsmaker/main.py", line 202, in run_pipeline_with_experiments
+    metrics, times = run_pipeline(cfg)
+  File "/home/pids/pidsmaker/main.py", line 175, in run_pipeline
+    task_results = {task: run_task(task, cfg, method, iteration) for task in tasks}
+  File "/home/pids/pidsmaker/main.py", line 175, in <dictcomp>
+    task_results = {task: run_task(task, cfg, method, iteration) for task in tasks}
+  File "/home/pids/pidsmaker/main.py", line 158, in run_task
+    return_value = module.main(cfg)
+  File "/home/pids/pidsmaker/tasks/transformation.py", line 139, in main
+    main_from_config(cfg)
+  File "/home/pids/pidsmaker/tasks/transformation.py", line 130, in main_from_config
+    add_graph_transformation(base_dir, dst_dir, cfg, methods)
+  File "/home/pids/pidsmaker/tasks/transformation.py", line 93, in add_graph_transformation
+    torch.save(graph, os.path.join(dst_path, file_name))
+  File "/opt/conda/envs/pids/lib/python3.9/site-packages/torch/serialization.py", line 620, in save
+    return
+  File "/opt/conda/envs/pids/lib/python3.9/site-packages/torch/serialization.py", line 466, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:424] . unexpected pos 128 vs 0

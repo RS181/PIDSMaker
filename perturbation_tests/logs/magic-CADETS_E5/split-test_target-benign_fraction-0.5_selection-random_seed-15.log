@@ -1,0 +1,33 @@
+2026-11-18 09:21:49 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.5, 'selection': 'random', 'seed': 15}
+2026-11-18 09:21:49 - python pidsmaker/main.py magic CADETS_E5 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.5 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=15  
+2026-11-18 09:21:58 - Running pipeline in 'Standard' mode.
+2026-11-18 09:21:58 - Task construction: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8
+2026-11-18 09:21:58 - Task transformation: /home/artifacts/transformation/CADETS_E5/transformation/3d7d5fb6ab17dab71fcb89cb2d9d59087c82228129a3ee56440cb1263e8a1401
+2026-11-18 09:21:58 - ======= START SUBTASK transformation.py =======
+2026-11-18 09:21:58 - [mal_perturbation] split=test: perturbing 2 dates ['2019-05-16', '2019-05-17']
+2026-11-18 09:21:58 - Transforming...
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 00:00:00.000116755~2019-05-08 00:15:00.108805986
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 00:15:00.108805986~2019-05-08 00:30:04.108785037
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 00:30:04.108785037~2019-05-08 00:45:05.938994959
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 00:45:05.938994959~2019-05-08 01:00:06.078839781
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 01:00:06.078839781~2019-05-08 01:15:06.978976240
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 01:15:06.978976240~2019-05-08 01:30:16.317465358
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 01:30:16.317465358~2019-05-08 01:45:16.378827443
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 01:45:16.378827443~2019-05-08 02:00:26.307036503
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 02:00:26.307036503~2019-05-08 02:15:31.249591267
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 02:15:31.249591267~2019-05-08 02:30:31.868886868
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 02:30:31.868886868~2019-05-08 02:45:32.198817524
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 02:45:32.198817524~2019-05-08 03:00:32.588567407
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 03:00:32.588567407~2019-05-08 03:15:38.108552013
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 03:15:38.108552013~2019-05-08 03:30:38.408582002
+Not applying perturbation to the following graph: /home/artifacts/construction/CADETS_E5/construction/0b1755a6e1c2b76e7f1a8f75062503d5fa998d22a58643dfc6a09ac6f8e661b8/nx/graph_2019-05-08/2019-05-08 03:30:38.408582002~2019-05-08 03:45:40.296995138
+Traceback (most recent call last):
+  File "/home/pids/pidsmaker/main.py", line 343, in <module>
+    main(cfg, project=args.project, exp=exp_name, sweep_id=args.sweep_id)
+  File "/home/pids/pidsmaker/main.py", line 288, in main
+    run_pipeline_with_experiments(cfg)
+  File "/home/pids/pidsmaker/main.py", line 202, in run_pipeline_with_experiments
+    metrics, times = run_pipeline(cfg)
+  File "/home/pids/pidsmaker/main.py", line 175, in run_pipeline
+    task_results = {task: run_task(task, cfg, method, iteration) for task in tasks}
+  File "/home/pids/pidsmaker/main.py", line 175, in <dictcomp>
