@@ -1,10 +1,12 @@
 import pandas as pd
 import pydoc
 from tabulate import tabulate
+import matplotlib.pyplot as plt
 import argparse
 import os
 import sys
 import re
+import ast
 
 SPLIT_VALS     = ["train","val","train_val","test"]
 TARGET_VALS    = ["benign", "malicious", "all"]
@@ -201,6 +203,71 @@ def summarize_runs(args):
             get_and_store_results(args, run)
 
 
+def build_runs_table(dataset: str, model: str, 
+                     groupby_features : list[str], 
+                     average_features : list[str]) -> pd.DataFrame:
+    """One row per run: run_args + metrics, plus model and dataset columns."""
+    df = pd.DataFrame(RESULT_DICT)
+    df['split']  = ""
+    df['target'] = ""
+    df['edge_rule'] = ""
+    df['edge_types'] = ""
+    df['fraction'] = ""
+    df['selection'] = ""
+    df['seed'] = ""
+    df['model'] = model
+    df['dataset'] = dataset
+
+    # Iterate throuh each line df line and fill the values abobe with the values in run_args
+    columns_to_fill = ['split','target','edge_rule','edge_types','fraction','selection','seed']
+
+    for idx in df.index:
+        run_args = ast.literal_eval(df.at[idx, "run_args"].strip())
+        for c in columns_to_fill:
+            df.at[idx, c] = run_args[c]
+    df = df.drop(['run_args'], axis=1)
+    
+    # Convert columns to int and float
+    cols_to_int = ['nodes_total', 'nodes_malicious', 'nodes_benign',
+                    'malicious_detected', 'malicious_undetected',
+                    'tp', 'fp', 'tn', 'fn']
+    df[cols_to_int] = df[cols_to_int].astype(int)
+
+    df[average_features] = df[average_features].astype(float)
+
+    # Group and calculate mean/std results
+    groups = df.groupby(groupby_features)
+    #print(groups.size())
+    stats = groups[average_features].agg(["mean","std"])
+    stats.columns = [f"{metric}_{stat}" for metric, stat in stats.columns]
+    stats["n_seeds"] = groups["seed"].count()
+    #print(stats)
+    result = stats.reset_index()
+    #print(result)
+    return result
+
+def plot_metric(result, metric, title, out_path):
+    fig, ax = plt.subplots(figsize=(6, 4))
+
+    for (target, edge_rule), rows in result.groupby(["target", "edge_rule"]):
+        rows = rows.sort_values("fraction")
+        label = target if target != "malicious" else f"mal. {edge_rule}"
+        mean = rows[f"{metric}_mean"]
+        std = rows[f"{metric}_std"].fillna(0)
+
+        ax.plot(rows["fraction"], mean, marker="o", label=label)
+        ax.fill_between(rows["fraction"], mean - std, mean + std, alpha=0.15)
+
+    ax.set_title(title)
+    ax.set_xlabel("edge-removal fraction f")
+    ax.set_ylabel(metric)
+    ax.legend()
+    fig.savefig(out_path, bbox_inches="tight")
+    print(f"Saved fig in {out_path}")
+    plt.close(fig)
+
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str, required=True, help="Choose the dataset")
@@ -221,7 +288,27 @@ if __name__ == "__main__":
     
 
     summarize_runs(args)
-    pretty_print_metrics()
+    groupby_features = ['target', 'edge_rule', 'fraction'] # defines the features we use to group results (to later do the average and standard deviation)
+    average_features = ['precision', 'recall', 'fpr', 'fscore', 'ap',
+                     'accuracy', 'balanced_acc'] # defines wich features we want the average/std from
+
+
+    stats = build_runs_table(args.dataset, args.model, groupby_features, average_features)
+    print(stats)
+    series_style = {
+        "benign":          dict(color="#2878d4", marker="o", linestyle="-"),
+        "all":             dict(color="#1aaa7a", marker="s", linestyle="-"),
+        "mal. either_node": dict(color="#e8692d", marker="D", linestyle="-"),
+        "mal. src_node":   dict(color="#e8692d", marker="^", linestyle="--"),
+        "mal. dst_node":   dict(color="#e8692d", marker="v", linestyle=":"),
+        "mal. both_nodes": dict(color="#e8692d", marker="x", linestyle="-."),
+    }
+
+    columns_to_plot = ['precision', 'recall', 'fpr', 'fscore', 'ap', 'accuracy', 'balanced_acc']
+    for metric in columns_to_plot:
+        plot_metric(stats, metric, f"{args.model} - {args.dataset} [{metric}]", f"perturbation_tests/img/{args.model}_{args.dataset}_{metric}.png")
+    
+    #pretty_print_metrics()
     
 
     
