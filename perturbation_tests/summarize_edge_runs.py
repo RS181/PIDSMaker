@@ -17,20 +17,26 @@ LOG_FOLDER = "./perturbation_tests/logs"
 # Metric that are obtained from log files 
 RESULT_DICT = {
     "run_args" : [],
+    "nodes_total" : [],
+    "nodes_malicious" : [],
+    "nodes_benign" : [],
+    "malicious_detected" : [],
+    "malicious_undetected" : [],
+    "tp" : [],
+    "fp" : [],
+    "tn" : [],
+    "fn" : [],
     "precision" : [],
     "recall": [],
     "fpr" : [],
     "fscore" : [],
     "ap" : [],
     "accuracy" : [],
-    "balanced_acc" : [],
+    "balanced_acc" : []
     # "auc" : [],
     # "dor" : [],
     # "mcc" : [],
-    # "tp" : [],
-    # "fp" : [],
-    # "tn" : [],
-    # "fn" : [],
+
     # "ap" : [],
     # "ap" : [],
     # "fp_in_malicious_tw_ratio" : [],
@@ -52,12 +58,8 @@ RESULT_DICT = {
     # "tp_att_0" : [],
     # "tp_att_1" : [],
     # "tp_att_2" : [],
-    "epoch" : [],
-    "nodes_total" : [],
-    "nodes_malicious" : [],
-    "nodes_benign" : [],
-    "malicious_detected" : [],
-    "malicious_undetected" : []
+    #"epoch" : [],
+
 }
 
 
@@ -110,8 +112,9 @@ def filtrate_runs(args, runs: [str]) -> [str]:
             if not skip:
                 filtrated_runs.append(log_file)
 
-    print(f"Filtrated {len(filtrated_runs)} from a total of {len(runs)}")
-    print(f"Filtrated using the following values  (not the keys):  {filtrate_vals} ")
+    #print(f"Filtrated {len(filtrated_runs)} from a total of {len(runs)}")
+    #print(f"Filtrated using the following values  (not the keys):  {filtrate_vals} ")
+    print(filtrate_vals)
     return filtrated_runs
 
 def get_and_store_results(args, run : str):
@@ -170,7 +173,7 @@ def pretty_print_metrics():
     )
 
     # Open it in the terminal pager so you can scroll up, down, left, and right (press 'q' to exit)
-    print(table_string)
+    print(table_string + "\n")
 
 
 
@@ -181,13 +184,14 @@ def summarize_runs(args):
     - filters given in args
     """
     args = clean_args(args)
-    print(f"Filters (values) that are going to be applied : {args}")
+    #print(f"Filters (values) that are going to be applied : {args}")
+    #print(args)
 
     runs = os.listdir(f"{LOG_FOLDER}/{args['model']}-{args['dataset']}")
     filtered_runs = filtrate_runs(args,runs)
 
     if len(filtered_runs) == 0:
-        print(f"No available runs after aplying given values in filter")
+        print(f"No available runs after aplying given values in filter \n")
         sys,exit(0)
 
 
@@ -214,6 +218,7 @@ if __name__ == "__main__":
     if not check_logs(args.dataset, args.model):
         print(f"No run found for the dataset {args.dataset} and model {args.model} ")
         sys.exit(0)
+    
 
     summarize_runs(args)
     pretty_print_metrics()
