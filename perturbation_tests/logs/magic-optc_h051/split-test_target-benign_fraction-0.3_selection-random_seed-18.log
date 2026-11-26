@@ -1684,3 +1684,2051 @@ Not applying perturbation to the following graph: /home/artifacts/construction/o
 2026-11-25 14:25:51 -     remove_edges: 6254 of 20845 candidate edges removed (e.g. [('434198', '3706', 0), ('433271', '3662', 0), ('982343', '3706', 0)])
 2026-11-25 14:25:51 - ==================================================
 
+2026-11-25 14:25:52 - ==================================================
+
+2026-11-25 14:25:52 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:52 -      perturbing a graph with 7833 nodes
+2026-11-25 14:25:52 -      perturbing a graph with 15137 edges
+2026-11-25 14:25:52 -     remove_edges: 4538 of 15126 candidate edges removed (e.g. [('433473', '3662', 0), ('432801', '3662', 0), ('988415', '3706', 0)])
+2026-11-25 14:25:52 - ==================================================
+
+2026-11-25 14:25:53 - ==================================================
+
+2026-11-25 14:25:53 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:53 -      perturbing a graph with 8097 nodes
+2026-11-25 14:25:53 -      perturbing a graph with 20578 edges
+2026-11-25 14:25:53 -     remove_edges: 6170 of 20568 candidate edges removed (e.g. [('434437', '3706', 21), ('434276', '3706', 12), ('992277', '3706', 1)])
+2026-11-25 14:25:53 - ==================================================
+
+2026-11-25 14:25:53 - ==================================================
+
+2026-11-25 14:25:53 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:53 -      perturbing a graph with 8189 nodes
+2026-11-25 14:25:53 -      perturbing a graph with 24650 edges
+2026-11-25 14:25:53 -     remove_edges: 7393 of 24643 candidate edges removed (e.g. [('434359', '3706', 28), ('434275', '3706', 4), ('999249', '3706', 0)])
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:54 -      perturbing a graph with 8158 nodes
+2026-11-25 14:25:54 -      perturbing a graph with 19949 edges
+2026-11-25 14:25:54 -     remove_edges: 5979 of 19930 candidate edges removed (e.g. [('433899', '3662', 0), ('433167', '3662', 3), ('1002316', '3706', 0)])
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:54 -      perturbing a graph with 7578 nodes
+2026-11-25 14:25:54 -      perturbing a graph with 15844 edges
+2026-11-25 14:25:54 -     remove_edges: 4749 of 15830 candidate edges removed (e.g. [('433188', '3662', 0), ('431791', '3662', 2), ('1007342', '3706', 0)])
+2026-11-25 14:25:54 - ==================================================
+
+2026-11-25 14:25:55 - ==================================================
+
+2026-11-25 14:25:55 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:55 -      perturbing a graph with 8136 nodes
+2026-11-25 14:25:55 -      perturbing a graph with 19907 edges
+2026-11-25 14:25:55 -     remove_edges: 5969 of 19897 candidate edges removed (e.g. [('434435', '3706', 3), ('434276', '3706', 8), ('1012150', '3706', 2)])
+2026-11-25 14:25:55 - ==================================================
+
+2026-11-25 14:25:56 - ==================================================
+
+2026-11-25 14:25:56 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:56 -      perturbing a graph with 7752 nodes
+2026-11-25 14:25:56 -      perturbing a graph with 24654 edges
+2026-11-25 14:25:56 -     remove_edges: 7390 of 24634 candidate edges removed (e.g. [('434345', '3706', 5), ('433899', '3662', 0), ('1018130', '3706', 0)])
+2026-11-25 14:25:56 - ==================================================
+
+2026-11-25 14:25:57 - ==================================================
+
+2026-11-25 14:25:57 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:57 -      perturbing a graph with 8607 nodes
+2026-11-25 14:25:57 -      perturbing a graph with 20973 edges
+2026-11-25 14:25:57 -     remove_edges: 6286 of 20955 candidate edges removed (e.g. [('434273', '3706', 5), ('433323', '3662', 3), ('1021261', '3706', 0)])
+2026-11-25 14:25:57 - ==================================================
+
+2026-11-25 14:25:58 - ==================================================
+
+2026-11-25 14:25:58 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:58 -      perturbing a graph with 7243 nodes
+2026-11-25 14:25:58 -      perturbing a graph with 15285 edges
+2026-11-25 14:25:58 -     remove_edges: 4582 of 15274 candidate edges removed (e.g. [('433470', '3662', 1), ('432806', '3662', 1), ('1027065', '3706', 0)])
+2026-11-25 14:25:58 - ==================================================
+
+2026-11-25 14:25:58 - ==================================================
+
+2026-11-25 14:25:58 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:58 -      perturbing a graph with 8574 nodes
+2026-11-25 14:25:58 -      perturbing a graph with 20415 edges
+2026-11-25 14:25:58 -     remove_edges: 6122 of 20406 candidate edges removed (e.g. [('434437', '3706', 9), ('434278', '3706', 6), ('1031608', '3706', 0)])
+2026-11-25 14:25:58 - ==================================================
+
+2026-11-25 14:25:59 - ==================================================
+
+2026-11-25 14:25:59 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:59 -      perturbing a graph with 7724 nodes
+2026-11-25 14:25:59 -      perturbing a graph with 26363 edges
+2026-11-25 14:25:59 -     remove_edges: 7907 of 26356 candidate edges removed (e.g. [('434328', '3706', 0), ('433571', '3662', 1), ('1037039', '3706', 2)])
+2026-11-25 14:25:59 - ==================================================
+
+2026-11-25 14:25:59 - ==================================================
+
+2026-11-25 14:25:59 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:25:59 -      perturbing a graph with 9220 nodes
+2026-11-25 14:25:59 -      perturbing a graph with 20978 edges
+2026-11-25 14:26:00 -     remove_edges: 6285 of 20949 candidate edges removed (e.g. [('434359', '3706', 11), ('433495', '3662', 1), ('1041731', '3706', 1)])
+2026-11-25 14:26:00 - ==================================================
+
+2026-11-25 14:26:00 - ==================================================
+
+2026-11-25 14:26:00 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:00 -      perturbing a graph with 7525 nodes
+2026-11-25 14:26:00 -      perturbing a graph with 15848 edges
+2026-11-25 14:26:00 -     remove_edges: 4751 of 15837 candidate edges removed (e.g. [('433452', '3662', 1), ('432782', '3662', 1), ('1047509', '3706', 0)])
+2026-11-25 14:26:00 - ==================================================
+
+2026-11-25 14:26:02 - ==================================================
+
+2026-11-25 14:26:02 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:02 -      perturbing a graph with 9399 nodes
+2026-11-25 14:26:02 -      perturbing a graph with 25206 edges
+2026-11-25 14:26:02 -     remove_edges: 7558 of 25194 candidate edges removed (e.g. [('434330', '3706', 36), ('433228', '3662', 0), ('1054000', '3706', 0)])
+2026-11-25 14:26:02 - ==================================================
+
+2026-11-25 14:26:02 - ==================================================
+
+2026-11-25 14:26:02 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:02 -      perturbing a graph with 7280 nodes
+2026-11-25 14:26:02 -      perturbing a graph with 22438 edges
+2026-11-25 14:26:02 -     remove_edges: 6729 of 22431 candidate edges removed (e.g. [('434331', '3706', 2), ('433557', '3662', 0), ('1060283', '3706', 0)])
+2026-11-25 14:26:03 - ==================================================
+
+2026-11-25 14:26:03 - ==================================================
+
+2026-11-25 14:26:03 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:03 -      perturbing a graph with 9200 nodes
+2026-11-25 14:26:03 -      perturbing a graph with 22123 edges
+2026-11-25 14:26:03 -     remove_edges: 6633 of 22109 candidate edges removed (e.g. [('434441', '3706', 17), ('433963', '3662', 0), ('1066283', '3706', 1)])
+2026-11-25 14:26:03 - ==================================================
+
+2026-11-25 14:26:04 - ==================================================
+
+2026-11-25 14:26:04 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:04 -      perturbing a graph with 7841 nodes
+2026-11-25 14:26:04 -      perturbing a graph with 14465 edges
+2026-11-25 14:26:04 -     remove_edges: 4336 of 14452 candidate edges removed (e.g. [('433472', '3662', 1), ('432798', '3662', 1), ('1069420', '3706', 1)])
+2026-11-25 14:26:04 - ==================================================
+
+2026-11-25 14:26:04 - ==================================================
+
+2026-11-25 14:26:04 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:04 -      perturbing a graph with 7854 nodes
+2026-11-25 14:26:04 -      perturbing a graph with 25863 edges
+2026-11-25 14:26:04 -     remove_edges: 7757 of 25857 candidate edges removed (e.g. [('434274', '3706', 13), ('433437', '3662', 3), ('1073704', '3706', 0)])
+2026-11-25 14:26:04 - ==================================================
+
+2026-11-25 14:26:05 - ==================================================
+
+2026-11-25 14:26:05 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:05 -      perturbing a graph with 14080 nodes
+2026-11-25 14:26:05 -      perturbing a graph with 39201 edges
+2026-11-25 14:26:05 -     remove_edges: 11756 of 39187 candidate edges removed (e.g. [('434512', '3706', 29), ('434428', '3706', 15), ('1081962', '3706', 0)])
+2026-11-25 14:26:05 - ==================================================
+
+2026-11-25 14:26:06 - ==================================================
+
+2026-11-25 14:26:06 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:06 -      perturbing a graph with 8869 nodes
+2026-11-25 14:26:06 -      perturbing a graph with 19368 edges
+2026-11-25 14:26:07 -     remove_edges: 5804 of 19345 candidate edges removed (e.g. [('435835', '3662', 2), ('434345', '3706', 0), ('1089652', '3706', 0)])
+2026-11-25 14:26:07 - ==================================================
+
+2026-11-25 14:26:07 - ==================================================
+
+2026-11-25 14:26:07 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:07 -      perturbing a graph with 8411 nodes
+2026-11-25 14:26:07 -      perturbing a graph with 15399 edges
+2026-11-25 14:26:07 -     remove_edges: 4613 of 15378 candidate edges removed (e.g. [('432913', '3662', 0), ('83380', '3718', 0), ('1095022', '3706', 0)])
+2026-11-25 14:26:07 - ==================================================
+
+2026-11-25 14:26:08 - ==================================================
+
+2026-11-25 14:26:08 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:08 -      perturbing a graph with 7886 nodes
+2026-11-25 14:26:08 -      perturbing a graph with 26116 edges
+2026-11-25 14:26:08 -     remove_edges: 7829 of 26098 candidate edges removed (e.g. [('434269', '3706', 7), ('433356', '3662', 0), ('1099717', '3706', 1)])
+2026-11-25 14:26:08 - ==================================================
+
+2026-11-25 14:26:08 - ==================================================
+
+2026-11-25 14:26:08 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:08 -      perturbing a graph with 8174 nodes
+2026-11-25 14:26:08 -      perturbing a graph with 25921 edges
+2026-11-25 14:26:08 -     remove_edges: 7772 of 25908 candidate edges removed (e.g. [('434357', '3706', 15), ('434270', '3706', 19), ('1104705', '3706', 1)])
+2026-11-25 14:26:08 - ==================================================
+
+2026-11-25 14:26:09 - ==================================================
+
+2026-11-25 14:26:09 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:09 -      perturbing a graph with 7781 nodes
+2026-11-25 14:26:09 -      perturbing a graph with 14499 edges
+2026-11-25 14:26:09 -     remove_edges: 4343 of 14478 candidate edges removed (e.g. [('433537', '3662', 0), ('432847', '3662', 0), ('1109993', '3706', 0)])
+2026-11-25 14:26:09 - ==================================================
+
+2026-11-25 14:26:09 - ==================================================
+
+2026-11-25 14:26:09 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:09 -      perturbing a graph with 9333 nodes
+2026-11-25 14:26:09 -      perturbing a graph with 19919 edges
+2026-11-25 14:26:09 -     remove_edges: 5972 of 19905 candidate edges removed (e.g. [('434087', '3662', 2), ('433234', '3662', 2), ('1114908', '3706', 0)])
+2026-11-25 14:26:09 - ==================================================
+
+2026-11-25 14:26:10 - ==================================================
+
+2026-11-25 14:26:10 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:10 -      perturbing a graph with 7085 nodes
+2026-11-25 14:26:10 -      perturbing a graph with 21004 edges
+2026-11-25 14:26:10 -     remove_edges: 6299 of 20998 candidate edges removed (e.g. [('434372', '3706', 22), ('434278', '3706', 28), ('944885', '3662', 0)])
+2026-11-25 14:26:10 - ==================================================
+
+2026-11-25 14:26:10 - ==================================================
+
+2026-11-25 14:26:10 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:10 -      perturbing a graph with 8740 nodes
+2026-11-25 14:26:10 -      perturbing a graph with 27004 edges
+2026-11-25 14:26:10 -     remove_edges: 8097 of 26989 candidate edges removed (e.g. [('434353', '3706', 40), ('434225', '3706', 0), ('1124264', '3706', 1)])
+2026-11-25 14:26:10 - ==================================================
+
+2026-11-25 14:26:12 - ==================================================
+
+2026-11-25 14:26:12 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:12 -      perturbing a graph with 7332 nodes
+2026-11-25 14:26:12 -      perturbing a graph with 13759 edges
+2026-11-25 14:26:12 -     remove_edges: 4121 of 13737 candidate edges removed (e.g. [('432711', '3662', 1), ('82664', '3718', 0), ('1129694', '3706', 0)])
+2026-11-25 14:26:12 - ==================================================
+
+2026-11-25 14:26:12 - ==================================================
+
+2026-11-25 14:26:12 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:12 -      perturbing a graph with 8982 nodes
+2026-11-25 14:26:12 -      perturbing a graph with 19502 edges
+2026-11-25 14:26:13 -     remove_edges: 5848 of 19492 candidate edges removed (e.g. [('434217', '3706', 0), ('433263', '3662', 1), ('1134154', '3706', 0)])
+2026-11-25 14:26:13 - ==================================================
+
+2026-11-25 14:26:14 - ==================================================
+
+2026-11-25 14:26:14 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:14 -      perturbing a graph with 7426 nodes
+2026-11-25 14:26:14 -      perturbing a graph with 22206 edges
+2026-11-25 14:26:14 -     remove_edges: 6659 of 22198 candidate edges removed (e.g. [('434374', '3706', 19), ('434279', '3706', 12), ('1141313', '3706', 0)])
+2026-11-25 14:26:14 - ==================================================
+
+2026-11-25 14:26:14 - ==================================================
+
+2026-11-25 14:26:14 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:14 -      perturbing a graph with 8867 nodes
+2026-11-25 14:26:14 -      perturbing a graph with 25780 edges
+2026-11-25 14:26:15 -     remove_edges: 7730 of 25767 candidate edges removed (e.g. [('434357', '3706', 19), ('434269', '3706', 10), ('1144465', '3706', 0)])
+2026-11-25 14:26:15 - ==================================================
+
+2026-11-25 14:26:15 - ==================================================
+
+2026-11-25 14:26:15 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:15 -      perturbing a graph with 6890 nodes
+2026-11-25 14:26:15 -      perturbing a graph with 12919 edges
+2026-11-25 14:26:15 -     remove_edges: 3871 of 12902 candidate edges removed (e.g. [('433221', '3662', 0), ('431946', '3662', 3), ('1149527', '3706', 1)])
+2026-11-25 14:26:15 - ==================================================
+
+2026-11-25 14:26:15 - ==================================================
+
+2026-11-25 14:26:15 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:15 -      perturbing a graph with 9117 nodes
+2026-11-25 14:26:15 -      perturbing a graph with 20631 edges
+2026-11-25 14:26:16 -     remove_edges: 6187 of 20624 candidate edges removed (e.g. [('434326', '3706', 1), ('433413', '3662', 3), ('1152862', '3706', 0)])
+2026-11-25 14:26:16 - ==================================================
+
+2026-11-25 14:26:16 - ==================================================
+
+2026-11-25 14:26:16 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:16 -      perturbing a graph with 6998 nodes
+2026-11-25 14:26:16 -      perturbing a graph with 21159 edges
+2026-11-25 14:26:17 -     remove_edges: 6345 of 21149 candidate edges removed (e.g. [('434384', '3706', 22), ('434311', '3706', 0), ('462231', '3769', 3)])
+2026-11-25 14:26:17 - ==================================================
+
+2026-11-25 14:26:18 - ==================================================
+
+2026-11-25 14:26:18 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:18 -      perturbing a graph with 9077 nodes
+2026-11-25 14:26:18 -      perturbing a graph with 25767 edges
+2026-11-25 14:26:18 -     remove_edges: 7725 of 25750 candidate edges removed (e.g. [('434345', '3706', 18), ('433797', '3662', 1), ('1163402', '3706', 1)])
+2026-11-25 14:26:18 - ==================================================
+
+2026-11-25 14:26:18 - ==================================================
+
+2026-11-25 14:26:18 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:18 -      perturbing a graph with 7553 nodes
+2026-11-25 14:26:18 -      perturbing a graph with 14257 edges
+2026-11-25 14:26:18 -     remove_edges: 4273 of 14243 candidate edges removed (e.g. [('432797', '3662', 1), ('83110', '3718', 0), ('1167896', '3706', 0)])
+2026-11-25 14:26:18 - ==================================================
+
+2026-11-25 14:26:19 - ==================================================
+
+2026-11-25 14:26:19 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:19 -      perturbing a graph with 8498 nodes
+2026-11-25 14:26:19 -      perturbing a graph with 22406 edges
+2026-11-25 14:26:19 -     remove_edges: 6719 of 22398 candidate edges removed (e.g. [('434330', '3706', 1), ('433485', '3662', 3), ('1175175', '3706', 1)])
+2026-11-25 14:26:19 - ==================================================
+
+2026-11-25 14:26:19 - ==================================================
+
+2026-11-25 14:26:19 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:19 -      perturbing a graph with 8703 nodes
+2026-11-25 14:26:19 -      perturbing a graph with 21774 edges
+2026-11-25 14:26:19 -     remove_edges: 6526 of 21752 candidate edges removed (e.g. [('434432', '3706', 11), ('433935', '3662', 1), ('1180845', '3706', 0)])
+2026-11-25 14:26:19 - ==================================================
+
+2026-11-25 14:26:20 - ==================================================
+
+2026-11-25 14:26:20 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:20 -      perturbing a graph with 9725 nodes
+2026-11-25 14:26:20 -      perturbing a graph with 27280 edges
+2026-11-25 14:26:20 -     remove_edges: 8176 of 27255 candidate edges removed (e.g. [('434342', '3706', 4), ('433706', '3662', 1), ('1183399', '3706', 0)])
+2026-11-25 14:26:20 - ==================================================
+
+2026-11-25 14:26:20 - ==================================================
+
+2026-11-25 14:26:20 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:20 -      perturbing a graph with 8621 nodes
+2026-11-25 14:26:20 -      perturbing a graph with 16798 edges
+2026-11-25 14:26:21 -     remove_edges: 5030 of 16768 candidate edges removed (e.g. [('433944', '3662', 3), ('433106', '3662', 3), ('1190460', '3706', 0)])
+2026-11-25 14:26:21 - ==================================================
+
+2026-11-25 14:26:22 - ==================================================
+
+2026-11-25 14:26:22 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:22 -      perturbing a graph with 9086 nodes
+2026-11-25 14:26:22 -      perturbing a graph with 22536 edges
+2026-11-25 14:26:22 -     remove_edges: 6758 of 22527 candidate edges removed (e.g. [('434381', '3706', 3), ('434182', '3706', 4), ('1197293', '3706', 0)])
+2026-11-25 14:26:22 - ==================================================
+
+2026-11-25 14:26:23 - ==================================================
+
+2026-11-25 14:26:23 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:23 -      perturbing a graph with 7781 nodes
+2026-11-25 14:26:23 -      perturbing a graph with 19832 edges
+2026-11-25 14:26:23 -     remove_edges: 5947 of 19822 candidate edges removed (e.g. [('434375', '3706', 18), ('433618', '3662', 1), ('1198793', '3706', 1)])
+2026-11-25 14:26:23 - ==================================================
+
+2026-11-25 14:26:23 - ==================================================
+
+2026-11-25 14:26:23 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:23 -      perturbing a graph with 8911 nodes
+2026-11-25 14:26:23 -      perturbing a graph with 25409 edges
+2026-11-25 14:26:23 -     remove_edges: 7617 of 25391 candidate edges removed (e.g. [('434344', '3706', 10), ('433756', '3662', 1), ('1205178', '3706', 2)])
+2026-11-25 14:26:23 - ==================================================
+
+2026-11-25 14:26:24 - ==================================================
+
+2026-11-25 14:26:24 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:24 -      perturbing a graph with 7479 nodes
+2026-11-25 14:26:24 -      perturbing a graph with 15504 edges
+2026-11-25 14:26:24 -     remove_edges: 4646 of 15486 candidate edges removed (e.g. [('433107', '3662', 1), ('432694', '3662', 1), ('1209028', '3706', 0)])
+2026-11-25 14:26:24 - ==================================================
+
+2026-11-25 14:26:24 - ==================================================
+
+2026-11-25 14:26:24 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:24 -      perturbing a graph with 8043 nodes
+2026-11-25 14:26:24 -      perturbing a graph with 21779 edges
+2026-11-25 14:26:24 -     remove_edges: 6531 of 21771 candidate edges removed (e.g. [('434441', '3706', 12), ('434310', '3706', 0), ('1217054', '3706', 1)])
+2026-11-25 14:26:24 - ==================================================
+
+2026-11-25 14:26:24 - ==================================================
+
+2026-11-25 14:26:24 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:24 -      perturbing a graph with 8454 nodes
+2026-11-25 14:26:24 -      perturbing a graph with 22905 edges
+2026-11-25 14:26:25 -     remove_edges: 6866 of 22886 candidate edges removed (e.g. [('434363', '3706', 14), ('434210', '3706', 0), ('1221565', '3706', 1)])
+2026-11-25 14:26:25 - ==================================================
+
+2026-11-25 14:26:25 - ==================================================
+
+2026-11-25 14:26:25 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:25 -      perturbing a graph with 7703 nodes
+2026-11-25 14:26:25 -      perturbing a graph with 21698 edges
+2026-11-25 14:26:26 -     remove_edges: 6505 of 21682 candidate edges removed (e.g. [('434271', '3706', 19), ('433320', '3662', 0), ('1226695', '3706', 1)])
+2026-11-25 14:26:26 - ==================================================
+
+2026-11-25 14:26:26 - ==================================================
+
+2026-11-25 14:26:26 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:26 -      perturbing a graph with 7896 nodes
+2026-11-25 14:26:26 -      perturbing a graph with 14655 edges
+2026-11-25 14:26:26 -     remove_edges: 4393 of 14643 candidate edges removed (e.g. [('433250', '3662', 0), ('432586', '3662', 0), ('1228773', '3706', 1)])
+2026-11-25 14:26:26 - ==================================================
+
+2026-11-25 14:26:27 - ==================================================
+
+2026-11-25 14:26:27 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:27 -      perturbing a graph with 6713 nodes
+2026-11-25 14:26:27 -      perturbing a graph with 19201 edges
+2026-11-25 14:26:27 -     remove_edges: 5757 of 19191 candidate edges removed (e.g. [('434448', '3706', 2), ('434331', '3706', 10), ('1232088', '3706', 0)])
+2026-11-25 14:26:27 - ==================================================
+
+2026-11-25 14:26:27 - ==================================================
+
+2026-11-25 14:26:27 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:27 -      perturbing a graph with 8384 nodes
+2026-11-25 14:26:27 -      perturbing a graph with 24286 edges
+2026-11-25 14:26:28 -     remove_edges: 7283 of 24278 candidate edges removed (e.g. [('434342', '3706', 7), ('433607', '3662', 0), ('1238164', '3706', 0)])
+2026-11-25 14:26:28 - ==================================================
+
+2026-11-25 14:26:28 - ==================================================
+
+2026-11-25 14:26:28 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:28 -      perturbing a graph with 8358 nodes
+2026-11-25 14:26:28 -      perturbing a graph with 21891 edges
+2026-11-25 14:26:28 -     remove_edges: 6562 of 21875 candidate edges removed (e.g. [('433846', '3662', 3), ('433135', '3662', 1), ('1244410', '3706', 0)])
+2026-11-25 14:26:28 - ==================================================
+
+2026-11-25 14:26:28 - ==================================================
+
+2026-11-25 14:26:28 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:28 -      perturbing a graph with 7896 nodes
+2026-11-25 14:26:28 -      perturbing a graph with 14903 edges
+2026-11-25 14:26:29 -     remove_edges: 4467 of 14891 candidate edges removed (e.g. [('433461', '3662', 1), ('432804', '3662', 1), ('1246901', '3706', 1)])
+2026-11-25 14:26:29 - ==================================================
+
+2026-11-25 14:26:29 - ==================================================
+
+2026-11-25 14:26:29 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:29 -      perturbing a graph with 7673 nodes
+2026-11-25 14:26:29 -      perturbing a graph with 20445 edges
+2026-11-25 14:26:29 -     remove_edges: 6128 of 20425 candidate edges removed (e.g. [('434379', '3706', 11), ('433978', '3662', 0), ('1250069', '3706', 1)])
+2026-11-25 14:26:29 - ==================================================
+
+2026-11-25 14:26:30 - ==================================================
+
+2026-11-25 14:26:30 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:30 -      perturbing a graph with 8263 nodes
+2026-11-25 14:26:30 -      perturbing a graph with 24916 edges
+2026-11-25 14:26:30 -     remove_edges: 7470 of 24901 candidate edges removed (e.g. [('434354', '3706', 26), ('434270', '3706', 5), ('1256812', '3706', 1)])
+2026-11-25 14:26:30 - ==================================================
+
+2026-11-25 14:26:31 - ==================================================
+
+2026-11-25 14:26:31 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:31 -      perturbing a graph with 8398 nodes
+2026-11-25 14:26:31 -      perturbing a graph with 20903 edges
+2026-11-25 14:26:31 -     remove_edges: 6266 of 20886 candidate edges removed (e.g. [('434241', '3706', 0), ('433309', '3662', 0), ('1259875', '3706', 0)])
+2026-11-25 14:26:31 - ==================================================
+
+2026-11-25 14:26:31 - ==================================================
+
+2026-11-25 14:26:31 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:31 -      perturbing a graph with 8173 nodes
+2026-11-25 14:26:31 -      perturbing a graph with 16539 edges
+2026-11-25 14:26:31 -     remove_edges: 4958 of 16525 candidate edges removed (e.g. [('436028', '3662', 1), ('435003', '3662', 3), ('1268266', '3706', 1)])
+2026-11-25 14:26:31 - ==================================================
+
+2026-11-25 14:26:32 - ==================================================
+
+2026-11-25 14:26:32 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:32 -      perturbing a graph with 8051 nodes
+2026-11-25 14:26:32 -      perturbing a graph with 20175 edges
+2026-11-25 14:26:32 -     remove_edges: 6050 of 20166 candidate edges removed (e.g. [('434358', '3706', 22), ('433559', '3662', 1), ('1270304', '3706', 1)])
+2026-11-25 14:26:32 - ==================================================
+
+2026-11-25 14:26:32 - ==================================================
+
+2026-11-25 14:26:32 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:32 -      perturbing a graph with 8387 nodes
+2026-11-25 14:26:32 -      perturbing a graph with 25522 edges
+2026-11-25 14:26:33 -     remove_edges: 7654 of 25513 candidate edges removed (e.g. [('434354', '3706', 42), ('434270', '3706', 3), ('1276743', '3706', 1)])
+2026-11-25 14:26:33 - ==================================================
+
+2026-11-25 14:26:33 - ==================================================
+
+2026-11-25 14:26:33 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:33 -      perturbing a graph with 7849 nodes
+2026-11-25 14:26:33 -      perturbing a graph with 19682 edges
+2026-11-25 14:26:33 -     remove_edges: 5900 of 19666 candidate edges removed (e.g. [('434300', '3706', 0), ('433379', '3662', 1), ('1280464', '3706', 0)])
+2026-11-25 14:26:33 - ==================================================
+
+2026-11-25 14:26:34 - ==================================================
+
+2026-11-25 14:26:34 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:34 -      perturbing a graph with 7783 nodes
+2026-11-25 14:26:34 -      perturbing a graph with 16337 edges
+2026-11-25 14:26:34 -     remove_edges: 4892 of 16308 candidate edges removed (e.g. [('433132', '3662', 1), ('431589', '3728', 282), ('1285093', '3706', 0)])
+2026-11-25 14:26:34 - ==================================================
+
+2026-11-25 14:26:35 - ==================================================
+
+2026-11-25 14:26:35 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:35 -      perturbing a graph with 8133 nodes
+2026-11-25 14:26:35 -      perturbing a graph with 22933 edges
+2026-11-25 14:26:35 -     remove_edges: 6875 of 22918 candidate edges removed (e.g. [('434359', '3706', 19), ('434183', '3706', 36), ('1292676', '3706', 0)])
+2026-11-25 14:26:35 - ==================================================
+
+2026-11-25 14:26:36 - ==================================================
+
+2026-11-25 14:26:36 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:36 -      perturbing a graph with 7873 nodes
+2026-11-25 14:26:36 -      perturbing a graph with 23173 edges
+2026-11-25 14:26:36 -     remove_edges: 6947 of 23158 candidate edges removed (e.g. [('434333', '3706', 16), ('433576', '3662', 2), ('1297500', '3706', 0)])
+2026-11-25 14:26:36 - ==================================================
+
+2026-11-25 14:26:37 - ==================================================
+
+2026-11-25 14:26:37 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:37 -      perturbing a graph with 21045 nodes
+2026-11-25 14:26:37 -      perturbing a graph with 56489 edges
+2026-11-25 14:26:37 -     remove_edges: 14359 of 47864 candidate edges removed (e.g. [('433436', '9139', 0), ('85625', '9298', 0), ('1306333', '3662', 0)])
+2026-11-25 14:26:37 - ==================================================
+
+2026-11-25 14:26:38 - ==================================================
+
+2026-11-25 14:26:38 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:38 -      perturbing a graph with 12634 nodes
+2026-11-25 14:26:38 -      perturbing a graph with 23486 edges
+2026-11-25 14:26:39 -     remove_edges: 4319 of 14397 candidate edges removed (e.g. [('9380', '88767', 5), ('9162', '50627', 318), ('433967', '9139', 0)])
+2026-11-25 14:26:39 - ==================================================
+
+2026-11-25 14:26:39 - ==================================================
+
+2026-11-25 14:26:39 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:39 -      perturbing a graph with 8715 nodes
+2026-11-25 14:26:39 -      perturbing a graph with 26682 edges
+2026-11-25 14:26:39 -     remove_edges: 2344 of 7812 candidate edges removed (e.g. [('431589', '9167', 357), ('81909', '8289', 0), ('435869', '9139', 2)])
+2026-11-25 14:26:39 - ==================================================
+
+2026-11-25 14:26:40 - ==================================================
+
+2026-11-25 14:26:40 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:40 -      perturbing a graph with 9183 nodes
+2026-11-25 14:26:40 -      perturbing a graph with 26009 edges
+2026-11-25 14:26:40 -     remove_edges: 2828 of 9428 candidate edges removed (e.g. [('433180', '9139', 1), ('432805', '9139', 1), ('436788', '9139', 0)])
+2026-11-25 14:26:41 - ==================================================
+
+2026-11-25 14:26:41 - ==================================================
+
+2026-11-25 14:26:41 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:41 -      perturbing a graph with 10589 nodes
+2026-11-25 14:26:41 -      perturbing a graph with 23935 edges
+2026-11-25 14:26:42 -     remove_edges: 2950 of 9833 candidate edges removed (e.g. [('433470', '9139', 0), ('432803', '9139', 1), ('975450', '9250', 7)])
+2026-11-25 14:26:42 - ==================================================
+
+2026-11-25 14:26:42 - ==================================================
+
+2026-11-25 14:26:42 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:42 -      perturbing a graph with 8583 nodes
+2026-11-25 14:26:42 -      perturbing a graph with 16836 edges
+2026-11-25 14:26:42 -     remove_edges: 2446 of 8154 candidate edges removed (e.g. [('9638', '9638', 0), ('9162', '50627', 261), ('435422', '9139', 3)])
+2026-11-25 14:26:42 - ==================================================
+
+2026-11-25 14:26:43 - ==================================================
+
+2026-11-25 14:26:43 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:43 -      perturbing a graph with 8852 nodes
+2026-11-25 14:26:43 -      perturbing a graph with 29717 edges
+2026-11-25 14:26:43 -     remove_edges: 3023 of 10077 candidate edges removed (e.g. [('432698', '9139', 1), ('87047', '9715', 0), ('435630', '9139', 0)])
+2026-11-25 14:26:43 - ==================================================
+
+2026-11-25 14:26:43 - ==================================================
+
+2026-11-25 14:26:43 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:43 -      perturbing a graph with 8300 nodes
+2026-11-25 14:26:43 -      perturbing a graph with 25418 edges
+2026-11-25 14:26:43 -     remove_edges: 2313 of 7711 candidate edges removed (e.g. [('9162', '50627', 247), ('9152', '91987', 2), ('435555', '9139', 1)])
+2026-11-25 14:26:43 - ==================================================
+
+2026-11-25 14:26:44 - ==================================================
+
+2026-11-25 14:26:44 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:44 -      perturbing a graph with 8685 nodes
+2026-11-25 14:26:44 -      perturbing a graph with 15905 edges
+2026-11-25 14:26:44 -     remove_edges: 1940 of 6468 candidate edges removed (e.g. [('431616', '9139', 3), ('9908', '9908', 2), ('436505', '9139', 1)])
+2026-11-25 14:26:44 - ==================================================
+
+2026-11-25 14:26:45 - ==================================================
+
+2026-11-25 14:26:45 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:45 -      perturbing a graph with 7568 nodes
+2026-11-25 14:26:45 -      perturbing a graph with 15010 edges
+2026-11-25 14:26:45 -     remove_edges: 2229 of 7430 candidate edges removed (e.g. [('431589', '9167', 217), ('9963', '9961', 0), ('436035', '9139', 0)])
+2026-11-25 14:26:45 - ==================================================
+
+2026-11-25 14:26:45 - ==================================================
+
+2026-11-25 14:26:45 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:45 -      perturbing a graph with 7973 nodes
+2026-11-25 14:26:45 -      perturbing a graph with 26919 edges
+2026-11-25 14:26:45 -     remove_edges: 2639 of 8796 candidate edges removed (e.g. [('433190', '9139', 1), ('432837', '9139', 2), ('436447', '9139', 2)])
+2026-11-25 14:26:45 - ==================================================
+
+2026-11-25 14:26:46 - ==================================================
+
+2026-11-25 14:26:46 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:46 -      perturbing a graph with 7736 nodes
+2026-11-25 14:26:46 -      perturbing a graph with 23831 edges
+2026-11-25 14:26:46 -     remove_edges: 1808 of 6025 candidate edges removed (e.g. [('432586', '9139', 0), ('431589', '9167', 60), ('437127', '9139', 1)])
+2026-11-25 14:26:46 - ==================================================
+
+2026-11-25 14:26:46 - ==================================================
+
+2026-11-25 14:26:46 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:46 -      perturbing a graph with 7767 nodes
+2026-11-25 14:26:46 -      perturbing a graph with 14592 edges
+2026-11-25 14:26:46 -     remove_edges: 1968 of 6561 candidate edges removed (e.g. [('431633', '9139', 4), ('10105', '9237', 0), ('436449', '9139', 0)])
+2026-11-25 14:26:46 - ==================================================
+
+2026-11-25 14:26:47 - ==================================================
+
+2026-11-25 14:26:47 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:47 -      perturbing a graph with 8064 nodes
+2026-11-25 14:26:47 -      perturbing a graph with 16034 edges
+2026-11-25 14:26:47 -     remove_edges: 2316 of 7720 candidate edges removed (e.g. [('431605', '9139', 2), ('81904', '9182', 0), ('435875', '9139', 3)])
+2026-11-25 14:26:47 - ==================================================
+
+2026-11-25 14:26:47 - ==================================================
+
+2026-11-25 14:26:47 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:47 -      perturbing a graph with 8218 nodes
+2026-11-25 14:26:47 -      perturbing a graph with 27371 edges
+2026-11-25 14:26:47 -     remove_edges: 2465 of 8218 candidate edges removed (e.g. [('433208', '9139', 1), ('432832', '9139', 2), ('436901', '9139', 1)])
+2026-11-25 14:26:47 - ==================================================
+
+2026-11-25 14:26:48 - ==================================================
+
+2026-11-25 14:26:48 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:48 -      perturbing a graph with 7660 nodes
+2026-11-25 14:26:48 -      perturbing a graph with 34955 edges
+2026-11-25 14:26:48 -     remove_edges: 1970 of 6567 candidate edges removed (e.g. [('91941', '10230', 0), ('9162', '50627', 303), ('436280', '9139', 1)])
+2026-11-25 14:26:48 - ==================================================
+
+2026-11-25 14:26:49 - ==================================================
+
+2026-11-25 14:26:49 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:49 -      perturbing a graph with 8934 nodes
+2026-11-25 14:26:49 -      perturbing a graph with 17892 edges
+2026-11-25 14:26:49 -     remove_edges: 2149 of 7163 candidate edges removed (e.g. [('432457', '9139', 0), ('431589', '9167', 43), ('436135', '9139', 2)])
+2026-11-25 14:26:49 - ==================================================
+
+2026-11-25 14:26:50 - ==================================================
+
+2026-11-25 14:26:50 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:50 -      perturbing a graph with 12862 nodes
+2026-11-25 14:26:50 -      perturbing a graph with 33168 edges
+2026-11-25 14:26:50 -     remove_edges: 6225 of 20751 candidate edges removed (e.g. [('10376', '93631', 0), ('10290', '10290', 0), ('432996', '9139', 3)])
+2026-11-25 14:26:50 - ==================================================
+
+2026-11-25 14:26:51 - ==================================================
+
+2026-11-25 14:26:51 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:51 -      perturbing a graph with 26171 nodes
+2026-11-25 14:26:51 -      perturbing a graph with 74462 edges
+2026-11-25 14:26:52 -     remove_edges: 12806 of 42687 candidate edges removed (e.g. [('433335', '9139', 5), ('432517', '9139', 51), ('1300001', '9139', 0)])
+2026-11-25 14:26:52 - ==================================================
+
+2026-11-25 14:26:54 - ==================================================
+
+2026-11-25 14:26:54 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:54 -      perturbing a graph with 9088 nodes
+2026-11-25 14:26:54 -      perturbing a graph with 18196 edges
+2026-11-25 14:26:54 -     remove_edges: 5289 of 17629 candidate edges removed (e.g. [('433585', '10641', 0), ('432595', '10641', 1), ('1419434', '10649', 1)])
+2026-11-25 14:26:54 - ==================================================
+
+2026-11-25 14:26:55 - ==================================================
+
+2026-11-25 14:26:55 -      type of graph: <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2026-11-25 14:26:55 -      perturbing a graph with 3231 nodes
+2026-11-25 14:26:55 -      perturbing a graph with 5885 edges
+2026-11-25 14:26:55 -     remove_edges: 1728 of 5760 candidate edges removed (e.g. [('1421298', '10649', 3), ('431589', '10708', 119), ('1423707', '10649', 0)])
+2026-11-25 14:26:55 - ==================================================
+
+2026-11-25 14:26:56 - [mal_perturbation] summary: {'windows_seen': 246, 'candidate_edges': 5616327, 'removed_edges': 1684886, 'windows_perturbed': 246, 'nodes_before': 2249479, 'nodes_after': 2249479, 'edges_before': 5907548, 'edges_after': 4222662, 'malicious_nodes_before': 831, 'malicious_nodes_after': 831, 'nodes_removed': 0, 'edges_removed': 1684886}
+Task done: /home/artifacts/transformation/optc_h051/transformation/120c8279ef7b7aa66847c971a276451384eb6463694139045a4a42163a0d8959
+
+2026-11-25 14:26:56 - Task featurization: /home/artifacts/featurization/optc_h051/featurization/027cbc0f87600759bf9385caf941e0fc0375244ba6e73e0d22494e4e173b4aa8
+2026-11-25 14:26:56 - Task feat_inference: /home/artifacts/feat_inference/optc_h051/feat_inference/e4d89543d37c72361d85d743f376188712a19b4c064533749418de8da6c1ec25
+2026-11-25 14:26:56 - Computing edge embeddings...
+2026-11-25 14:29:58 - Computing edge embeddings...
+2026-11-25 14:31:00 - Computing edge embeddings...
+Task done: /home/artifacts/feat_inference/optc_h051/feat_inference/e4d89543d37c72361d85d743f376188712a19b4c064533749418de8da6c1ec25
+
+2026-11-25 14:33:18 - Task batching: /home/artifacts/batching/batching/ed4cc89931782b106f91c207dfde40b9773d0921078b22eac9df63428270a1d3/optc_h051
+2026-11-25 14:33:18 - Task training: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051
+2026-11-25 14:33:18 - ======= START SUBTASK training.py =======
+2026-11-25 14:33:18 - ======= START SUBTASK training_loop.py =======
+2026-11-25 14:33:18 - Force graphs loading to save storage.
+Max node in optc_h051: 3946007
+2026-11-25 14:33:35 - 
+2026-11-25 14:33:35 - Dataset statistics
+2026-11-25 14:33:36 - Train num graphs: 278
+2026-11-25 14:33:36 - Train edges | mean: 23661 | min: 915 | max: 69344
+2026-11-25 14:33:36 - Train nodes | mean: 9170 | min: 730 | max: 28844
+2026-11-25 14:33:36 - 
+2026-11-25 14:33:37 - Val num graphs: 95
+2026-11-25 14:33:37 - Val edges | mean: 24548 | min: 13397 | max: 38665
+2026-11-25 14:33:37 - Val nodes | mean: 9689 | min: 4327 | max: 15349
+2026-11-25 14:33:37 - 
+2026-11-25 14:33:38 - Test num graphs: 246
+2026-11-25 14:33:38 - Test edges | mean: 17165 | min: 4157 | max: 61656
+2026-11-25 14:33:38 - Test nodes | mean: 7796 | min: 2656 | max: 24841
+2026-11-25 14:33:38 - 
+2026-11-25 14:33:38 - Reindexing graphs...
+2026-11-25 14:33:45 - Reindexing graphs...
+2026-11-25 14:33:47 - Reindexing graphs...
+2026-11-25 14:33:53 - Graph data loaded.
+2026-11-25 14:33:53 - Training...
+2026-11-25 14:35:42 - [@epoch00] Training finished - GPU memory: 1.34 GB | CPU memory: 0.01 GB | Mean Loss: 0.1910
+
+2026-11-25 14:35:42 - Validation...
+2026-11-25 14:41:46 - [@epoch00] Validation finished - Val Loss: 0.0000
+
+2026-11-25 14:41:46 - Testing...
+2026-11-25 14:49:42 - [@epoch00] Test finished - Test Loss: 0.0000
+
+2026-11-25 14:49:42 - Training...
+2026-11-25 14:51:27 - [@epoch01] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.1136
+
+2026-11-25 14:51:27 - Validation...
+2026-11-25 14:56:52 - [@epoch01] Validation finished - Val Loss: 0.0000
+
+2026-11-25 14:56:52 - Testing...
+2026-11-25 15:05:21 - [@epoch01] Test finished - Test Loss: 0.0000
+
+2026-11-25 15:05:21 - Training...
+2026-11-25 15:07:05 - [@epoch02] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.1019
+
+2026-11-25 15:07:05 - Training...
+2026-11-25 15:08:53 - [@epoch03] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.1008
+
+2026-11-25 15:08:53 - Validation...
+2026-11-25 15:13:49 - [@epoch03] Validation finished - Val Loss: 0.0000
+
+2026-11-25 15:13:49 - Testing...
+2026-11-25 15:22:35 - [@epoch03] Test finished - Test Loss: 0.0000
+
+2026-11-25 15:22:35 - Training...
+2026-11-25 15:24:20 - [@epoch04] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0984
+
+2026-11-25 15:24:20 - Training...
+2026-11-25 15:26:07 - [@epoch05] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0979
+
+2026-11-25 15:26:07 - Validation...
+2026-11-25 15:30:31 - [@epoch05] Validation finished - Val Loss: 0.0000
+
+2026-11-25 15:30:31 - Testing...
+2026-11-25 15:39:13 - [@epoch05] Test finished - Test Loss: 0.0000
+
+2026-11-25 15:39:13 - Training...
+2026-11-25 15:40:58 - [@epoch06] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0966
+
+2026-11-25 15:40:58 - Training...
+2026-11-25 15:42:43 - [@epoch07] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0963
+
+2026-11-25 15:42:43 - Validation...
+2026-11-25 15:47:04 - [@epoch07] Validation finished - Val Loss: 0.0000
+
+2026-11-25 15:47:04 - Testing...
+2026-11-25 15:56:05 - [@epoch07] Test finished - Test Loss: 0.0000
+
+2026-11-25 15:56:05 - Training...
+2026-11-25 15:58:01 - [@epoch08] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0957
+
+2026-11-25 15:58:01 - Training...
+2026-11-25 15:59:59 - [@epoch09] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0952
+
+2026-11-25 15:59:59 - Validation...
+2026-11-25 16:05:10 - [@epoch09] Validation finished - Val Loss: 0.0000
+
+2026-11-25 16:05:10 - Testing...
+2026-11-25 16:14:04 - [@epoch09] Test finished - Test Loss: 0.0000
+
+2026-11-25 16:14:04 - Training...
+2026-11-25 16:16:02 - [@epoch10] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0949
+
+2026-11-25 16:16:02 - Training...
+2026-11-25 16:18:00 - [@epoch11] Training finished - GPU memory: 1.37 GB | CPU memory: 0.01 GB | Mean Loss: 0.0942
+
+2026-11-25 16:18:00 - Validation...
+2026-11-25 16:23:18 - [@epoch11] Validation finished - Val Loss: 0.0000
+
+2026-11-25 16:23:18 - Testing...
+2026-11-25 16:32:01 - [@epoch11] Test finished - Test Loss: 0.0000
+
+Task done: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051
+
+2026-11-25 16:32:01 - Task evaluation: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051
+2026-11-25 16:32:17 - Computing time-window labels...
+2026-11-25 16:32:38 - Node GT: found 135928 event timestamps with malicious activity
+2026-11-25 16:32:45 - Matched 135873/135928 event timestamps to test time windows.
+2026-11-25 16:32:45 - TW 230 -> 12 malicious nodes + 12694 malicious edges
+2026-11-25 16:32:45 - TW 231 -> 33 malicious nodes + 34162 malicious edges
+2026-11-25 16:32:45 - TW 232 -> 48 malicious nodes + 33473 malicious edges
+2026-11-25 16:32:45 - TW 233 -> 27 malicious nodes + 15036 malicious edges
+2026-11-25 16:32:45 - TW 234 -> 19 malicious nodes + 11995 malicious edges
+2026-11-25 16:32:45 - TW 235 -> 12 malicious nodes + 33321 malicious edges
+2026-11-25 16:32:45 - TW 236 -> 15 malicious nodes + 32358 malicious edges
+2026-11-25 16:32:45 - TW 237 -> 15 malicious nodes + 12769 malicious edges
+2026-11-25 16:32:45 - TW 238 -> 14 malicious nodes + 12727 malicious edges
+2026-11-25 16:32:45 - TW 239 -> 14 malicious nodes + 33798 malicious edges
+2026-11-25 16:32:45 - TW 240 -> 18 malicious nodes + 62932 malicious edges
+2026-11-25 16:32:45 - TW 241 -> 13 malicious nodes + 16284 malicious edges
+2026-11-25 16:32:45 - TW 242 -> 22 malicious nodes + 21299 malicious edges
+2026-11-25 16:32:45 - TW 243 -> 15 malicious nodes + 49451 malicious edges
+2026-11-25 16:32:45 - TW 244 -> 24 malicious nodes + 4172 malicious edges
+2026-11-25 16:32:45 - Total distinct malicious nodes across time windows: 114 / 114 ground-truth nodes
+
+2026-11-25 16:32:45 - [@model_epoch_0] - Test Evaluation
+2026-11-25 16:33:01 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_0...
+2026-11-25 16:33:04 - Thresholds: MEAN=25.332, STD=6.771, MAX=88.801, 90 Percentile=33.586
+2026-11-25 16:33:04 - Threshold: 25.332
+2026-11-25 16:33:04 - Compute labels...
+2026-11-25 16:35:38 - Analysis of malicious nodes:
+2026-11-25 16:35:38 - -> Malicious node 50632  : loss=52.520 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 16:35:38 - -> Malicious node 50665  : loss=53.621 | is TP: ✅ None
+2026-11-25 16:35:39 - -> Malicious node 81878  : loss=54.345 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 16:35:39 - -> Malicious node 7260   : loss=36.894 | is TP: ✅ gpupdate.exe
+2026-11-25 16:35:40 - -> Malicious node 9141   : loss=76.670 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:35:40 - -> Malicious node 9144   : loss=81.427 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 9148   : loss=82.609 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:35:40 - -> Malicious node 9155   : loss=83.295 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:35:40 - -> Malicious node 9630   : loss=79.354 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:35:40 - -> Malicious node 9633   : loss=48.268 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 16:35:40 - -> Malicious node 9662   : loss=51.416 | is TP: ✅ sc.exe
+2026-11-25 16:35:40 - -> Malicious node 9670   : loss=49.825 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 16:35:40 - -> Malicious node 1335097: loss=57.449 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1335120: loss=39.915 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 16:35:40 - -> Malicious node 9709   : loss=59.959 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:35:40 - -> Malicious node 9711   : loss=44.681 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9720   : loss=44.865 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9727   : loss=44.163 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:35:40 - -> Malicious node 9729   : loss=44.295 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9732   : loss=44.865 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9736   : loss=46.085 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9741   : loss=44.719 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:35:40 - -> Malicious node 9743   : loss=44.483 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9747   : loss=76.407 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9751   : loss=45.181 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9754   : loss=45.181 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9759   : loss=43.676 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 1341595: loss=47.089 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1341892: loss=47.269 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1342165: loss=47.450 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1342437: loss=47.269 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1342545: loss=49.715 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1342687: loss=47.157 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1342882: loss=53.993 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1343185: loss=46.892 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1343861: loss=46.892 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1344490: loss=47.600 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 9765   : loss=38.436 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9771   : loss=38.690 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9774   : loss=38.505 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9778   : loss=38.150 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9782   : loss=75.988 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9790   : loss=40.941 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9798   : loss=38.505 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9806   : loss=46.065 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9820   : loss=37.175 | is TP: ✅ cmd.exe
+2026-11-25 16:35:40 - -> Malicious node 9826   : loss=46.065 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9840   : loss=38.505 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9846   : loss=38.748 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9855   : loss=78.638 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9859   : loss=38.357 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9870   : loss=41.559 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 9874   : loss=42.109 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 92445  : loss=24.828 | is TP: ❌ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 16:35:40 - -> Malicious node 1344971: loss=40.485 | is TP: ✅ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1345109: loss=42.492 | is TP: ✅ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1345310: loss=42.036 | is TP: ✅ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1345457: loss=41.817 | is TP: ✅ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1345733: loss=42.245 | is TP: ✅ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1346058: loss=42.775 | is TP: ✅ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1346387: loss=44.571 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1346956: loss=42.036 | is TP: ✅ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1347532: loss=43.654 | is TP: ✅ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1347958: loss=43.654 | is TP: ✅ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1348379: loss=33.961 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 16:35:40 - -> Malicious node 1348380: loss=24.828 | is TP: ❌ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 16:35:40 - -> Malicious node 1348444: loss=42.036 | is TP: ✅ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1348777: loss=42.345 | is TP: ✅ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1349080: loss=41.489 | is TP: ✅ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1349249: loss=41.913 | is TP: ✅ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1349391: loss=44.508 | is TP: ✅ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 9878   : loss=39.526 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9884   : loss=41.156 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9887   : loss=38.802 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9897   : loss=48.268 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9901   : loss=41.397 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:35:40 - -> Malicious node 9904   : loss=77.489 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:35:40 - -> Malicious node 1349752: loss=42.026 | is TP: ✅ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1350207: loss=41.872 | is TP: ✅ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1350770: loss=42.370 | is TP: ✅ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1351279: loss=43.734 | is TP: ✅ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1351758: loss=43.734 | is TP: ✅ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1352341: loss=43.734 | is TP: ✅ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1352699: loss=57.013 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1352718: loss=39.915 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 16:35:40 - -> Malicious node 9964   : loss=32.873 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:35:40 - -> Malicious node 10199  : loss=40.369 | is TP: ✅ gpupdate.exe
+2026-11-25 16:35:40 - -> Malicious node 10205  : loss=44.297 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:35:40 - -> Malicious node 10204  : loss=35.063 | is TP: ✅ gpupdate.exe
+2026-11-25 16:35:40 - -> Malicious node 10301  : loss=52.096 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 10397  : loss=52.008 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 10437  : loss=51.125 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 1396226: loss=39.915 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 16:35:40 - -> Malicious node 1396266: loss=50.172 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 16:35:40 - -> Malicious node 10645  : loss=39.844 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 10646  : loss=39.347 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 16:35:40 - -> Malicious node 10655  : loss=46.494 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:35:40 - -> Malicious node 10658  : loss=54.935 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:35:40 - -> Malicious node 10682  : loss=49.444 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:35:40 - -> Malicious node 10694  : loss=50.926 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:35:40 - -> Malicious node 10736  : loss=35.230 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:35:40 - -> Malicious node 10740  : loss=42.254 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:35:40 - -> Malicious node 96561  : loss=34.497 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:35:40 - -> Malicious node 96564  : loss=33.633 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 16:35:40 - -> Malicious node 1418289: loss=34.176 | is TP: ✅ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 16:35:40 - -> Malicious node 1418294: loss=34.176 | is TP: ✅ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 16:35:40 - -> Malicious node 1418295: loss=34.176 | is TP: ✅ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 16:35:40 - -> Malicious node 1418296: loss=34.176 | is TP: ✅ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 16:35:40 - -> Malicious node 1418303: loss=24.118 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 16:35:40 - -> Malicious node 1418304: loss=24.118 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 16:35:40 - -> Malicious node 1418307: loss=24.118 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 16:35:40 - -> Malicious node 1418373: loss=24.118 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 16:35:40 - -> Malicious node 1418426: loss=38.082 | is TP: ✅ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 16:35:40 - -> Malicious node 1418429: loss=24.118 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 16:35:40 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+Authorization required, but no authorization protocol specified
+
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: invalid value encountered in power
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 16:37:41 - TPs per attack:
+2026-11-25 16:37:41 - attack 0: 107
+2026-11-25 16:38:17 - [@model_epoch_0] - Stats
+2026-11-25 16:38:17 - precision: 0.00022
+2026-11-25 16:38:17 - recall: 0.9386
+2026-11-25 16:38:17 - fpr: 0.4034178
+2026-11-25 16:38:17 - fscore: 0.00043
+2026-11-25 16:38:17 - ap: 0.00722
+2026-11-25 16:38:17 - accuracy: 0.59661
+2026-11-25 16:38:17 - balanced_acc: 0.76759
+2026-11-25 16:38:17 - auc: 0.94052
+2026-11-25 16:38:17 - lr(+): 2.32661
+2026-11-25 16:38:17 - dor: 22.60482
+2026-11-25 16:38:17 - mcc: nan
+2026-11-25 16:38:17 - tp: 107
+2026-11-25 16:38:17 - fp: 492298
+2026-11-25 16:38:17 - tn: 728020
+2026-11-25 16:38:17 - fn: 7
+2026-11-25 16:38:17 - precision@10: 0.0
+2026-11-25 16:38:17 - recall@10: 0.0
+2026-11-25 16:38:17 - ap@10: 0.0
+2026-11-25 16:38:17 - precision@50: 0.06
+2026-11-25 16:38:17 - recall@50: 0.02632
+2026-11-25 16:38:17 - ap@50: 0.00395
+2026-11-25 16:38:17 - precision@100: 0.07
+2026-11-25 16:38:17 - recall@100: 0.0614
+2026-11-25 16:38:17 - ap@100: 0.00493
+2026-11-25 16:38:17 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 16:38:17 - percent_detected_attacks: 1.0
+2026-11-25 16:38:17 - fps_if_all_attacks_detected: 22
+2026-11-25 16:38:17 - tps_if_all_attacks_detected: 0
+2026-11-25 16:38:17 - precision_if_all_attacks_detected: 0.0
+2026-11-25 16:38:17 - recall_if_all_attacks_detected: 0.0
+2026-11-25 16:38:17 - adp_score: 0.081
+2026-11-25 16:38:17 - threshold: 25.331747989330847
+2026-11-25 16:38:17 - discrim_score_att_0: -0.052
+2026-11-25 16:38:17 - discrimination: -0.052
+2026-11-25 16:38:17 - discrim_tp_att_0: 0
+2026-11-25 16:38:17 - discrim_tp_att_sum: 0
+2026-11-25 16:38:17 - tp_att_0: 0
+2026-11-25 16:38:17 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_0.pkl
+2026-11-25 16:38:17 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_0.svg
+2026-11-25 16:38:17 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_0
+
+2026-11-25 16:38:17 - [@model_epoch_1] - Test Evaluation
+2026-11-25 16:38:34 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_1...
+2026-11-25 16:38:37 - Thresholds: MEAN=18.156, STD=5.119, MAX=99.410, 90 Percentile=23.023
+2026-11-25 16:38:37 - Threshold: 18.156
+2026-11-25 16:38:37 - Compute labels...
+2026-11-25 16:40:16 - Analysis of malicious nodes:
+2026-11-25 16:40:16 - -> Malicious node 50632  : loss=43.551 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 16:40:16 - -> Malicious node 50665  : loss=45.195 | is TP: ✅ None
+2026-11-25 16:40:17 - -> Malicious node 81878  : loss=41.746 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 16:40:18 - -> Malicious node 7260   : loss=27.653 | is TP: ✅ gpupdate.exe
+2026-11-25 16:40:18 - -> Malicious node 9141   : loss=70.786 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:40:18 - -> Malicious node 9144   : loss=89.927 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 9148   : loss=97.070 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:40:18 - -> Malicious node 9155   : loss=77.407 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:40:18 - -> Malicious node 9630   : loss=87.360 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:40:18 - -> Malicious node 9633   : loss=49.945 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 16:40:18 - -> Malicious node 9662   : loss=51.067 | is TP: ✅ sc.exe
+2026-11-25 16:40:18 - -> Malicious node 9670   : loss=50.551 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 16:40:18 - -> Malicious node 1335097: loss=45.708 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1335120: loss=28.026 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 16:40:18 - -> Malicious node 9709   : loss=54.344 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:40:18 - -> Malicious node 9711   : loss=37.025 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9720   : loss=37.484 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9727   : loss=35.747 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:40:18 - -> Malicious node 9729   : loss=36.873 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9732   : loss=45.059 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9736   : loss=44.991 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9741   : loss=37.269 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:40:18 - -> Malicious node 9743   : loss=36.708 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9747   : loss=70.618 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9751   : loss=45.977 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9754   : loss=37.416 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9759   : loss=45.059 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 1341595: loss=41.479 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1341892: loss=41.431 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1342165: loss=41.702 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1342437: loss=41.431 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1342545: loss=40.381 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1342687: loss=41.490 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1342882: loss=40.127 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1343185: loss=41.267 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1343861: loss=41.267 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1344490: loss=41.735 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 9765   : loss=34.078 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9771   : loss=31.147 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9774   : loss=31.538 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9778   : loss=30.732 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9782   : loss=71.822 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9790   : loss=33.520 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9798   : loss=31.538 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9806   : loss=46.958 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9820   : loss=31.794 | is TP: ✅ cmd.exe
+2026-11-25 16:40:18 - -> Malicious node 9826   : loss=46.958 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9840   : loss=31.538 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9846   : loss=30.256 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9855   : loss=71.787 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9859   : loss=31.075 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9870   : loss=31.324 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 9874   : loss=34.848 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 92445  : loss=16.368 | is TP: ❌ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 16:40:18 - -> Malicious node 1344971: loss=35.068 | is TP: ✅ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1345109: loss=36.590 | is TP: ✅ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1345310: loss=36.071 | is TP: ✅ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1345457: loss=36.085 | is TP: ✅ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1345733: loss=36.048 | is TP: ✅ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1346058: loss=36.310 | is TP: ✅ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1346387: loss=38.303 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1346956: loss=36.071 | is TP: ✅ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1347532: loss=36.729 | is TP: ✅ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1347958: loss=36.729 | is TP: ✅ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1348379: loss=23.022 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 16:40:18 - -> Malicious node 1348380: loss=16.368 | is TP: ❌ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 16:40:18 - -> Malicious node 1348444: loss=36.071 | is TP: ✅ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1348777: loss=36.468 | is TP: ✅ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1349080: loss=35.744 | is TP: ✅ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1349249: loss=36.178 | is TP: ✅ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1349391: loss=36.253 | is TP: ✅ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 9878   : loss=31.700 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9884   : loss=32.048 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9887   : loss=33.017 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9897   : loss=49.945 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9901   : loss=31.654 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:40:18 - -> Malicious node 9904   : loss=85.214 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:40:18 - -> Malicious node 1349752: loss=35.977 | is TP: ✅ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1350207: loss=35.874 | is TP: ✅ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1350770: loss=35.917 | is TP: ✅ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1351279: loss=36.529 | is TP: ✅ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1351758: loss=36.529 | is TP: ✅ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1352341: loss=36.529 | is TP: ✅ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1352699: loss=46.135 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1352718: loss=28.026 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 16:40:18 - -> Malicious node 9964   : loss=24.340 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:40:18 - -> Malicious node 10199  : loss=36.590 | is TP: ✅ gpupdate.exe
+2026-11-25 16:40:18 - -> Malicious node 10205  : loss=32.035 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:40:18 - -> Malicious node 10204  : loss=26.142 | is TP: ✅ gpupdate.exe
+2026-11-25 16:40:18 - -> Malicious node 10301  : loss=41.389 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 10397  : loss=41.751 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 10437  : loss=41.308 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 1396226: loss=28.026 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 16:40:18 - -> Malicious node 1396266: loss=39.959 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 16:40:18 - -> Malicious node 10645  : loss=38.975 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 10646  : loss=28.264 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 16:40:18 - -> Malicious node 10655  : loss=42.737 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:40:18 - -> Malicious node 10658  : loss=58.271 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:40:18 - -> Malicious node 10682  : loss=47.654 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:40:18 - -> Malicious node 10694  : loss=51.011 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:40:18 - -> Malicious node 10736  : loss=25.347 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:40:18 - -> Malicious node 10740  : loss=37.497 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:40:18 - -> Malicious node 96561  : loss=29.927 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:40:18 - -> Malicious node 96564  : loss=23.125 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 16:40:18 - -> Malicious node 1418289: loss=23.594 | is TP: ✅ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 16:40:18 - -> Malicious node 1418294: loss=23.594 | is TP: ✅ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 16:40:18 - -> Malicious node 1418295: loss=23.594 | is TP: ✅ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 16:40:18 - -> Malicious node 1418296: loss=23.594 | is TP: ✅ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 16:40:18 - -> Malicious node 1418303: loss=16.071 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 16:40:18 - -> Malicious node 1418304: loss=16.071 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 16:40:18 - -> Malicious node 1418307: loss=16.071 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 16:40:18 - -> Malicious node 1418373: loss=16.071 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 16:40:18 - -> Malicious node 1418426: loss=28.676 | is TP: ✅ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 16:40:18 - -> Malicious node 1418429: loss=16.071 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 16:40:18 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 16:42:42 - TPs per attack:
+2026-11-25 16:42:42 - attack 0: 107
+2026-11-25 16:43:16 - [@model_epoch_1] - Stats
+2026-11-25 16:43:16 - precision: 0.00033
+2026-11-25 16:43:16 - recall: 0.9386
+2026-11-25 16:43:16 - fpr: 0.2633437
+2026-11-25 16:43:16 - fscore: 0.00067
+2026-11-25 16:43:16 - ap: 0.00747
+2026-11-25 16:43:16 - accuracy: 0.73668
+2026-11-25 16:43:16 - balanced_acc: 0.83763
+2026-11-25 16:43:16 - auc: 0.94371
+2026-11-25 16:43:16 - lr(+): 3.56415
+2026-11-25 16:43:16 - dor: 42.75903
+2026-11-25 16:43:16 - mcc: 0.05164
+2026-11-25 16:43:16 - tp: 107
+2026-11-25 16:43:16 - fp: 321363
+2026-11-25 16:43:16 - tn: 898955
+2026-11-25 16:43:16 - fn: 7
+2026-11-25 16:43:16 - precision@10: 0.0
+2026-11-25 16:43:16 - recall@10: 0.0
+2026-11-25 16:43:16 - ap@10: 0.0
+2026-11-25 16:43:16 - precision@50: 0.08
+2026-11-25 16:43:16 - recall@50: 0.03509
+2026-11-25 16:43:16 - ap@50: 0.00598
+2026-11-25 16:43:16 - precision@100: 0.05
+2026-11-25 16:43:16 - recall@100: 0.04386
+2026-11-25 16:43:16 - ap@100: 0.00358
+2026-11-25 16:43:16 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 16:43:16 - percent_detected_attacks: 1.0
+2026-11-25 16:43:16 - fps_if_all_attacks_detected: 11
+2026-11-25 16:43:16 - tps_if_all_attacks_detected: 0
+2026-11-25 16:43:16 - precision_if_all_attacks_detected: 0.0
+2026-11-25 16:43:16 - recall_if_all_attacks_detected: 0.0
+2026-11-25 16:43:16 - adp_score: 0.083
+2026-11-25 16:43:16 - threshold: 18.156449145133514
+2026-11-25 16:43:16 - discrim_score_att_0: -0.0121
+2026-11-25 16:43:16 - discrimination: -0.0121
+2026-11-25 16:43:16 - discrim_tp_att_0: 0
+2026-11-25 16:43:16 - discrim_tp_att_sum: 0
+2026-11-25 16:43:16 - tp_att_0: 0
+2026-11-25 16:43:16 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_1.pkl
+2026-11-25 16:43:16 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_1.svg
+2026-11-25 16:43:16 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_1
+
+2026-11-25 16:43:16 - [@model_epoch_3] - Test Evaluation
+2026-11-25 16:43:35 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_3...
+2026-11-25 16:43:39 - Thresholds: MEAN=22.033, STD=4.365, MAX=89.759, 90 Percentile=25.874
+2026-11-25 16:43:39 - Threshold: 22.033
+2026-11-25 16:43:39 - Compute labels...
+2026-11-25 16:45:39 - Analysis of malicious nodes:
+2026-11-25 16:45:39 - -> Malicious node 50632  : loss=47.529 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 16:45:39 - -> Malicious node 50665  : loss=47.572 | is TP: ✅ None
+2026-11-25 16:45:40 - -> Malicious node 81878  : loss=43.401 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 16:45:40 - -> Malicious node 7260   : loss=25.834 | is TP: ✅ gpupdate.exe
+2026-11-25 16:45:41 - -> Malicious node 9141   : loss=64.753 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:45:41 - -> Malicious node 9144   : loss=81.279 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 9148   : loss=89.147 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:45:41 - -> Malicious node 9155   : loss=63.782 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:45:41 - -> Malicious node 9630   : loss=76.410 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:45:41 - -> Malicious node 9633   : loss=42.744 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 16:45:41 - -> Malicious node 9662   : loss=43.854 | is TP: ✅ sc.exe
+2026-11-25 16:45:41 - -> Malicious node 9670   : loss=42.638 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 16:45:41 - -> Malicious node 1335097: loss=45.998 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1335120: loss=31.245 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 16:45:41 - -> Malicious node 9709   : loss=47.216 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:45:41 - -> Malicious node 9711   : loss=35.065 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9720   : loss=35.579 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9727   : loss=34.661 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:45:41 - -> Malicious node 9729   : loss=35.075 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9732   : loss=37.773 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9736   : loss=41.417 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9741   : loss=35.525 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:45:41 - -> Malicious node 9743   : loss=34.998 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9747   : loss=63.986 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9751   : loss=38.417 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9754   : loss=35.320 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9759   : loss=37.773 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 1341595: loss=38.675 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1341892: loss=38.680 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1342165: loss=38.918 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1342437: loss=38.680 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1342545: loss=38.559 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1342687: loss=38.764 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1342882: loss=35.478 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1343185: loss=38.487 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1343861: loss=38.487 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1344490: loss=39.107 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 9765   : loss=31.055 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9771   : loss=28.726 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9774   : loss=28.966 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9778   : loss=28.364 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9782   : loss=62.508 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9790   : loss=30.631 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9798   : loss=28.966 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9806   : loss=39.753 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9820   : loss=30.504 | is TP: ✅ cmd.exe
+2026-11-25 16:45:41 - -> Malicious node 9826   : loss=39.753 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9840   : loss=28.966 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9846   : loss=27.823 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9855   : loss=62.541 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9859   : loss=28.404 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9870   : loss=29.290 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 9874   : loss=32.292 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 92445  : loss=21.123 | is TP: ❌ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 16:45:41 - -> Malicious node 1344971: loss=32.762 | is TP: ✅ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1345109: loss=33.586 | is TP: ✅ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1345310: loss=33.184 | is TP: ✅ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1345457: loss=33.225 | is TP: ✅ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1345733: loss=33.370 | is TP: ✅ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1346058: loss=33.377 | is TP: ✅ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1346387: loss=35.281 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1346956: loss=33.184 | is TP: ✅ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1347532: loss=33.438 | is TP: ✅ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1347958: loss=33.438 | is TP: ✅ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1348379: loss=27.049 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 16:45:41 - -> Malicious node 1348380: loss=21.123 | is TP: ❌ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 16:45:41 - -> Malicious node 1348444: loss=33.184 | is TP: ✅ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1348777: loss=33.417 | is TP: ✅ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1349080: loss=32.834 | is TP: ✅ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1349249: loss=33.232 | is TP: ✅ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1349391: loss=33.375 | is TP: ✅ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 9878   : loss=29.016 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9884   : loss=29.217 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9887   : loss=30.726 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9897   : loss=42.744 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9901   : loss=28.596 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:45:41 - -> Malicious node 9904   : loss=74.334 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:45:41 - -> Malicious node 1349752: loss=33.048 | is TP: ✅ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1350207: loss=32.858 | is TP: ✅ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1350770: loss=33.265 | is TP: ✅ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1351279: loss=33.252 | is TP: ✅ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1351758: loss=33.252 | is TP: ✅ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1352341: loss=33.252 | is TP: ✅ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1352699: loss=45.597 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1352718: loss=31.245 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 16:45:41 - -> Malicious node 9964   : loss=22.325 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:45:41 - -> Malicious node 10199  : loss=32.989 | is TP: ✅ gpupdate.exe
+2026-11-25 16:45:41 - -> Malicious node 10205  : loss=33.021 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:45:41 - -> Malicious node 10204  : loss=23.584 | is TP: ✅ gpupdate.exe
+2026-11-25 16:45:41 - -> Malicious node 10301  : loss=43.649 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 10397  : loss=43.299 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 10437  : loss=43.211 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 1396226: loss=31.245 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 16:45:41 - -> Malicious node 1396266: loss=42.972 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 16:45:41 - -> Malicious node 10645  : loss=35.270 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 10646  : loss=27.544 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 16:45:41 - -> Malicious node 10655  : loss=38.456 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:45:41 - -> Malicious node 10658  : loss=53.206 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:45:41 - -> Malicious node 10682  : loss=41.923 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:45:41 - -> Malicious node 10694  : loss=44.704 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:45:41 - -> Malicious node 10736  : loss=25.368 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:45:41 - -> Malicious node 10740  : loss=34.179 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:45:41 - -> Malicious node 96561  : loss=28.488 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:45:41 - -> Malicious node 96564  : loss=25.285 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 16:45:41 - -> Malicious node 1418289: loss=24.889 | is TP: ✅ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 16:45:41 - -> Malicious node 1418294: loss=24.889 | is TP: ✅ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 16:45:41 - -> Malicious node 1418295: loss=24.889 | is TP: ✅ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 16:45:41 - -> Malicious node 1418296: loss=24.889 | is TP: ✅ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 16:45:41 - -> Malicious node 1418303: loss=20.619 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 16:45:41 - -> Malicious node 1418304: loss=20.619 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 16:45:41 - -> Malicious node 1418307: loss=20.619 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 16:45:41 - -> Malicious node 1418373: loss=20.619 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 16:45:41 - -> Malicious node 1418426: loss=27.127 | is TP: ✅ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 16:45:41 - -> Malicious node 1418429: loss=20.619 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 16:45:41 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 16:48:11 - TPs per attack:
+2026-11-25 16:48:11 - attack 0: 107
+2026-11-25 16:48:51 - [@model_epoch_3] - Stats
+2026-11-25 16:48:51 - precision: 0.00029
+2026-11-25 16:48:51 - recall: 0.9386
+2026-11-25 16:48:51 - fpr: 0.3014231
+2026-11-25 16:48:51 - fscore: 0.00058
+2026-11-25 16:48:51 - ap: 0.00679
+2026-11-25 16:48:51 - accuracy: 0.6986
+2026-11-25 16:48:51 - balanced_acc: 0.81859
+2026-11-25 16:48:51 - auc: 0.92822
+2026-11-25 16:48:51 - lr(+): 3.11388
+2026-11-25 16:48:51 - dor: 35.42611
+2026-11-25 16:48:51 - mcc: 0.03414
+2026-11-25 16:48:51 - tp: 107
+2026-11-25 16:48:51 - fp: 367832
+2026-11-25 16:48:51 - tn: 852486
+2026-11-25 16:48:51 - fn: 7
+2026-11-25 16:48:51 - precision@10: 0.1
+2026-11-25 16:48:51 - recall@10: 0.00877
+2026-11-25 16:48:51 - ap@10: 0.01667
+2026-11-25 16:48:51 - precision@50: 0.06
+2026-11-25 16:48:51 - recall@50: 0.02632
+2026-11-25 16:48:51 - ap@50: 0.00621
+2026-11-25 16:48:51 - precision@100: 0.04
+2026-11-25 16:48:51 - recall@100: 0.03509
+2026-11-25 16:48:51 - ap@100: 0.00389
+2026-11-25 16:48:51 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 16:48:51 - percent_detected_attacks: 1.0
+2026-11-25 16:48:51 - fps_if_all_attacks_detected: 5
+2026-11-25 16:48:51 - tps_if_all_attacks_detected: 0
+2026-11-25 16:48:51 - precision_if_all_attacks_detected: 0.0
+2026-11-25 16:48:51 - recall_if_all_attacks_detected: 0.0
+2026-11-25 16:48:51 - adp_score: 0.167
+2026-11-25 16:48:51 - threshold: 22.033013559778315
+2026-11-25 16:48:51 - discrim_score_att_0: 0.0062
+2026-11-25 16:48:51 - discrimination: 0.0062
+2026-11-25 16:48:51 - discrim_tp_att_0: 1
+2026-11-25 16:48:51 - discrim_tp_att_sum: 1
+2026-11-25 16:48:51 - tp_att_0: 0
+2026-11-25 16:48:51 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_3.pkl
+2026-11-25 16:48:51 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_3.svg
+2026-11-25 16:48:51 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_3
+
+2026-11-25 16:48:51 - [@model_epoch_5] - Test Evaluation
+2026-11-25 16:49:09 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_5...
+2026-11-25 16:49:14 - Thresholds: MEAN=23.314, STD=3.616, MAX=80.006, 90 Percentile=26.511
+2026-11-25 16:49:14 - Threshold: 23.314
+2026-11-25 16:49:14 - Compute labels...
+2026-11-25 16:51:14 - Analysis of malicious nodes:
+2026-11-25 16:51:14 - -> Malicious node 50632  : loss=46.298 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 16:51:14 - -> Malicious node 50665  : loss=45.244 | is TP: ✅ None
+2026-11-25 16:51:15 - -> Malicious node 81878  : loss=40.650 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 16:51:15 - -> Malicious node 7260   : loss=23.012 | is TP: ❌ gpupdate.exe
+2026-11-25 16:51:15 - -> Malicious node 9141   : loss=58.996 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:51:15 - -> Malicious node 9144   : loss=73.256 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 9148   : loss=79.929 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:51:15 - -> Malicious node 9155   : loss=56.771 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:51:15 - -> Malicious node 9630   : loss=69.208 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:51:15 - -> Malicious node 9633   : loss=38.795 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 16:51:15 - -> Malicious node 9662   : loss=39.519 | is TP: ✅ sc.exe
+2026-11-25 16:51:15 - -> Malicious node 9670   : loss=38.226 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 16:51:15 - -> Malicious node 1335097: loss=42.014 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1335120: loss=30.195 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 16:51:15 - -> Malicious node 9709   : loss=42.289 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:51:15 - -> Malicious node 9711   : loss=31.727 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9720   : loss=32.235 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9727   : loss=31.540 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:51:15 - -> Malicious node 9729   : loss=31.828 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9732   : loss=34.264 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9736   : loss=37.964 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9741   : loss=32.303 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 16:51:15 - -> Malicious node 9743   : loss=31.720 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9747   : loss=57.983 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9751   : loss=34.626 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9754   : loss=31.954 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9759   : loss=34.264 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 1341595: loss=35.201 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1341892: loss=35.192 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1342165: loss=35.437 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1342437: loss=35.192 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1342545: loss=34.911 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1342687: loss=35.311 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1342882: loss=31.640 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1343185: loss=34.990 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1343861: loss=34.990 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1344490: loss=35.649 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 9765   : loss=27.884 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9771   : loss=25.811 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9774   : loss=25.927 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9778   : loss=25.378 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9782   : loss=55.435 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9790   : loss=27.347 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9798   : loss=25.927 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9806   : loss=35.963 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9820   : loss=27.816 | is TP: ✅ cmd.exe
+2026-11-25 16:51:15 - -> Malicious node 9826   : loss=35.963 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9840   : loss=25.927 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9846   : loss=24.796 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9855   : loss=55.175 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9859   : loss=25.372 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9870   : loss=26.096 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 9874   : loss=29.202 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 92445  : loss=22.979 | is TP: ❌ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 16:51:15 - -> Malicious node 1344971: loss=29.616 | is TP: ✅ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1345109: loss=30.352 | is TP: ✅ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1345310: loss=29.947 | is TP: ✅ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1345457: loss=30.025 | is TP: ✅ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1345733: loss=30.180 | is TP: ✅ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1346058: loss=30.149 | is TP: ✅ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1346387: loss=31.952 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1346956: loss=29.947 | is TP: ✅ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1347532: loss=30.044 | is TP: ✅ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1347958: loss=30.044 | is TP: ✅ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1348379: loss=27.441 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 16:51:15 - -> Malicious node 1348380: loss=22.979 | is TP: ❌ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 16:51:15 - -> Malicious node 1348444: loss=29.947 | is TP: ✅ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1348777: loss=30.215 | is TP: ✅ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1349080: loss=29.613 | is TP: ✅ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1349249: loss=30.013 | is TP: ✅ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1349391: loss=30.218 | is TP: ✅ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 9878   : loss=26.025 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9884   : loss=26.143 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9887   : loss=27.865 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9897   : loss=38.795 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9901   : loss=25.404 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 16:51:15 - -> Malicious node 9904   : loss=67.389 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:51:15 - -> Malicious node 1349752: loss=29.995 | is TP: ✅ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1350207: loss=29.817 | is TP: ✅ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1350770: loss=30.231 | is TP: ✅ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1351279: loss=30.037 | is TP: ✅ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1351758: loss=30.037 | is TP: ✅ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1352341: loss=30.037 | is TP: ✅ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1352699: loss=41.177 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 16:51:15 - -> Malicious node 1352718: loss=30.195 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 16:51:15 - -> Malicious node 9964   : loss=22.463 | is TP: ❌ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:51:15 - -> Malicious node 10199  : loss=29.846 | is TP: ✅ gpupdate.exe
+2026-11-25 16:51:15 - -> Malicious node 10205  : loss=30.318 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:51:15 - -> Malicious node 10204  : loss=20.800 | is TP: ❌ gpupdate.exe
+2026-11-25 16:51:15 - -> Malicious node 10301  : loss=40.727 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 10397  : loss=40.115 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 10437  : loss=40.077 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 1396226: loss=30.195 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 16:51:15 - -> Malicious node 1396266: loss=40.789 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 16:51:15 - -> Malicious node 10645  : loss=32.145 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 10646  : loss=24.665 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 16:51:15 - -> Malicious node 10655  : loss=34.961 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 16:51:15 - -> Malicious node 10658  : loss=48.406 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 16:51:15 - -> Malicious node 10682  : loss=38.027 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 16:51:15 - -> Malicious node 10694  : loss=40.501 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 16:51:16 - -> Malicious node 10736  : loss=23.263 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:51:16 - -> Malicious node 10740  : loss=30.725 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:51:16 - -> Malicious node 96561  : loss=25.904 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 16:51:16 - -> Malicious node 96564  : loss=24.407 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 16:51:16 - -> Malicious node 1418289: loss=23.446 | is TP: ✅ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 16:51:16 - -> Malicious node 1418294: loss=23.446 | is TP: ✅ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 16:51:16 - -> Malicious node 1418295: loss=23.446 | is TP: ✅ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 16:51:16 - -> Malicious node 1418296: loss=23.446 | is TP: ✅ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 16:51:16 - -> Malicious node 1418303: loss=22.463 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 16:51:16 - -> Malicious node 1418304: loss=22.463 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 16:51:16 - -> Malicious node 1418307: loss=22.463 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 16:51:16 - -> Malicious node 1418373: loss=22.463 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 16:51:16 - -> Malicious node 1418426: loss=24.273 | is TP: ✅ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 16:51:16 - -> Malicious node 1418429: loss=22.463 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 16:51:16 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 16:53:45 - TPs per attack:
+2026-11-25 16:53:45 - attack 0: 103
+2026-11-25 16:54:20 - [@model_epoch_5] - Stats
+2026-11-25 16:54:20 - precision: 0.00026
+2026-11-25 16:54:20 - recall: 0.90351
+2026-11-25 16:54:20 - fpr: 0.3211687
+2026-11-25 16:54:20 - fscore: 0.00053
+2026-11-25 16:54:20 - ap: 0.00679
+2026-11-25 16:54:20 - accuracy: 0.67885
+2026-11-25 16:54:20 - balanced_acc: 0.79117
+2026-11-25 16:54:20 - auc: 0.8926
+2026-11-25 16:54:20 - lr(+): 2.81319
+2026-11-25 16:54:20 - dor: 19.79124
+2026-11-25 16:54:20 - mcc: 0.02814
+2026-11-25 16:54:20 - tp: 103
+2026-11-25 16:54:20 - fp: 391928
+2026-11-25 16:54:20 - tn: 828390
+2026-11-25 16:54:20 - fn: 11
+2026-11-25 16:54:20 - precision@10: 0.1
+2026-11-25 16:54:20 - recall@10: 0.00877
+2026-11-25 16:54:20 - ap@10: 0.025
+2026-11-25 16:54:20 - precision@50: 0.06
+2026-11-25 16:54:20 - recall@50: 0.02632
+2026-11-25 16:54:20 - ap@50: 0.00797
+2026-11-25 16:54:20 - precision@100: 0.04
+2026-11-25 16:54:20 - recall@100: 0.03509
+2026-11-25 16:54:20 - ap@100: 0.0047
+2026-11-25 16:54:20 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 16:54:20 - percent_detected_attacks: 1.0
+2026-11-25 16:54:20 - fps_if_all_attacks_detected: 3
+2026-11-25 16:54:20 - tps_if_all_attacks_detected: 0
+2026-11-25 16:54:20 - precision_if_all_attacks_detected: 0.0
+2026-11-25 16:54:20 - recall_if_all_attacks_detected: 0.0
+2026-11-25 16:54:20 - adp_score: 0.25
+2026-11-25 16:54:20 - threshold: 23.31367665273817
+2026-11-25 16:54:20 - discrim_score_att_0: 0.0095
+2026-11-25 16:54:20 - discrimination: 0.0095
+2026-11-25 16:54:20 - discrim_tp_att_0: 1
+2026-11-25 16:54:20 - discrim_tp_att_sum: 1
+2026-11-25 16:54:20 - tp_att_0: 0
+2026-11-25 16:54:20 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_5.pkl
+2026-11-25 16:54:20 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_5.svg
+2026-11-25 16:54:20 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_5
+
+2026-11-25 16:54:20 - [@model_epoch_7] - Test Evaluation
+2026-11-25 16:54:36 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_7...
+2026-11-25 16:54:40 - Thresholds: MEAN=23.395, STD=3.401, MAX=71.628, 90 Percentile=26.414
+2026-11-25 16:54:40 - Threshold: 23.395
+2026-11-25 16:54:40 - Compute labels...
+2026-11-25 17:00:31 - Analysis of malicious nodes:
+2026-11-25 17:00:31 - -> Malicious node 50632  : loss=44.716 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 17:00:31 - -> Malicious node 50665  : loss=43.342 | is TP: ✅ None
+2026-11-25 17:00:33 - -> Malicious node 81878  : loss=38.032 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 17:00:33 - -> Malicious node 7260   : loss=23.500 | is TP: ✅ gpupdate.exe
+2026-11-25 17:00:33 - -> Malicious node 9141   : loss=53.499 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 17:00:33 - -> Malicious node 9144   : loss=65.723 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:33 - -> Malicious node 9148   : loss=71.225 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:00:33 - -> Malicious node 9155   : loss=50.738 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:00:34 - -> Malicious node 9630   : loss=61.550 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:00:34 - -> Malicious node 9633   : loss=34.573 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 17:00:34 - -> Malicious node 9662   : loss=35.228 | is TP: ✅ sc.exe
+2026-11-25 17:00:34 - -> Malicious node 9670   : loss=33.917 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 17:00:34 - -> Malicious node 1335097: loss=39.118 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1335120: loss=30.596 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 17:00:34 - -> Malicious node 9709   : loss=38.958 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:00:34 - -> Malicious node 9711   : loss=29.051 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9720   : loss=29.435 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9727   : loss=28.889 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:00:34 - -> Malicious node 9729   : loss=29.091 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9732   : loss=30.387 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9736   : loss=33.949 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9741   : loss=29.508 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 17:00:34 - -> Malicious node 9743   : loss=29.049 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9747   : loss=52.517 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9751   : loss=30.652 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9754   : loss=29.244 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9759   : loss=30.387 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 1341595: loss=31.760 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1341892: loss=31.736 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1342165: loss=31.948 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1342437: loss=31.736 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1342545: loss=31.348 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1342687: loss=31.859 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1342882: loss=29.171 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1343185: loss=31.595 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1343861: loss=31.595 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1344490: loss=32.088 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 9765   : loss=24.998 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9771   : loss=23.389 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9774   : loss=23.518 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9778   : loss=23.050 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9782   : loss=49.802 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9790   : loss=24.601 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9798   : loss=23.518 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9806   : loss=31.875 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9820   : loss=25.068 | is TP: ✅ cmd.exe
+2026-11-25 17:00:34 - -> Malicious node 9826   : loss=31.875 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9840   : loss=23.518 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9846   : loss=22.573 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9855   : loss=49.872 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9859   : loss=23.054 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9870   : loss=23.697 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:34 - -> Malicious node 9874   : loss=26.103 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 92445  : loss=23.500 | is TP: ✅ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 17:00:34 - -> Malicious node 1344971: loss=26.434 | is TP: ✅ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1345109: loss=27.111 | is TP: ✅ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1345310: loss=26.739 | is TP: ✅ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1345457: loss=26.837 | is TP: ✅ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1345733: loss=26.908 | is TP: ✅ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1346058: loss=26.918 | is TP: ✅ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1346387: loss=28.345 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1346956: loss=26.739 | is TP: ✅ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1347532: loss=26.818 | is TP: ✅ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1347958: loss=26.818 | is TP: ✅ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1348379: loss=26.260 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 17:00:34 - -> Malicious node 1348380: loss=23.500 | is TP: ✅ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 17:00:34 - -> Malicious node 1348444: loss=26.739 | is TP: ✅ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1348777: loss=27.056 | is TP: ✅ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1349080: loss=26.481 | is TP: ✅ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1349249: loss=26.821 | is TP: ✅ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1349391: loss=27.070 | is TP: ✅ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 9878   : loss=23.620 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9884   : loss=23.826 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9887   : loss=25.045 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9897   : loss=34.573 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9901   : loss=23.107 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:00:34 - -> Malicious node 9904   : loss=59.959 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:00:34 - -> Malicious node 1349752: loss=26.824 | is TP: ✅ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1350207: loss=26.736 | is TP: ✅ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1350770: loss=26.944 | is TP: ✅ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1351279: loss=26.837 | is TP: ✅ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1351758: loss=26.837 | is TP: ✅ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1352341: loss=26.837 | is TP: ✅ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1352699: loss=38.284 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1352718: loss=30.596 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 17:00:34 - -> Malicious node 9964   : loss=22.922 | is TP: ❌ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 17:00:34 - -> Malicious node 10199  : loss=26.730 | is TP: ✅ gpupdate.exe
+2026-11-25 17:00:34 - -> Malicious node 10205  : loss=27.551 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:00:34 - -> Malicious node 10204  : loss=18.553 | is TP: ❌ gpupdate.exe
+2026-11-25 17:00:34 - -> Malicious node 10301  : loss=38.150 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:34 - -> Malicious node 10397  : loss=37.467 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:34 - -> Malicious node 10437  : loss=37.522 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:34 - -> Malicious node 1396226: loss=30.596 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 17:00:34 - -> Malicious node 1396266: loss=38.638 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 17:00:34 - -> Malicious node 10645  : loss=28.496 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:34 - -> Malicious node 10646  : loss=22.249 | is TP: ❌ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 17:00:34 - -> Malicious node 10655  : loss=31.615 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:00:34 - -> Malicious node 10658  : loss=43.593 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:00:34 - -> Malicious node 10682  : loss=34.038 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:00:34 - -> Malicious node 10694  : loss=36.371 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 17:00:34 - -> Malicious node 10736  : loss=21.253 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:00:34 - -> Malicious node 10740  : loss=27.663 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:00:34 - -> Malicious node 96561  : loss=22.856 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:00:34 - -> Malicious node 96564  : loss=22.838 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 17:00:34 - -> Malicious node 1418289: loss=21.657 | is TP: ❌ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 17:00:34 - -> Malicious node 1418294: loss=21.657 | is TP: ❌ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 17:00:34 - -> Malicious node 1418295: loss=21.657 | is TP: ❌ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 17:00:34 - -> Malicious node 1418296: loss=21.657 | is TP: ❌ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 17:00:34 - -> Malicious node 1418303: loss=22.922 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 17:00:34 - -> Malicious node 1418304: loss=22.922 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 17:00:34 - -> Malicious node 1418307: loss=22.922 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 17:00:34 - -> Malicious node 1418373: loss=22.922 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 17:00:34 - -> Malicious node 1418426: loss=21.893 | is TP: ❌ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 17:00:34 - -> Malicious node 1418429: loss=22.922 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 17:00:34 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: invalid value encountered in power
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 17:13:05 - TPs per attack:
+2026-11-25 17:13:05 - attack 0: 93
+2026-11-25 17:13:48 - [@model_epoch_7] - Stats
+2026-11-25 17:13:48 - precision: 0.00021
+2026-11-25 17:13:48 - recall: 0.81579
+2026-11-25 17:13:48 - fpr: 0.3572356
+2026-11-25 17:13:48 - fscore: 0.00043
+2026-11-25 17:13:48 - ap: 0.00561
+2026-11-25 17:13:48 - accuracy: 0.64278
+2026-11-25 17:13:48 - balanced_acc: 0.72928
+2026-11-25 17:13:48 - auc: 0.82371
+2026-11-25 17:13:48 - lr(+): 2.28362
+2026-11-25 17:13:48 - dor: 7.96821
+2026-11-25 17:13:48 - mcc: nan
+2026-11-25 17:13:48 - tp: 93
+2026-11-25 17:13:48 - fp: 435941
+2026-11-25 17:13:48 - tn: 784377
+2026-11-25 17:13:48 - fn: 21
+2026-11-25 17:13:48 - precision@10: 0.1
+2026-11-25 17:13:48 - recall@10: 0.00877
+2026-11-25 17:13:48 - ap@10: 0.01667
+2026-11-25 17:13:48 - precision@50: 0.06
+2026-11-25 17:13:48 - recall@50: 0.02632
+2026-11-25 17:13:48 - ap@50: 0.00628
+2026-11-25 17:13:48 - precision@100: 0.04
+2026-11-25 17:13:48 - recall@100: 0.03509
+2026-11-25 17:13:48 - ap@100: 0.00384
+2026-11-25 17:13:48 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 17:13:48 - percent_detected_attacks: 1.0
+2026-11-25 17:13:48 - fps_if_all_attacks_detected: 5
+2026-11-25 17:13:48 - tps_if_all_attacks_detected: 0
+2026-11-25 17:13:48 - precision_if_all_attacks_detected: 0.0
+2026-11-25 17:13:48 - recall_if_all_attacks_detected: 0.0
+2026-11-25 17:13:48 - adp_score: 0.167
+2026-11-25 17:13:48 - threshold: 23.394735296839126
+2026-11-25 17:13:48 - discrim_score_att_0: 0.0057
+2026-11-25 17:13:48 - discrimination: 0.0057
+2026-11-25 17:13:48 - discrim_tp_att_0: 1
+2026-11-25 17:13:48 - discrim_tp_att_sum: 1
+2026-11-25 17:13:48 - tp_att_0: 0
+2026-11-25 17:13:48 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_7.pkl
+2026-11-25 17:13:48 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_7.svg
+2026-11-25 17:13:48 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_7
+
+2026-11-25 17:13:48 - [@model_epoch_9] - Test Evaluation
+2026-11-25 17:14:06 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_9...
+2026-11-25 17:14:12 - Thresholds: MEAN=24.787, STD=2.921, MAX=66.490, 90 Percentile=27.498
+2026-11-25 17:14:12 - Threshold: 24.787
+2026-11-25 17:14:12 - Compute labels...
+2026-11-25 17:21:20 - Analysis of malicious nodes:
+2026-11-25 17:21:20 - -> Malicious node 50632  : loss=43.617 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 17:21:20 - -> Malicious node 50665  : loss=42.137 | is TP: ✅ None
+2026-11-25 17:21:21 - -> Malicious node 81878  : loss=37.521 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 17:21:22 - -> Malicious node 7260   : loss=24.891 | is TP: ✅ gpupdate.exe
+2026-11-25 17:21:22 - -> Malicious node 9141   : loss=49.948 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 17:21:22 - -> Malicious node 9144   : loss=61.474 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 9148   : loss=66.223 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:21:22 - -> Malicious node 9155   : loss=47.599 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:21:22 - -> Malicious node 9630   : loss=56.721 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:21:22 - -> Malicious node 9633   : loss=31.633 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 17:21:22 - -> Malicious node 9662   : loss=32.422 | is TP: ✅ sc.exe
+2026-11-25 17:21:22 - -> Malicious node 9670   : loss=31.070 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 17:21:22 - -> Malicious node 1335097: loss=38.379 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1335120: loss=31.086 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 17:21:22 - -> Malicious node 9709   : loss=37.844 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:21:22 - -> Malicious node 9711   : loss=28.213 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9720   : loss=28.505 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9727   : loss=28.143 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:21:22 - -> Malicious node 9729   : loss=28.256 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9732   : loss=28.505 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9736   : loss=32.053 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9741   : loss=28.631 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 17:21:22 - -> Malicious node 9743   : loss=28.237 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9747   : loss=49.020 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9751   : loss=28.339 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9754   : loss=28.339 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9759   : loss=28.847 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 1341595: loss=30.322 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1341892: loss=30.277 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1342165: loss=30.513 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1342437: loss=30.277 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1342545: loss=29.956 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1342687: loss=30.430 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1342882: loss=28.489 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1343185: loss=30.118 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1343861: loss=30.118 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1344490: loss=30.606 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 9765   : loss=24.061 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9771   : loss=22.995 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9774   : loss=23.065 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9778   : loss=22.693 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9782   : loss=46.196 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9790   : loss=24.074 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9798   : loss=23.722 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9806   : loss=29.031 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9820   : loss=25.615 | is TP: ✅ cmd.exe
+2026-11-25 17:21:22 - -> Malicious node 9826   : loss=29.031 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9840   : loss=23.065 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9846   : loss=22.292 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9855   : loss=46.735 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9859   : loss=22.692 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9870   : loss=23.549 | is TP: ❌ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 9874   : loss=24.812 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 92445  : loss=24.891 | is TP: ✅ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 17:21:22 - -> Malicious node 1344971: loss=25.495 | is TP: ✅ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1345109: loss=26.109 | is TP: ✅ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1345310: loss=25.747 | is TP: ✅ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1345457: loss=25.866 | is TP: ✅ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1345733: loss=25.869 | is TP: ✅ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1346058: loss=25.898 | is TP: ✅ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1346387: loss=27.233 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1346956: loss=25.747 | is TP: ✅ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1347532: loss=25.877 | is TP: ✅ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1347958: loss=25.877 | is TP: ✅ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1348379: loss=26.523 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 17:21:22 - -> Malicious node 1348380: loss=24.891 | is TP: ✅ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 17:21:22 - -> Malicious node 1348444: loss=25.747 | is TP: ✅ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1348777: loss=26.095 | is TP: ✅ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1349080: loss=25.494 | is TP: ✅ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1349249: loss=25.839 | is TP: ✅ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1349391: loss=26.089 | is TP: ✅ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 9878   : loss=23.132 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9884   : loss=23.413 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9887   : loss=24.195 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9897   : loss=31.633 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9901   : loss=22.909 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:21:22 - -> Malicious node 9904   : loss=55.370 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:21:22 - -> Malicious node 1349752: loss=25.659 | is TP: ✅ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1350207: loss=25.574 | is TP: ✅ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1350770: loss=25.702 | is TP: ✅ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1351279: loss=25.708 | is TP: ✅ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1351758: loss=25.708 | is TP: ✅ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1352341: loss=25.708 | is TP: ✅ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1352699: loss=37.417 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1352718: loss=31.086 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 17:21:22 - -> Malicious node 9964   : loss=24.456 | is TP: ❌ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 17:21:22 - -> Malicious node 10199  : loss=25.320 | is TP: ✅ gpupdate.exe
+2026-11-25 17:21:22 - -> Malicious node 10205  : loss=27.079 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:21:22 - -> Malicious node 10204  : loss=18.395 | is TP: ❌ gpupdate.exe
+2026-11-25 17:21:22 - -> Malicious node 10301  : loss=37.553 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 10397  : loss=36.787 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 10437  : loss=36.847 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 1396226: loss=31.086 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 17:21:22 - -> Malicious node 1396266: loss=38.069 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 17:21:22 - -> Malicious node 10645  : loss=27.225 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 10646  : loss=22.193 | is TP: ❌ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 17:21:22 - -> Malicious node 10655  : loss=29.818 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:21:22 - -> Malicious node 10658  : loss=41.635 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:21:22 - -> Malicious node 10682  : loss=31.595 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:21:22 - -> Malicious node 10694  : loss=34.110 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 17:21:22 - -> Malicious node 10736  : loss=21.503 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:21:22 - -> Malicious node 10740  : loss=27.439 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:21:22 - -> Malicious node 96561  : loss=22.520 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:21:22 - -> Malicious node 96564  : loss=23.303 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 17:21:22 - -> Malicious node 1418289: loss=22.098 | is TP: ❌ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 17:21:22 - -> Malicious node 1418294: loss=22.098 | is TP: ❌ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 17:21:22 - -> Malicious node 1418295: loss=22.098 | is TP: ❌ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 17:21:22 - -> Malicious node 1418296: loss=22.098 | is TP: ❌ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 17:21:22 - -> Malicious node 1418303: loss=24.456 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 17:21:22 - -> Malicious node 1418304: loss=24.456 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 17:21:22 - -> Malicious node 1418307: loss=24.456 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 17:21:22 - -> Malicious node 1418373: loss=24.456 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 17:21:22 - -> Malicious node 1418426: loss=21.919 | is TP: ❌ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 17:21:22 - -> Malicious node 1418429: loss=24.456 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 17:21:22 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: invalid value encountered in power
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 17:23:37 - TPs per attack:
+2026-11-25 17:23:37 - attack 0: 84
+2026-11-25 17:24:14 - [@model_epoch_9] - Stats
+2026-11-25 17:24:14 - precision: 0.00019
+2026-11-25 17:24:14 - recall: 0.73684
+2026-11-25 17:24:14 - fpr: 0.3661152
+2026-11-25 17:24:14 - fscore: 0.00038
+2026-11-25 17:24:14 - ap: 0.00581
+2026-11-25 17:24:14 - accuracy: 0.63389
+2026-11-25 17:24:14 - balanced_acc: 0.68536
+2026-11-25 17:24:14 - auc: 0.72006
+2026-11-25 17:24:14 - lr(+): 2.0126
+2026-11-25 17:24:14 - dor: 4.84787
+2026-11-25 17:24:14 - mcc: nan
+2026-11-25 17:24:14 - tp: 84
+2026-11-25 17:24:14 - fp: 446777
+2026-11-25 17:24:14 - tn: 773541
+2026-11-25 17:24:14 - fn: 30
+2026-11-25 17:24:14 - precision@10: 0.1
+2026-11-25 17:24:14 - recall@10: 0.00877
+2026-11-25 17:24:14 - ap@10: 0.02
+2026-11-25 17:24:14 - precision@50: 0.06
+2026-11-25 17:24:14 - recall@50: 0.02632
+2026-11-25 17:24:14 - ap@50: 0.00718
+2026-11-25 17:24:14 - precision@100: 0.04
+2026-11-25 17:24:14 - recall@100: 0.03509
+2026-11-25 17:24:14 - ap@100: 0.00426
+2026-11-25 17:24:14 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 17:24:14 - percent_detected_attacks: 1.0
+2026-11-25 17:24:14 - fps_if_all_attacks_detected: 4
+2026-11-25 17:24:14 - tps_if_all_attacks_detected: 0
+2026-11-25 17:24:14 - precision_if_all_attacks_detected: 0.0
+2026-11-25 17:24:14 - recall_if_all_attacks_detected: 0.0
+2026-11-25 17:24:14 - adp_score: 0.2
+2026-11-25 17:24:14 - threshold: 24.787268364074198
+2026-11-25 17:24:14 - discrim_score_att_0: 0.0063
+2026-11-25 17:24:14 - discrimination: 0.0063
+2026-11-25 17:24:14 - discrim_tp_att_0: 1
+2026-11-25 17:24:14 - discrim_tp_att_sum: 1
+2026-11-25 17:24:14 - tp_att_0: 0
+2026-11-25 17:24:14 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_9.pkl
+2026-11-25 17:24:14 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_9.svg
+2026-11-25 17:24:14 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_9
+
+2026-11-25 17:24:14 - [@model_epoch_11] - Test Evaluation
+2026-11-25 17:24:32 - Loading data from /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/edge_losses/test/model_epoch_11...
+2026-11-25 17:24:37 - Thresholds: MEAN=25.974, STD=2.554, MAX=63.099, 90 Percentile=28.132
+2026-11-25 17:24:38 - Threshold: 25.974
+2026-11-25 17:24:38 - Compute labels...
+2026-11-25 17:26:51 - Analysis of malicious nodes:
+2026-11-25 17:26:51 - -> Malicious node 50632  : loss=42.259 | is TP: ✅ /Device/HarddiskVolume1/$Extend/$UsnJrnl:$J
+2026-11-25 17:26:51 - -> Malicious node 50665  : loss=41.162 | is TP: ✅ None
+2026-11-25 17:26:52 - -> Malicious node 81878  : loss=37.052 | is TP: ✅ /Device/HarddiskVolume1/Python27/Lib/site-packages/enum34-1.1.6-py2.7.egg
+2026-11-25 17:26:52 - -> Malicious node 7260   : loss=25.891 | is TP: ❌ gpupdate.exe
+2026-11-25 17:26:52 - -> Malicious node 9141   : loss=49.036 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 17:26:52 - -> Malicious node 9144   : loss=58.708 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:52 - -> Malicious node 9148   : loss=62.537 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:26:52 - -> Malicious node 9155   : loss=47.098 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:26:52 - -> Malicious node 9630   : loss=53.123 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:26:52 - -> Malicious node 9633   : loss=30.013 | is TP: ✅ /Device/HarddiskVolume1/Program Files (x86)/Google/Update/GoogleUpdate.exe
+2026-11-25 17:26:52 - -> Malicious node 9662   : loss=31.320 | is TP: ✅ sc.exe
+2026-11-25 17:26:52 - -> Malicious node 9670   : loss=29.844 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/conhost.exe
+2026-11-25 17:26:52 - -> Malicious node 1335097: loss=37.940 | is TP: ✅ 142.20.56.52:49803->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1335120: loss=31.844 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49803
+2026-11-25 17:26:52 - -> Malicious node 9709   : loss=37.583 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:26:52 - -> Malicious node 9711   : loss=27.935 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad0F93B.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9720   : loss=28.229 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad838E6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9727   : loss=27.815 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:26:52 - -> Malicious node 9729   : loss=27.962 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radEB31A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9732   : loss=28.229 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad076F2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9736   : loss=31.246 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radAF010.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9741   : loss=28.289 | is TP: ✅ %SystemRoot%/system32/csrss.exe
+2026-11-25 17:26:52 - -> Malicious node 9743   : loss=27.949 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radB895D.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9747   : loss=48.226 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad9DD75.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9751   : loss=28.089 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad95EBC.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9754   : loss=28.089 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad231B5.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9759   : loss=28.523 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad640CA.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 1341595: loss=29.802 | is TP: ✅ 142.20.56.52:49812->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1341892: loss=29.758 | is TP: ✅ 142.20.56.52:49814->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1342165: loss=29.964 | is TP: ✅ 142.20.56.52:49815->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1342437: loss=29.758 | is TP: ✅ 142.20.56.52:49816->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1342545: loss=29.430 | is TP: ✅ 142.20.56.52:49817->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1342687: loss=29.888 | is TP: ✅ 142.20.56.52:49828->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1342882: loss=28.285 | is TP: ✅ 142.20.56.52:49829->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1343185: loss=29.626 | is TP: ✅ 142.20.56.52:49831->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1343861: loss=29.626 | is TP: ✅ 142.20.56.52:49833->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1344490: loss=30.044 | is TP: ✅ 142.20.56.52:49835->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 9765   : loss=23.603 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radCBB57.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9771   : loss=22.561 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad38E8A.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9774   : loss=22.634 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad41041.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9778   : loss=22.293 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radE1BA0.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9782   : loss=45.819 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad5446E.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9790   : loss=23.511 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad71B66.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9798   : loss=25.257 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad28DC8.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9806   : loss=27.544 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/radC5EB1.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9820   : loss=26.758 | is TP: ✅ cmd.exe
+2026-11-25 17:26:52 - -> Malicious node 9826   : loss=27.544 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad4F110.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9840   : loss=22.634 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad1BA52.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9846   : loss=21.899 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radC50E7.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9855   : loss=46.403 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad99E71.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9859   : loss=22.295 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad54E46.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9870   : loss=23.177 | is TP: ❌ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:52 - -> Malicious node 9874   : loss=24.274 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad1C3A2.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 92445  : loss=25.891 | is TP: ❌ /Device/HarddiskVolume1/windows/system32/scdeviceenum.dll
+2026-11-25 17:26:52 - -> Malicious node 1344971: loss=24.774 | is TP: ❌ 142.20.56.52:49836->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1345109: loss=25.299 | is TP: ❌ 142.20.56.52:49837->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1345310: loss=24.988 | is TP: ❌ 142.20.56.52:49838->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1345457: loss=25.100 | is TP: ❌ 142.20.56.52:49839->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1345733: loss=25.115 | is TP: ❌ 142.20.56.52:49840->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1346058: loss=25.126 | is TP: ❌ 142.20.56.52:49842->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1346387: loss=26.233 | is TP: ✅ 142.20.56.52:49843->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1346956: loss=24.988 | is TP: ❌ 142.20.56.52:49844->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1347532: loss=25.056 | is TP: ❌ 142.20.56.52:49846->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1347958: loss=25.056 | is TP: ❌ 142.20.56.52:49847->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1348379: loss=25.677 | is TP: ❌ 142.20.56.52:3389->53.192.68.50:58878
+2026-11-25 17:26:52 - -> Malicious node 1348380: loss=25.891 | is TP: ❌ 53.192.68.50:58878->142.20.56.52:3389
+2026-11-25 17:26:52 - -> Malicious node 1348444: loss=24.988 | is TP: ❌ 142.20.56.52:49870->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1348777: loss=25.302 | is TP: ❌ 142.20.56.52:49871->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1349080: loss=24.778 | is TP: ❌ 142.20.56.52:49872->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1349249: loss=25.073 | is TP: ❌ 142.20.56.52:49873->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1349391: loss=25.312 | is TP: ❌ 142.20.56.52:49876->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 9878   : loss=22.854 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad1CC6C.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9884   : loss=23.132 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/radD85FE.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9887   : loss=23.784 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad9FAD6.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9897   : loss=30.013 | is TP: ✅ /Device/HarddiskVolume1/Windows/Temp/rad77CFB.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9901   : loss=22.663 | is TP: ❌ /Device/HarddiskVolume1/Windows/Temp/rad20015.tmp/biGuWCmNsuCIG.exe
+2026-11-25 17:26:52 - -> Malicious node 9904   : loss=51.850 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:26:52 - -> Malicious node 1349752: loss=25.032 | is TP: ❌ 142.20.56.52:49877->53.192.68.50:8080
+2026-11-25 17:26:52 - -> Malicious node 1350207: loss=24.975 | is TP: ❌ 142.20.56.52:49878->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1350770: loss=25.065 | is TP: ❌ 142.20.56.52:49879->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1351279: loss=25.049 | is TP: ❌ 142.20.56.52:49880->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1351758: loss=25.049 | is TP: ❌ 142.20.56.52:49882->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1352341: loss=25.049 | is TP: ❌ 142.20.56.52:49883->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1352699: loss=37.104 | is TP: ✅ 142.20.56.52:49886->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1352718: loss=31.844 | is TP: ✅ 53.192.68.50:8080->142.20.56.52:49886
+2026-11-25 17:26:53 - -> Malicious node 9964   : loss=25.595 | is TP: ❌ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 17:26:53 - -> Malicious node 10199  : loss=25.235 | is TP: ❌ gpupdate.exe
+2026-11-25 17:26:53 - -> Malicious node 10205  : loss=26.670 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:26:53 - -> Malicious node 10204  : loss=18.124 | is TP: ❌ gpupdate.exe
+2026-11-25 17:26:53 - -> Malicious node 10301  : loss=37.057 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:53 - -> Malicious node 10397  : loss=36.441 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:53 - -> Malicious node 10437  : loss=36.470 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:53 - -> Malicious node 1396226: loss=31.844 | is TP: ✅ 53.192.68.50:58888->142.20.56.52:3389
+2026-11-25 17:26:53 - -> Malicious node 1396266: loss=37.364 | is TP: ✅ 142.20.56.52:3389->53.192.68.50:58888
+2026-11-25 17:26:53 - -> Malicious node 10645  : loss=26.347 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:53 - -> Malicious node 10646  : loss=21.860 | is TP: ❌ /Device/HarddiskVolume1/Windows/system32/services.exe
+2026-11-25 17:26:53 - -> Malicious node 10655  : loss=29.438 | is TP: ✅ /Device/HarddiskVolume1/Windows/SYSTEM32/cmd.exe
+2026-11-25 17:26:53 - -> Malicious node 10658  : loss=40.782 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/lsass.exe
+2026-11-25 17:26:53 - -> Malicious node 10682  : loss=30.778 | is TP: ✅ /Device/HarddiskVolume1/Windows/system32/svchost.exe
+2026-11-25 17:26:53 - -> Malicious node 10694  : loss=33.242 | is TP: ✅ //?/C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+2026-11-25 17:26:53 - -> Malicious node 10736  : loss=21.317 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:26:53 - -> Malicious node 10740  : loss=27.829 | is TP: ✅ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:26:53 - -> Malicious node 96561  : loss=22.122 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe
+2026-11-25 17:26:53 - -> Malicious node 96564  : loss=22.997 | is TP: ❌ /Device/HarddiskVolume1/Users/dcoombes/Downloads/update.exe:Zone.Identifier
+2026-11-25 17:26:53 - -> Malicious node 1418289: loss=21.960 | is TP: ❌ 142.20.56.52:50251->53.192.68.50:8000
+2026-11-25 17:26:53 - -> Malicious node 1418294: loss=21.960 | is TP: ❌ 142.20.56.52:50253->53.192.68.50:8000
+2026-11-25 17:26:53 - -> Malicious node 1418295: loss=21.960 | is TP: ❌ 142.20.56.52:50252->53.192.68.50:8000
+2026-11-25 17:26:53 - -> Malicious node 1418296: loss=21.960 | is TP: ❌ 142.20.56.52:50254->53.192.68.50:8000
+2026-11-25 17:26:53 - -> Malicious node 1418303: loss=25.595 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50251
+2026-11-25 17:26:53 - -> Malicious node 1418304: loss=25.595 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50253
+2026-11-25 17:26:53 - -> Malicious node 1418307: loss=25.595 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50252
+2026-11-25 17:26:53 - -> Malicious node 1418373: loss=25.595 | is TP: ❌ 53.192.68.50:8000->142.20.56.52:50254
+2026-11-25 17:26:53 - -> Malicious node 1418426: loss=21.672 | is TP: ❌ 142.20.56.52:50259->53.192.68.50:8080
+2026-11-25 17:26:53 - -> Malicious node 1418429: loss=25.595 | is TP: ❌ 53.192.68.50:8080->142.20.56.52:50259
+2026-11-25 17:26:53 - Saving figures to /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/...
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:460: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(out_file)
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: overflow encountered in scalar multiply
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+/home/pids/pidsmaker/detection/evaluation_methods/evaluation_utils.py:156: RuntimeWarning: invalid value encountered in power
+  denominator = ((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)) ** 0.5
+2026-11-25 17:29:11 - TPs per attack:
+2026-11-25 17:29:11 - attack 0: 58
+2026-11-25 17:29:54 - [@model_epoch_11] - Stats
+2026-11-25 17:29:54 - precision: 0.00013
+2026-11-25 17:29:54 - recall: 0.50877
+2026-11-25 17:29:54 - fpr: 0.3792102
+2026-11-25 17:29:54 - fscore: 0.00025
+2026-11-25 17:29:54 - ap: 0.00537
+2026-11-25 17:29:54 - accuracy: 0.62078
+2026-11-25 17:29:54 - balanced_acc: 0.56478
+2026-11-25 17:29:54 - auc: 0.58587
+2026-11-25 17:29:54 - lr(+): 1.34166
+2026-11-25 17:29:54 - dor: 1.69553
+2026-11-25 17:29:54 - mcc: nan
+2026-11-25 17:29:54 - tp: 58
+2026-11-25 17:29:54 - fp: 462757
+2026-11-25 17:29:54 - tn: 757561
+2026-11-25 17:29:54 - fn: 56
+2026-11-25 17:29:54 - precision@10: 0.1
+2026-11-25 17:29:54 - recall@10: 0.00877
+2026-11-25 17:29:54 - ap@10: 0.01429
+2026-11-25 17:29:54 - precision@50: 0.04
+2026-11-25 17:29:54 - recall@50: 0.01754
+2026-11-25 17:29:54 - ap@50: 0.00521
+2026-11-25 17:29:54 - precision@100: 0.04
+2026-11-25 17:29:54 - recall@100: 0.03509
+2026-11-25 17:29:54 - ap@100: 0.00375
+2026-11-25 17:29:54 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 17:29:54 - percent_detected_attacks: 1.0
+2026-11-25 17:29:54 - fps_if_all_attacks_detected: 6
+2026-11-25 17:29:54 - tps_if_all_attacks_detected: 0
+2026-11-25 17:29:54 - precision_if_all_attacks_detected: 0.0
+2026-11-25 17:29:54 - recall_if_all_attacks_detected: 0.0
+2026-11-25 17:29:54 - adp_score: 0.143
+2026-11-25 17:29:54 - threshold: 25.974443530996965
+2026-11-25 17:29:54 - discrim_score_att_0: 0.0023
+2026-11-25 17:29:54 - discrimination: 0.0023
+2026-11-25 17:29:54 - discrim_tp_att_0: 1
+2026-11-25 17:29:54 - discrim_tp_att_sum: 1
+2026-11-25 17:29:54 - tp_att_0: 0
+2026-11-25 17:29:54 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_11.pkl
+2026-11-25 17:29:54 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_11.svg
+2026-11-25 17:29:54 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_11
+
+2026-11-25 17:29:54 - Best epoch (5) stats:
+2026-11-25 17:29:54 - precision: 0.00026
+2026-11-25 17:29:54 - recall: 0.90351
+2026-11-25 17:29:54 - fpr: 0.3211687
+2026-11-25 17:29:54 - fscore: 0.00053
+2026-11-25 17:29:54 - ap: 0.00679
+2026-11-25 17:29:54 - accuracy: 0.67885
+2026-11-25 17:29:54 - balanced_acc: 0.79117
+2026-11-25 17:29:54 - auc: 0.8926
+2026-11-25 17:29:54 - lr(+): 2.81319
+2026-11-25 17:29:54 - dor: 19.79124
+2026-11-25 17:29:54 - mcc: 0.02814
+2026-11-25 17:29:54 - tp: 103
+2026-11-25 17:29:54 - fp: 391928
+2026-11-25 17:29:54 - tn: 828390
+2026-11-25 17:29:54 - fn: 11
+2026-11-25 17:29:54 - precision@10: 0.1
+2026-11-25 17:29:54 - recall@10: 0.00877
+2026-11-25 17:29:54 - ap@10: 0.025
+2026-11-25 17:29:54 - precision@50: 0.06
+2026-11-25 17:29:54 - recall@50: 0.02632
+2026-11-25 17:29:54 - ap@50: 0.00797
+2026-11-25 17:29:54 - precision@100: 0.04
+2026-11-25 17:29:54 - recall@100: 0.03509
+2026-11-25 17:29:54 - ap@100: 0.0047
+2026-11-25 17:29:54 - fp_in_malicious_tw_ratio: 0.0
+2026-11-25 17:29:54 - percent_detected_attacks: 1.0
+2026-11-25 17:29:54 - fps_if_all_attacks_detected: 3
+2026-11-25 17:29:54 - tps_if_all_attacks_detected: 0
+2026-11-25 17:29:54 - precision_if_all_attacks_detected: 0.0
+2026-11-25 17:29:54 - recall_if_all_attacks_detected: 0.0
+2026-11-25 17:29:54 - adp_score: 0.25
+2026-11-25 17:29:54 - threshold: 23.31367665273817
+2026-11-25 17:29:54 - discrim_score_att_0: 0.0095
+2026-11-25 17:29:54 - discrimination: 0.0095
+2026-11-25 17:29:54 - discrim_tp_att_0: 1
+2026-11-25 17:29:54 - discrim_tp_att_sum: 1
+2026-11-25 17:29:54 - tp_att_0: 0
+2026-11-25 17:29:54 - scores_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_5.pkl
+2026-11-25 17:29:54 - neat_scores_img_file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/neat_scores_model_epoch_5.svg
+2026-11-25 17:29:54 - model_path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_5
+2026-11-25 17:29:54 - epoch: 5
+2026-11-25 17:29:54 - nodes_total: 1220432
+2026-11-25 17:29:54 - nodes_malicious: 114
+2026-11-25 17:29:54 - nodes_benign: 1220318
+2026-11-25 17:29:54 - malicious_detected: 103
+2026-11-25 17:29:54 - malicious_undetected: 11
+2026-11-25 17:29:54 - Best scores file: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/precision_recall_dir/scores_model_epoch_5.pkl
+2026-11-25 17:29:54 - Best model path: /home/artifacts/training/training/ca1946282123eea5e5cfbae15c3a2e6700231534369e6a42e2dfc5728da3c6d3/optc_h051/trained_models/model_epoch_5
+Task done: /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051
+
+[viz] Wrote /home/artifacts/evaluation/evaluation/a5b3ccb9bb4157a8fda22ee7fc253fca4c9c517ebd8542c7fe938deb71367ebc/optc_h051/viz_manifest.json
+2026-11-25 17:29:54 - Task triage: /home/artifacts/triage/triage/26207303f649e0dc9f58cfd216f3b4bb86c5bfea87da6ebb69c9d3417cb9a0e1/optc_h051
+2026-11-25 17:29:54 - ============================================================
+2026-11-25 17:29:54 - Run finished.
+2026-11-25 17:29:54 - ============================================================

@@ -1,0 +1,10 @@
+2026-11-26 09:04:25 - {'split': 'test', 'target': 'benign', 'edge_rule': None, 'edge_types': None, 'fraction': 0.1, 'selection': 'random', 'seed': 16}
+2026-11-26 09:04:25 - python pidsmaker/main.py threatrace optc_h051 --transformation.used_methods=mal_perturbation --transformation.mal_perturbation.operation=remove_edges --transformation.mal_perturbation.split=test --transformation.mal_perturbation.target=benign --transformation.mal_perturbation.fraction=0.1 --transformation.mal_perturbation.selection=random --transformation.mal_perturbation.seed=16  
+2026-11-26 09:04:42 - Running pipeline in 'Standard' mode.
+2026-11-26 09:04:42 - Task construction: /home/artifacts/construction/optc_h051/construction/4c7378b0d4297ec14c0d75edb2803e771f821a86788e1ba27ee05b834bf96b4d
+2026-11-26 09:04:42 - ======= START SUBTASK build_default_graphs.py =======
+2026-11-26 09:05:53 - Number of netflow nodes: 4184346
+2026-11-26 09:05:53 - Number of process nodes: 50626
+2026-11-26 09:06:02 - Number of file nodes: 380963
+2026-11-26 09:06:02 - Building graphs...
+2026-11-26 09:22:21 - Check nodes in train set...
