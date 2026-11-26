@@ -34,7 +34,7 @@ RESULT_DICT = {
     "fscore" : [],
     "ap" : [],
     "accuracy" : [],
-    "balanced_acc" : []
+    "balanced_acc" : [],
     # "auc" : [],
     # "dor" : [],
     # "mcc" : [],
@@ -47,7 +47,7 @@ RESULT_DICT = {
     # "tps_if_all_attacks_detected" : [],
     # "precision_if_all_attacks_detected" : [],
     # "recall_if_all_attacks_detected" : [],
-    # "adp_score" : [],
+    "adp_score" : []
     # "threshold" : [],
     # "discrim_score_att_0" : [],
     # "discrim_score_att_1" : [],
@@ -205,7 +205,8 @@ def summarize_runs(args):
 
 def build_runs_table(dataset: str, model: str, 
                      groupby_features : list[str], 
-                     average_features : list[str]) -> pd.DataFrame:
+                     average_features : list[str],
+                     count_features : list[str]) -> pd.DataFrame:
     """One row per run: run_args + metrics, plus model and dataset columns."""
     df = pd.DataFrame(RESULT_DICT)
     df['split']  = ""
@@ -226,25 +227,39 @@ def build_runs_table(dataset: str, model: str,
         for c in columns_to_fill:
             df.at[idx, c] = run_args[c]
     df = df.drop(['run_args'], axis=1)
+    # benign and all have no edge rule (None): give them a value, or groupby drops them
+    df["edge_rule"] = df["edge_rule"].fillna("-")
+
+    # pd.set_option('display.max_rows', None)
+    # pd.set_option('display.max_columns', None)
+    # pd.set_option('display.width', None)
+    # pd.set_option('display.max_colwidth', None)
+    # print(df)
     
     # Convert columns to int and float
-    cols_to_int = ['nodes_total', 'nodes_malicious', 'nodes_benign',
-                    'malicious_detected', 'malicious_undetected',
-                    'tp', 'fp', 'tn', 'fn']
-    df[cols_to_int] = df[cols_to_int].astype(int)
-
+    df[count_features] = df[count_features].astype(int)
     df[average_features] = df[average_features].astype(float)
 
-    # Group and calculate mean/std results
+    # Create groups and calculate mean/std results
     groups = df.groupby(groupby_features)
+
     #print(groups.size())
+    # for name, group_df in groups:
+    #     print(f"Group: {name}")
+    #     print(group_df)
+
+    # Calculate mean/std results
     stats = groups[average_features].agg(["mean","std"])
     stats.columns = [f"{metric}_{stat}" for metric, stat in stats.columns]
     stats["n_seeds"] = groups["seed"].count()
-    #print(stats)
-    result = stats.reset_index()
-    #print(result)
-    return result
+
+    # Calculate mean/std counts
+    counts = groups[count_features].agg(["mean","std"])
+    counts.columns = [f"{metric}_{stat}" for metric, stat in counts.columns]
+
+    result_stats = stats.reset_index()
+    result_counts = counts.reset_index()
+    return result_stats, result_counts
 
 def plot_metric(result, metric, title, out_path):
     fig, ax = plt.subplots(figsize=(6, 4))
@@ -261,12 +276,59 @@ def plot_metric(result, metric, title, out_path):
     ax.set_title(title)
     ax.set_xlabel("edge-removal fraction f")
     ax.set_ylabel(metric)
-    ax.legend()
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.18), ncol=3)
+    fig.savefig(out_path, bbox_inches="tight")
+    print(f"Saved fig in {out_path}")
+    plt.close(fig)
+
+def plot_all_metrics(result, metrics, title, out_path):
+    fig, axes = plt.subplots(1, len(metrics), figsize=(4 * len(metrics), 3.5))
+
+    for ax, metric in zip(axes, metrics):
+        for (target, edge_rule), rows in result.groupby(["target", "edge_rule"]):
+            rows = rows.sort_values("fraction")
+            label = target if target != "malicious" else f"mal. {edge_rule}"
+            mean = rows[f"{metric}_mean"]
+            std = rows[f"{metric}_std"].fillna(0)
+
+            ax.plot(rows["fraction"], mean, marker="o", label=label)
+            ax.fill_between(rows["fraction"], mean - std, mean + std, alpha=0.15)
+
+        ax.set_title(metric)
+        ax.set_xlabel("edge-removal fraction f")
+
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 1.12), ncol=len(labels))
+    fig.suptitle(title, y=1.18)
+
     fig.savefig(out_path, bbox_inches="tight")
     print(f"Saved fig in {out_path}")
     plt.close(fig)
 
 
+def plot_all_metrics(result, metrics, title, out_path):
+    fig, axes = plt.subplots(1, len(metrics), figsize=(4 * len(metrics), 3.5))
+
+    for ax, metric in zip(axes, metrics):
+        for (target, edge_rule), rows in result.groupby(["target", "edge_rule"]):
+            rows = rows.sort_values("fraction")
+            label = target if target != "malicious" else f"mal. {edge_rule}"
+            mean = rows[f"{metric}_mean"]
+            std = rows[f"{metric}_std"].fillna(0)
+
+            ax.plot(rows["fraction"], mean, marker="o", label=label)
+            ax.fill_between(rows["fraction"], mean - std, mean + std, alpha=0.15)
+
+        ax.set_title(metric)
+        ax.set_xlabel("edge-removal fraction f")
+
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 1.12), ncol=len(labels))
+    fig.suptitle(title, y=1.18)
+
+    fig.savefig(out_path, bbox_inches="tight")
+    print(f"Saved fig in {out_path}")
+    plt.close(fig)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -290,24 +352,26 @@ if __name__ == "__main__":
     summarize_runs(args)
     groupby_features = ['target', 'edge_rule', 'fraction'] # defines the features we use to group results (to later do the average and standard deviation)
     average_features = ['precision', 'recall', 'fpr', 'fscore', 'ap',
-                     'accuracy', 'balanced_acc'] # defines wich features we want the average/std from
-
-
-    stats = build_runs_table(args.dataset, args.model, groupby_features, average_features)
-    print(stats)
-    series_style = {
-        "benign":          dict(color="#2878d4", marker="o", linestyle="-"),
-        "all":             dict(color="#1aaa7a", marker="s", linestyle="-"),
-        "mal. either_node": dict(color="#e8692d", marker="D", linestyle="-"),
-        "mal. src_node":   dict(color="#e8692d", marker="^", linestyle="--"),
-        "mal. dst_node":   dict(color="#e8692d", marker="v", linestyle=":"),
-        "mal. both_nodes": dict(color="#e8692d", marker="x", linestyle="-."),
-    }
-
-    columns_to_plot = ['precision', 'recall', 'fpr', 'fscore', 'ap', 'accuracy', 'balanced_acc']
-    for metric in columns_to_plot:
-        plot_metric(stats, metric, f"{args.model} - {args.dataset} [{metric}]", f"perturbation_tests/img/{args.model}_{args.dataset}_{metric}.png")
+                     'accuracy', 'balanced_acc', 'adp_score'] # defines wich features we want the average/std from
+    count_features = ['nodes_total', 'nodes_malicious', 'nodes_benign',
+                    'malicious_detected', 'malicious_undetected',
+                    'tp', 'fp', 'tn', 'fn']
+    #test = [len(value) for value in RESULT_DICT.values()]
+    #print(test)
+    #print(RESULT_DICT)
+    stats_metrics, stats_counts = build_runs_table(args.dataset, args.model, groupby_features, average_features, count_features)
     
+    print(stats_metrics)
+    print(stats_counts)
+
+
+    # Uncoment code bellow to make individual graph
+    #for metric in columns_to_plot:
+    #    plot_metric(stats, metric, f"{args.model} - {args.dataset} [{metric}]", f"perturbation_tests/img/{args.model}_{args.dataset}_{metric}.png")
+    
+    plot_all_metrics(stats_metrics, average_features, f"{args.model} - {args.dataset}",f"perturbation_tests/img/{args.model}_{args.dataset}_metrics_all.png")
+    plot_all_metrics(stats_counts, count_features, f"{args.model} - {args.dataset}",f"perturbation_tests/img/{args.model}_{args.dataset}_counts_all.png")
+
     #pretty_print_metrics()
     
 
