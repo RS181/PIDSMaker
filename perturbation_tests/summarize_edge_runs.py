@@ -264,14 +264,28 @@ def build_runs_table(dataset: str, model: str,
 def plot_metric(result, metric, title, out_path):
     fig, ax = plt.subplots(figsize=(6, 4))
 
+    # The baseline (target "none", fraction 0): drawn separately, not as a series
+    base_rows = result[result["target"] == "none"]
+    base = base_rows[f"{metric}_mean"].iloc[0] if not base_rows.empty else None
+    result = result[result["target"] != "none"]
+
     for (target, edge_rule), rows in result.groupby(["target", "edge_rule"]):
         rows = rows.sort_values("fraction")
         label = target if target != "malicious" else f"mal. {edge_rule}"
-        mean = rows[f"{metric}_mean"]
-        std = rows[f"{metric}_std"].fillna(0)
+        x = list(rows["fraction"])
+        mean = list(rows[f"{metric}_mean"])
+        std = list(rows[f"{metric}_std"].fillna(0))
 
-        ax.plot(rows["fraction"], mean, marker="o", label=label)
-        ax.fill_between(rows["fraction"], mean - std, mean + std, alpha=0.15)
+        if base is not None:  # every line starts from the baseline at f = 0
+            x, mean, std = [0.0] + x, [base] + mean, [0.0] + std
+
+        lower = [m - s for m, s in zip(mean, std)]
+        upper = [m + s for m, s in zip(mean, std)]
+        ax.plot(x, mean, marker="o", label=label)
+        ax.fill_between(x, lower, upper, alpha=0.15)
+
+    if base is not None:
+        ax.axhline(base, color="gray", linestyle=":", label="unperturbed (f=0)")
 
     ax.set_title(title)
     ax.set_xlabel("edge-removal fraction f")
@@ -281,43 +295,36 @@ def plot_metric(result, metric, title, out_path):
     print(f"Saved fig in {out_path}")
     plt.close(fig)
 
-def plot_all_metrics(result, metrics, title, out_path):
-    fig, axes = plt.subplots(1, len(metrics), figsize=(4 * len(metrics), 3.5))
-
-    for ax, metric in zip(axes, metrics):
-        for (target, edge_rule), rows in result.groupby(["target", "edge_rule"]):
-            rows = rows.sort_values("fraction")
-            label = target if target != "malicious" else f"mal. {edge_rule}"
-            mean = rows[f"{metric}_mean"]
-            std = rows[f"{metric}_std"].fillna(0)
-
-            ax.plot(rows["fraction"], mean, marker="o", label=label)
-            ax.fill_between(rows["fraction"], mean - std, mean + std, alpha=0.15)
-
-        ax.set_title(metric)
-        ax.set_xlabel("edge-removal fraction f")
-
-    handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 1.12), ncol=len(labels))
-    fig.suptitle(title, y=1.18)
-
-    fig.savefig(out_path, bbox_inches="tight")
-    print(f"Saved fig in {out_path}")
-    plt.close(fig)
 
 
 def plot_all_metrics(result, metrics, title, out_path):
     fig, axes = plt.subplots(1, len(metrics), figsize=(4 * len(metrics), 3.5))
 
+    # The baseline (target "none", fraction 0) is kept apart: it is not a series
+    base_rows = result[result["target"] == "none"]
+    series_rows = result[result["target"] != "none"]
+
     for ax, metric in zip(axes, metrics):
-        for (target, edge_rule), rows in result.groupby(["target", "edge_rule"]):
+        # Baseline value of this metric (None if the baseline has not run yet)
+        base = base_rows[f"{metric}_mean"].iloc[0] if not base_rows.empty else None
+
+        for (target, edge_rule), rows in series_rows.groupby(["target", "edge_rule"]):
             rows = rows.sort_values("fraction")
             label = target if target != "malicious" else f"mal. {edge_rule}"
-            mean = rows[f"{metric}_mean"]
-            std = rows[f"{metric}_std"].fillna(0)
+            x = list(rows["fraction"])
+            mean = list(rows[f"{metric}_mean"])
+            std = list(rows[f"{metric}_std"].fillna(0))
 
-            ax.plot(rows["fraction"], mean, marker="o", label=label)
-            ax.fill_between(rows["fraction"], mean - std, mean + std, alpha=0.15)
+            if base is not None:  # every line starts from the baseline at f = 0
+                x, mean, std = [0.0] + x, [base] + mean, [0.0] + std
+
+            lower = [m - s for m, s in zip(mean, std)]
+            upper = [m + s for m, s in zip(mean, std)]
+            ax.plot(x, mean, marker="o", label=label)
+            ax.fill_between(x, lower, upper, alpha=0.15)
+
+        if base is not None:
+            ax.axhline(base, color="gray", linestyle=":", label="unperturbed (f=0)")
 
         ax.set_title(metric)
         ax.set_xlabel("edge-removal fraction f")
