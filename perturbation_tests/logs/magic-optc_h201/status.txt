@@ -610,3 +610,7 @@
 2026-11-25 05:54:31 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-18.log | exit code 0
 2026-11-25 06:06:19 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-19.log | exit code 0
 2026-11-25 06:08:46 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-all_fraction-0.9_selection-random_seed-20.log | exit code 0
+2026-11-26 14:22:33 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-none_fraction-0.0.log | 
+2026-11-26 17:46:15 | DONE  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-none_fraction-0.0.log | exit code 0
+2026-11-26 17:46:15 | START | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | 
+2026-11-26 18:00:52 | FAIL  | ./perturbation_tests/logs/magic-optc_h201/split-test_target-benign_fraction-0.1_selection-random_seed-15.log | exit code -15

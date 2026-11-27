@@ -1,0 +1,95 @@
+2026-11-27 10:58:09 - {'split': 'test', 'target': 'none', 'edge_rule': None, 'edge_types': None, 'fraction': 0.0, 'selection': None, 'seed': None}
+2026-11-27 10:58:09 - python pidsmaker/main.py threatrace CADETS_E3 
+2026-11-27 10:58:25 - Running pipeline in 'Standard' mode.
+2026-11-27 10:58:25 - Task construction: /home/artifacts/construction/CADETS_E3/construction/0eceeaadff610a66cb8fbb60b13cf058a355fe6bb64a7d3a208d99876fc4c9d3
+2026-11-27 10:58:25 - Task transformation: /home/artifacts/transformation/CADETS_E3/transformation/a64401825543797a859ea02a87e8a865a2a2f258e303302f1ee12ea8913ce85b
+2026-11-27 10:58:25 - ======= START SUBTASK transformation.py =======
+2026-11-27 10:58:25 - Symlinked '/home/artifacts/transformation/CADETS_E3/transformation/a64401825543797a859ea02a87e8a865a2a2f258e303302f1ee12ea8913ce85b/nx' -> '/home/artifacts/construction/CADETS_E3/construction/0eceeaadff610a66cb8fbb60b13cf058a355fe6bb64a7d3a208d99876fc4c9d3/nx'.
+Task done: /home/artifacts/transformation/CADETS_E3/transformation/a64401825543797a859ea02a87e8a865a2a2f258e303302f1ee12ea8913ce85b
+
+2026-11-27 10:58:25 - Task featurization: /home/artifacts/featurization/CADETS_E3/featurization/5a41bbf43f9a86f4ce9cd19f2416093c71ff9e0d83a65f6aa442815a96699e73
+Task done: /home/artifacts/featurization/CADETS_E3/featurization/5a41bbf43f9a86f4ce9cd19f2416093c71ff9e0d83a65f6aa442815a96699e73
+
+2026-11-27 10:58:25 - Task feat_inference: /home/artifacts/feat_inference/CADETS_E3/feat_inference/ad2bcbac03e102b0fe9db9fa322533c72bfa928cb514ad2aea2b6789d54e150a
+2026-11-27 10:58:25 - Computing edge embeddings...
+2026-11-27 11:01:40 - Computing edge embeddings...
+2026-11-27 11:02:11 - Computing edge embeddings...
+Task done: /home/artifacts/feat_inference/CADETS_E3/feat_inference/ad2bcbac03e102b0fe9db9fa322533c72bfa928cb514ad2aea2b6789d54e150a
+
+2026-11-27 11:04:00 - Task batching: /home/artifacts/batching/batching/b7341845718ac18ed54c5185f0b01783d4b5eb65af1f6bc827f14da40f41a5d4/CADETS_E3
+2026-11-27 11:04:00 - ======= START SUBTASK batching.py =======
+2026-11-27 11:04:00 - Skipping task to save storage.
+Task done: /home/artifacts/batching/batching/b7341845718ac18ed54c5185f0b01783d4b5eb65af1f6bc827f14da40f41a5d4/CADETS_E3
+
+2026-11-27 11:04:00 - Task training: /home/artifacts/training/training/8e486e296459a05668ee1d18879387c145a90c80ce5bb8c96ee7783e25cda3d1/CADETS_E3
+2026-11-27 11:04:00 - ======= START SUBTASK training.py =======
+2026-11-27 11:04:00 - ======= START SUBTASK training_loop.py =======
+2026-11-27 11:04:00 - Force graphs loading to save storage.
+Max node in CADETS_E3: 2682632
+2026-11-27 11:05:30 - 
+2026-11-27 11:05:30 - Dataset statistics
+2026-11-27 11:05:32 - Train num graphs: 582
+2026-11-27 11:05:32 - Train edges | mean: 5668 | min: 574 | max: 54930
+2026-11-27 11:05:32 - Train nodes | mean: 1303 | min: 94 | max: 40561
+2026-11-27 11:05:32 - 
+2026-11-27 11:05:32 - Val num graphs: 93
+2026-11-27 11:05:32 - Val edges | mean: 5601 | min: 2574 | max: 55018
+2026-11-27 11:05:32 - Val nodes | mean: 1370 | min: 300 | max: 40492
+2026-11-27 11:05:32 - 
+2026-11-27 11:05:33 - Test num graphs: 337
+2026-11-27 11:05:33 - Test edges | mean: 5902 | min: 646 | max: 53196
+2026-11-27 11:05:33 - Test nodes | mean: 1204 | min: 175 | max: 43173
+2026-11-27 11:05:33 - 
+2026-11-27 11:05:33 - Reindexing graphs...
+2026-11-27 11:06:01 - Reindexing graphs...
+2026-11-27 11:06:06 - Reindexing graphs...
+2026-11-27 11:06:21 - Graph data loaded.
+2026-11-27 11:06:22 - Training...
+2026-11-27 11:06:51 - [@epoch00] Training finished - GPU memory: 0.05 GB | CPU memory: 0.00 GB | Mean Loss: 0.0233
+
+2026-11-27 11:06:51 - Validation...
+2026-11-27 11:17:31 - [@epoch00] Validation finished - Val Loss: 0.0002
+
+2026-11-27 11:17:31 - Testing...
+2026-11-27 11:49:53 - [@epoch00] Test finished - Test Loss: 0.0003
+
+2026-11-27 11:49:53 - Training...
+2026-11-27 11:50:18 - [@epoch01] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0022
+
+2026-11-27 11:50:18 - Validation...
+2026-11-27 12:00:23 - [@epoch01] Validation finished - Val Loss: 0.0002
+
+2026-11-27 12:00:23 - Testing...
+2026-11-27 12:29:30 - [@epoch01] Test finished - Test Loss: 0.0003
+
+2026-11-27 12:29:30 - Training...
+2026-11-27 12:29:55 - [@epoch02] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0019
+
+2026-11-27 12:29:55 - Training...
+2026-11-27 12:30:21 - [@epoch03] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0019
+
+2026-11-27 12:30:21 - Validation...
+2026-11-27 12:39:51 - [@epoch03] Validation finished - Val Loss: 0.0002
+
+2026-11-27 12:39:51 - Testing...
+2026-11-27 13:05:36 - [@epoch03] Test finished - Test Loss: 0.0003
+
+2026-11-27 13:05:36 - Training...
+2026-11-27 13:06:00 - [@epoch04] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-27 13:06:00 - Training...
+2026-11-27 13:06:24 - [@epoch05] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0019
+
+2026-11-27 13:06:24 - Validation...
+2026-11-27 13:14:53 - [@epoch05] Validation finished - Val Loss: 0.0002
+
+2026-11-27 13:14:53 - Testing...
+2026-11-27 13:41:21 - [@epoch05] Test finished - Test Loss: 0.0004
+
+2026-11-27 13:41:21 - Training...
+2026-11-27 13:41:42 - [@epoch06] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-27 13:41:42 - Training...
+2026-11-27 13:42:04 - [@epoch07] Training finished - GPU memory: 0.06 GB | CPU memory: 0.00 GB | Mean Loss: 0.0018
+
+2026-11-27 13:42:04 - Validation...

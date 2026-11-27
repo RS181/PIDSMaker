@@ -596,3 +596,4 @@
 2026-11-25 20:08:17 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.7_selection-random_seed-17.log | exit code 0
 2026-11-25 22:01:16 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-16.log | exit code 0
 2026-11-25 22:37:00 | DONE  | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-all_fraction-0.9_selection-random_seed-17.log | exit code 0
+2026-11-27 10:58:09 | START | ./perturbation_tests/logs/threatrace-CADETS_E3/split-test_target-none_fraction-0.0.log | 
